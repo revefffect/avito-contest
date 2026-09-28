@@ -1,0 +1,19 @@
+{
+  "scripts/from_scratch.py": "e308225488f2528fd0ed0e74dfc781341f8840ecaf2a8554c5e7a5d80dd9b908",
+  "scripts/download_data.py": "b5cd579ea8ce60cfb45a53159cfd5cb4c89eb4dc943871476b9806514bf00bd0",
+  "src/avito_retrieval/text.py": "f3f7bb8653b6eff5288d98949dee197276465a1cc5a2d072cb29be5e5df73212",
+  "scripts/prepare_validation.py": "f125f3adbb98a0bb07bf8bc8ceef92c1ebb68f8af922dd155bb11530763224ab",
+  "src/avito_retrieval/lexical.py": "96cd0b98d9f39b295d107ac3546b997f863bb15f1e46d93f76f7c0cd2b7ddc43",
+  "scripts/prepare_lexical.py": "fad0dd10e079451dba7bb520632c42c9fa54618a339fe3175a6367dfde0c6fc0",
+  "src/avito_retrieval/dense.py": "278e3da0591d12290e522e742f50a2f73a3f0918740bf5d4a9da91d8e366aaa2",
+  "scripts/prepare_dense.py": "1a85cf3ca8c25e27e36e32066d680a8a937fdbd0aa9d3f73f82adcbbd78abe6e",
+  "src/avito_retrieval/behavior.py": "efc995f0fa646d5f9150bdef49d2d931a7e092ebedad7730fbf569907dbe9d44",
+  "src/avito_retrieval/geography.py": "1364190c121f44cdb302f8ba1e4ab2a1300c8696b38a14799ceb4bb682bbd5fa",
+  "src/avito_retrieval/candidates.py": "737c1df126bc3d6cd5b889a295f9eed90d61bb6ac127ad65f265a67c2630b738",
+  "scripts/build_features.py": "0eb5a6ccde3e895d39cd7325379cf4ad8389578fe28e688e05c6f9eaa36225a3",
+  "src/avito_retrieval/evaluation.py": "67f07e637403e2da1b48bf27706c8e9f2ecd74da46f2cb1bf49482f3586f6332",
+  "scripts/train_ranker.py": "c74014ed7de38b2a9d800bb06bf5305f6caf3111b3a8996999104f1b6b963697",
+  "src/avito_retrieval/submission.py": "c3e8360662a0af06914e6152333630b998a93994a4655b23bafa01ceaa246089",
+  "scripts/predict.py": "e94b89f740c1749e4f1e8d990e3d107b03d8b320ef6952f69bf5a05710e1cac6",
+  "scripts/compare_models.py": "9489ee007fe136b0bd7fa58b8c600e771e56346a466f06a0f81cdcbceee7b4e8"
+}
