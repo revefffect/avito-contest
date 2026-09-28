@@ -1,0 +1,41 @@
+{
+  "status": "passed_local_checks",
+  "unit_tests_passed": 67,
+  "notebook_code_cells": 11,
+  "notebook_syntax_checked": true,
+  "bootstrap_extraction_tested": true,
+  "public_source_download_checksum_checked": true,
+  "public_dataset_download_api_checked": true,
+  "source_archive_sha256": "4e48828f105d3e416ab382d07c3765e3dd146b312c80ec7b1fc55496b59718fb",
+  "notebook_sha256": "b322a689efcff13be6aa86b122dc4aea3f4f978239ef01718f5e93ec2a2c0d45",
+  "smoke_input": {
+    "train_rows": 20000,
+    "benchmark_items": 1000,
+    "benchmark_queries": 5,
+    "validation_queries": 40,
+    "trees_per_model": 5,
+    "initial_contest_models": 0,
+    "initial_precomputed_features": 0,
+    "generic_pretrained_e5_used": true
+  },
+  "first_run": {
+    "status": "passed",
+    "seconds": 88.62851054198109,
+    "full_dataset": false,
+    "cuda_tested": false,
+    "trained_models_from_scratch": true
+  },
+  "second_run": {
+    "status": "passed",
+    "seconds": 178.47425395797472,
+    "full_dataset": false,
+    "cuda_tested": false,
+    "trained_models_from_scratch": true,
+    "same_csv_after_two_fresh_runs": true,
+    "answer_sha256": "a02f9a3e981e3f3c7f360716806e4ffd5a1a36db2ff21df511d3b20bbaa02431"
+  },
+  "full_dataset_training_tested_for_this_variant": false,
+  "actual_google_colab_run_tested": false,
+  "cuda_execution_tested": false,
+  "limitation": "Local CPU runs verify the full stage chain on a small real-data subset. They do not measure full-dataset quality, Colab runtime or peak RAM."
+}
