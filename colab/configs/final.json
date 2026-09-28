@@ -1,0 +1,54 @@
+{
+  "split_seed": 20260928,
+  "validation_count": 6000,
+  "dense": {
+    "batch_size": 32,
+    "checkpoint_rows": 512,
+    "item_max_length": 256,
+    "query_max_length": 128,
+    "precision": "float32",
+    "seed": 42
+  },
+  "validation_features": "artifacts/features_hybrid.parquet",
+  "benchmark_features": "artifacts/features_benchmark.parquet",
+  "queries_ids": "data/ids/benchmark_queries.parquet",
+  "allowed_items_ids": "data/ids/benchmark_items.parquet",
+  "corpus_ids": "data/ids/corpus.parquet",
+  "models": [
+    {
+      "path": "artifacts/final_d6.cbm",
+      "loss": "Logloss",
+      "iterations": 700,
+      "depth": 6,
+      "learning_rate": 0.07,
+      "seed": 42,
+      "threads": 4,
+      "drop_features": [
+        "category_match"
+      ]
+    },
+    {
+      "path": "artifacts/final_no_history.cbm",
+      "loss": "Logloss",
+      "iterations": 1000,
+      "depth": 6,
+      "learning_rate": 0.07,
+      "seed": 42,
+      "threads": 4,
+      "drop_features": [
+        "category_match",
+        "popularity",
+        "memory_score",
+        "text_item_count",
+        "context_item_count",
+        "rank_memory",
+        "rank_geo_memory"
+      ]
+    }
+  ],
+  "weights": [
+    0.5,
+    0.5
+  ],
+  "reference_answer_sha256": "3ebda47a966aa2920fe9480cb3b4b1602ec91b63f207d89775d981d16995e3c6"
+}

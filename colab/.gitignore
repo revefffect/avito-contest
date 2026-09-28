@@ -1,0 +1,9 @@
+data/
+artifacts/
+reports/
+run/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+answer*.csv
+*.log
