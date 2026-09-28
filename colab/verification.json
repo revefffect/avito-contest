@@ -4,7 +4,7 @@
   "notebook_code_cells": 28,
   "notebook_syntax_checked": true,
   "public_dataset_download_api_checked": true,
-  "notebook_sha256": "111590a0e8906335aab7b303734f1c6a4e4d17cb12552499f0dbdc27ca6a736c",
+  "notebook_sha256": "d1b1f66ebedbd49cd1a4dd21a8400f0d0c41ac7bd81069cafa54019a9ac99a82",
   "smoke_input": {
     "train_rows": 20000,
     "benchmark_items": 1000,
@@ -40,5 +40,18 @@
   "generated_files_match_notebook_manifest": true,
   "embedded_code_matches_previously_tested_two_fresh_runs": true,
   "external_solution_code_downloads": false,
-  "source_delivery": "All solution source code is visible in notebook cells. writefile cells save it locally for separate-process stages."
+  "source_delivery": "All solution source code is visible in notebook cells. writefile cells save it locally for separate-process stages.",
+  "python_environment_fix": {
+    "host_python_version_gate_removed": true,
+    "bootstrap_tested_locally": true,
+    "bootstrap_host_python": "3.12.7",
+    "isolated_environment_python": "3.12.7",
+    "isolated_environment_pip": "26.2.1",
+    "uv_version": "0.10.11",
+    "managed_python_download_tested_separately": true,
+    "downloaded_python": "3.12.13",
+    "test_platform": "macOS arm64",
+    "google_colab_tested": false,
+    "training_source_cells_unchanged": true
+  }
 }
