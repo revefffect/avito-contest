@@ -1,0 +1,25 @@
+reformatted /Users/antany/Desktop/Career/avito contest/src/avito_retrieval/__init__.py
+reformatted /Users/antany/Desktop/Career/avito contest/scripts/prepare_lexical.py
+reformatted /Users/antany/Desktop/Career/avito contest/scripts/build_features.py
+reformatted /Users/antany/Desktop/Career/avito contest/scripts/evaluate.py
+reformatted /Users/antany/Desktop/Career/avito contest/scripts/prepare_dense.py
+reformatted /Users/antany/Desktop/Career/avito contest/src/avito_retrieval/text.py
+reformatted /Users/antany/Desktop/Career/avito contest/scripts/download_data.py
+reformatted /Users/antany/Desktop/Career/avito contest/scripts/profile_data.py
+reformatted /Users/antany/Desktop/Career/avito contest/scripts/prepare_validation.py
+reformatted /Users/antany/Desktop/Career/avito contest/src/avito_retrieval/behavior.py
+reformatted /Users/antany/Desktop/Career/avito contest/src/avito_retrieval/evaluation.py
+reformatted /Users/antany/Desktop/Career/avito contest/tests/test_evaluation.py
+reformatted /Users/antany/Desktop/Career/avito contest/tests/test_behavior.py
+reformatted /Users/antany/Desktop/Career/avito contest/src/avito_retrieval/geography.py
+reformatted /Users/antany/Desktop/Career/avito contest/src/avito_retrieval/submission.py
+reformatted /Users/antany/Desktop/Career/avito contest/tests/test_geography.py
+reformatted /Users/antany/Desktop/Career/avito contest/scripts/train_ranker.py
+reformatted /Users/antany/Desktop/Career/avito contest/src/avito_retrieval/candidates.py
+reformatted /Users/antany/Desktop/Career/avito contest/src/avito_retrieval/lexical.py
+reformatted /Users/antany/Desktop/Career/avito contest/tests/test_lexical.py
+reformatted /Users/antany/Desktop/Career/avito contest/tests/test_submission.py
+reformatted /Users/antany/Desktop/Career/avito contest/src/avito_retrieval/dense.py
+
+All done! ✨ 🍰 ✨
+22 files reformatted.

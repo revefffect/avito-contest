@@ -1,0 +1,33 @@
+{
+  "config": {
+    "format_version": 1,
+    "model_id": "intfloat/multilingual-e5-small",
+    "model_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "model_weights_sha256": "1a55775f53449dac10a2bcbc312469fac40b96d53198c407081a831f81c98477",
+    "source_name": "corpus.parquet",
+    "source_sha256": "e3c5ae47ea02161d6e9f8ab7134b31b7dfe58c3115063b917034796a66e9562f",
+    "ids_sha256": "f3a2c19939ddc3aa644d83e0590f6c9f0be9cb9bc4679c203f59ee50ddd53874",
+    "rows": 195125,
+    "dimension": 384,
+    "dtype": "float32",
+    "precision": "float32",
+    "device": "mps",
+    "seed": 42,
+    "versions": {
+      "torch": "2.9.1",
+      "transformers": "5.6.2"
+    },
+    "kind": "items",
+    "batch_size": 64,
+    "max_length": 256,
+    "checkpoint_rows": 512,
+    "text_version": 1,
+    "description_chars": 2000,
+    "prefix": "passage: ",
+    "pooling": "masked_mean_l2"
+  },
+  "completed_rows": 195125,
+  "complete": true,
+  "elapsed_seconds": 1178.2084869999671,
+  "embeddings_sha256": "7557ac3a4d6c7c178f43024aa6c98fa24a47b850ec6d3aa0fb71429d92703e84"
+}

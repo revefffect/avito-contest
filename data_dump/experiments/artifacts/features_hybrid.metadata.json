@@ -1,0 +1,16 @@
+{
+  "mode": "validation",
+  "dense": true,
+  "plain_query": true,
+  "query_count": 6000,
+  "allowed_n_items": 195125,
+  "queries_sha256": "dce7d2a2be0aca772f7f1c1d8dee85ed9892977b467f1b71ce69f7f3d4beec40",
+  "knowledge": {
+    "train_sha256": "982156099181b89742471f6aaa7c42a1399cd1e7f6cc9fb6a36eb87edf2d96cb",
+    "corpus_sha256": "e3c5ae47ea02161d6e9f8ab7134b31b7dfe58c3115063b917034796a66e9562f",
+    "behavior_code_sha256": "efc995f0fa646d5f9150bdef49d2d931a7e092ebedad7730fbf569907dbe9d44",
+    "geography_code_sha256": "1364190c121f44cdb302f8ba1e4ab2a1300c8696b38a14799ceb4bb682bbd5fa"
+  },
+  "candidate_code_sha256": "ec5c2a0a30f9d5638ba6fd9ee62ab457442af9d4dd3c983cfe833865776d3840",
+  "features_sha256": "d91221dae0c83835e2decacb5ae9e3f4846e6c53b2a4dbf84780eb4ea161afc9"
+}

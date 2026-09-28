@@ -1,0 +1,161 @@
+{
+  "secret_scan": "Common credential patterns checked before copying",
+  "files": {
+    "data_dump/experiments/artifacts/answer.log": {
+      "path": "data_dump/experiments/artifacts/answer.log",
+      "sha256": "be2441adfa0c493f74c3b84fe9305368d0d3eff20a5eedaed4dd59ee6d17510b",
+      "bytes": 2745,
+      "original_path": "artifacts/answer.log"
+    },
+    "data_dump/experiments/artifacts/answer_no_history.log": {
+      "path": "data_dump/experiments/artifacts/answer_no_history.log",
+      "sha256": "f65a146373e4a4a3ca4f6ea37ea70d3d35595328e198b688ae2115672c2477c5",
+      "bytes": 2426,
+      "original_path": "artifacts/answer_no_history.log"
+    },
+    "data_dump/experiments/artifacts/answer_with_history.log": {
+      "path": "data_dump/experiments/artifacts/answer_with_history.log",
+      "sha256": "1c6128429161b59fc07dcab099b21f72d4da2c99b62b13cb89bb52c4821cea46",
+      "bytes": 2413,
+      "original_path": "artifacts/answer_with_history.log"
+    },
+    "data_dump/experiments/artifacts/dense/prepare.log": {
+      "path": "data_dump/experiments/artifacts/dense/prepare.log",
+      "sha256": "400d20cf61b2fdcad4582bda0e43a87f736c3cee40b7e9a829cf3e7d50fb476b",
+      "bytes": 29480,
+      "original_path": "artifacts/dense/prepare.log"
+    },
+    "data_dump/experiments/artifacts/dense/prepare_plain.log": {
+      "path": "data_dump/experiments/artifacts/dense/prepare_plain.log",
+      "sha256": "ecc8465436968434d71f1cebb7b4e7a1c1dbdb2964cefb3d678402f2b43295e7",
+      "bytes": 1559,
+      "original_path": "artifacts/dense/prepare_plain.log"
+    },
+    "data_dump/experiments/artifacts/features_benchmark.log": {
+      "path": "data_dump/experiments/artifacts/features_benchmark.log",
+      "sha256": "0dad001c6d578e65db3058825db52047d0e52977ef883cc1f95bc1bd3a8ce7e5",
+      "bytes": 1924,
+      "original_path": "artifacts/features_benchmark.log"
+    },
+    "data_dump/experiments/artifacts/features_hybrid.log": {
+      "path": "data_dump/experiments/artifacts/features_hybrid.log",
+      "sha256": "4d7f225d768758fa9985b4a0e830c5f11127d658ef43c8c0ab94d934a22db185",
+      "bytes": 3421,
+      "original_path": "artifacts/features_hybrid.log"
+    },
+    "data_dump/experiments/artifacts/features_lexical.log": {
+      "path": "data_dump/experiments/artifacts/features_lexical.log",
+      "sha256": "b53b47fd50c055c7653121677c6a55595ec1fcff5b3b1f73a8b83efc7dbaa1cf",
+      "bytes": 3327,
+      "original_path": "artifacts/features_lexical.log"
+    },
+    "data_dump/experiments/artifacts/features_smoke.log": {
+      "path": "data_dump/experiments/artifacts/features_smoke.log",
+      "sha256": "fd3c71c3eef1e1add4b8d4191a144b90c97eab912d503cf080a1df88879e7ee2",
+      "bytes": 933,
+      "original_path": "artifacts/features_smoke.log"
+    },
+    "data_dump/experiments/artifacts/final_audit.log": {
+      "path": "data_dump/experiments/artifacts/final_audit.log",
+      "sha256": "d8e0eba784a636c719e40dcd18564732546ade58ea84f861ade5510ec69a7b69",
+      "bytes": 1012,
+      "original_path": "artifacts/final_audit.log"
+    },
+    "data_dump/experiments/artifacts/final_d6.log": {
+      "path": "data_dump/experiments/artifacts/final_d6.log",
+      "sha256": "d6e45f2a0cdef057aef4e43c1ccef111acb3acdb299114be92f692fa9570e7ca",
+      "bytes": 1879,
+      "original_path": "artifacts/final_d6.log"
+    },
+    "data_dump/experiments/artifacts/final_no_history.log": {
+      "path": "data_dump/experiments/artifacts/final_no_history.log",
+      "sha256": "b7a909882691466aa9496d688385baafac030c16915c8bbe66958dbc52620970",
+      "bytes": 2268,
+      "original_path": "artifacts/final_no_history.log"
+    },
+    "data_dump/experiments/artifacts/package.log": {
+      "path": "data_dump/experiments/artifacts/package.log",
+      "sha256": "2cc9fe8690e8da7681fd9eda996df197054dc31fef747248371c5bf305e5c447",
+      "bytes": 922,
+      "original_path": "artifacts/package.log"
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_d6.log": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_d6.log",
+      "sha256": "c0f05de4686367385a5baf6e18d4e2f93f7f6fc50964700348cf0fed593a3d2b",
+      "bytes": 3563,
+      "original_path": "artifacts/ranker_hybrid_d6.log"
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_d7.log": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_d7.log",
+      "sha256": "f2f829e72045ec27ebad00f287cc8a6ff466aa700d6b430f790f33bf4a1a86d1",
+      "bytes": 3213,
+      "original_path": "artifacts/ranker_hybrid_d7.log"
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_no_history.log": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_no_history.log",
+      "sha256": "2eedb2245f6270d77f94a897c14d0cfc9ebf66f84bcd653cfa7609702c276651",
+      "bytes": 3414,
+      "original_path": "artifacts/ranker_hybrid_no_history.log"
+    },
+    "data_dump/experiments/artifacts/ranker_lexical_logloss.log": {
+      "path": "data_dump/experiments/artifacts/ranker_lexical_logloss.log",
+      "sha256": "9bb81f51f5cfe455023eead2098fdb22abd1e0163fad80892a0439d743575476",
+      "bytes": 2525,
+      "original_path": "artifacts/ranker_lexical_logloss.log"
+    },
+    "data_dump/experiments/artifacts/ranker_lexical_softmax.log": {
+      "path": "data_dump/experiments/artifacts/ranker_lexical_softmax.log",
+      "sha256": "48e1c36e381dbed23cbe36423fbb50ead5e343c1a4e1a03f70b4fbf709a9e8eb",
+      "bytes": 2554,
+      "original_path": "artifacts/ranker_lexical_softmax.log"
+    },
+    "data_dump/experiments/artifacts/reproduce_check.log": {
+      "path": "data_dump/experiments/artifacts/reproduce_check.log",
+      "sha256": "68e61152098942355f07d46661a1864f3f96c51f39e00936feaf8b3cd264eae2",
+      "bytes": 2767,
+      "original_path": "artifacts/reproduce_check.log"
+    },
+    "data_dump/reports/formatting.log": {
+      "path": "data_dump/reports/formatting.log",
+      "sha256": "3fb378ee4bdf84eef7fb44da6305647ca97c24c81d0b41aab7e72b579c01368e",
+      "bytes": 1863,
+      "original_path": "reports/formatting.log"
+    },
+    "data_dump/reports/hybrid_heuristic_dev.log": {
+      "path": "data_dump/reports/hybrid_heuristic_dev.log",
+      "sha256": "64917dc962648621af7ccfe1446a211bc451cc67ec386eecf5f6ad6ac6176f09",
+      "bytes": 3973,
+      "original_path": "reports/hybrid_heuristic_dev.log"
+    },
+    "data_dump/reports/lexical_heuristic_dev.log": {
+      "path": "data_dump/reports/lexical_heuristic_dev.log",
+      "sha256": "f9e1f463e20206d5d2a251937b84bc43ec3dc710bbe77016bdf2896560296b54",
+      "bytes": 3673,
+      "original_path": "reports/lexical_heuristic_dev.log"
+    },
+    "data_dump/reports/lexical_logloss_dev.log": {
+      "path": "data_dump/reports/lexical_logloss_dev.log",
+      "sha256": "bfbc9e5b42e4b8ce8a34e8ed0857ce34110c23e3fb346c3665a30f3fc9662f27",
+      "bytes": 3987,
+      "original_path": "reports/lexical_logloss_dev.log"
+    },
+    "data_dump/reports/lexical_models_dev.log": {
+      "path": "data_dump/reports/lexical_models_dev.log",
+      "sha256": "b830cc3318695e66b7ee9cca31ba49104c43c87f02ca5ee4147a202ae92d6840",
+      "bytes": 923,
+      "original_path": "reports/lexical_models_dev.log"
+    },
+    "data_dump/reports/profile.log": {
+      "path": "data_dump/reports/profile.log",
+      "sha256": "5a18854a02835e9ff5cda07c2dcb9e17625d340240df28e7f2bdc96efcbc9e16",
+      "bytes": 3003,
+      "original_path": "reports/profile.log"
+    },
+    "data_dump/reports/validation_prepare.log": {
+      "path": "data_dump/reports/validation_prepare.log",
+      "sha256": "35e940583b68658982e17df174275fbe3ea814b21dcd3bab37834ba48d6f9198",
+      "bytes": 1834,
+      "original_path": "reports/validation_prepare.log"
+    }
+  }
+}

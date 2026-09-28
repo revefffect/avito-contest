@@ -1,0 +1,24 @@
+[
+  {
+    "precision": "float32",
+    "batch_size": 64,
+    "seconds": 1.0340282079996541,
+    "items_per_second": 96.70916056869645,
+    "max_abs_difference_vs_float32_batch32": 2.9802322387695312e-08,
+    "min_cosine_vs_reference": 0.9999998211860657,
+    "norm_min": 0.9999998807907104,
+    "norm_max": 1.0000001192092896,
+    "finite": true
+  },
+  {
+    "precision": "float16",
+    "batch_size": 64,
+    "seconds": 1.1293922920012847,
+    "items_per_second": 88.5431932803436,
+    "max_abs_difference_vs_float32_batch32": 0.0001280270516872406,
+    "min_cosine_vs_reference": 0.9999996423721313,
+    "norm_min": 0.9999998807907104,
+    "norm_max": 1.0000001192092896,
+    "finite": true
+  }
+]

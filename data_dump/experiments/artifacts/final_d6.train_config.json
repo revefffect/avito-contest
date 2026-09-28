@@ -1,0 +1,26 @@
+{
+  "features": "artifacts/features_hybrid.parquet",
+  "output": "artifacts/final_d6.cbm",
+  "queries": "data/processed/eval_queries.parquet",
+  "truth": "data/processed/eval_truth.parquet",
+  "corpus": "data/processed/corpus.parquet",
+  "loss": "Logloss",
+  "iterations": 700,
+  "depth": 6,
+  "learning_rate": 0.07,
+  "checkpoint_period": 50,
+  "threads": 4,
+  "seed": 42,
+  "drop_features": "category_match",
+  "fit_splits": "fit,dev",
+  "fixed_iterations": true,
+  "reference_queries": "data/raw/benchmark_queries.parquet",
+  "fit_query_count": 4500,
+  "dev_query_count": 0,
+  "dropped_features": [
+    "category_match"
+  ],
+  "selected_iteration": 700,
+  "selected_dev_recall@50": null,
+  "seconds": 273.607
+}

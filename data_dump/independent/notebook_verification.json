@@ -1,0 +1,104 @@
+{
+  "status": "passed",
+  "started_at_utc": "2026-09-28T03:31:54.937806+00:00",
+  "source_notebook": "/Users/antany/Desktop/Career/avito submission/mini/solution.ipynb",
+  "temporary_directory": "/private/tmp/avito_notebook_verify_66milipq",
+  "environment": {
+    "python": "/opt/anaconda3/bin/python",
+    "version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+    "platform": "macOS-15.3.1-arm64-arm-64bit",
+    "versions": {
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "pyarrow": "22.0.0",
+      "catboost": "1.2.8",
+      "nbclient": "0.8.0",
+      "nbformat": "5.10.4",
+      "ipykernel": "6.28.0"
+    }
+  },
+  "source_notebook_sha256": "e05dc10e57e6633381cee74ae6299addb17bd5185755dcb4d9f87594dd850297",
+  "source_config_sha256": "a98e22b6dc3c1b9b4250a6746a385e280aba6d60f68f2cdf76d8135f455d19e6",
+  "code_cells_sha256": "677b0c0650a7c22f2d98ed6cd43acd0b26439cdae433154910b49f187ba5cd95",
+  "total_cells": 12,
+  "code_cells": 5,
+  "original_cell_outputs_cleared": true,
+  "ready_answer_present_before_execution": false,
+  "copied_input_hashes_passed": true,
+  "copied_inputs": {
+    "data/features.parquet": {
+      "sha256": "470c3d4f4648320682bd7fabdd41fa6b3cc6164171857a16fed2a3d0baa6cf94",
+      "bytes": 257006331
+    },
+    "data/queries.parquet": {
+      "sha256": "38e2617260fe26e82ab303eb3e378d219ce5a72e229af7138db924172b978a22",
+      "bytes": 34707
+    },
+    "data/items.parquet": {
+      "sha256": "66851ee0cd44e64dba3d3c8d6d7c1def143693c18e4f94009d9d300ce3191cf2",
+      "bytes": 1788903
+    },
+    "models/final_d6.cbm": {
+      "sha256": "38ac8ea96878f50103b1be75813316131ab352d1b77d3d98ded11133991c7b70",
+      "bytes": 795272
+    },
+    "models/final_d6.feature_names.json": {
+      "sha256": "cdeeb78cd47de624cd4201705aa5331873524d6a471a6dd994c874afc1405322",
+      "bytes": 1282
+    },
+    "models/final_no_history.cbm": {
+      "sha256": "a987e85b19fe82f1d10811db73299d17c9a3e53b1b188619d8241dadb2134919",
+      "bytes": 1130080
+    },
+    "models/final_no_history.feature_names.json": {
+      "sha256": "d61d1ac25dab384e21f497b912a8be3f228e560513cc5458eb8c1ec28514ee31",
+      "bytes": 1165
+    }
+  },
+  "static_imports": [
+    "catboost",
+    "hashlib",
+    "json",
+    "numpy",
+    "pandas",
+    "pathlib",
+    "re"
+  ],
+  "main_project_imports_or_paths_in_code": false,
+  "kernel_spec": {
+    "argv": [
+      "/opt/anaconda3/bin/python",
+      "-m",
+      "ipykernel_launcher",
+      "-f",
+      "{connection_file}"
+    ],
+    "display_name": "Avito independent local verification",
+    "language": "python"
+  },
+  "execution_environment": {
+    "PYTHONPATH": "",
+    "IPYTHONDIR": "/private/tmp/avito_notebook_verify_66milipq/ipython",
+    "JUPYTER_PATH": "/private/tmp/avito_notebook_verify_66milipq/jupyter",
+    "HF_HUB_OFFLINE": "1",
+    "TRANSFORMERS_OFFLINE": "1"
+  },
+  "permissions_scope": "Local Jupyter kernel requires loopback sockets. No external network or API is required by notebook code.",
+  "execution_seconds": 5.949,
+  "total_seconds": 6.353,
+  "expected_csv_sha256": "3ebda47a966aa2920fe9480cb3b4b1602ec91b63f207d89775d981d16995e3c6",
+  "generated_csv_sha256": "3ebda47a966aa2920fe9480cb3b4b1602ec91b63f207d89775d981d16995e3c6",
+  "exact_csv_hash_match": true,
+  "generated_csv": "/private/tmp/avito_notebook_verify_66milipq/mini/answer.csv",
+  "query_rows": 2452,
+  "candidates_min": 50,
+  "candidates_max": 50,
+  "executed_code_cells": 5,
+  "executed_notebook": "/private/tmp/avito_notebook_verify_66milipq/solution.executed.ipynb",
+  "source_notebook_unchanged": true,
+  "source_config_and_inputs_unchanged": true,
+  "ready_answer_used_as_input": false,
+  "ready_answer_evidence": "No answer.csv was copied or present before execution. The only CSV read in inspected code is answer.csv.part immediately after generation.",
+  "main_project_dependency_evidence": "Copied mini directory ran alone with an empty PYTHONPATH and a new IPython directory. Notebook imports only the recorded standard and installed numerical libraries.",
+  "finished_at_utc": "2026-09-28T03:32:01.290828+00:00"
+}

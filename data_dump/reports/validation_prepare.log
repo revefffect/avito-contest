@@ -1,0 +1,43 @@
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.neon'. Detail: [errno 1] Operation not permitted
+{
+  "seed": 20260928,
+  "queries": 6000,
+  "truth_pairs": 6432,
+  "retrieval_train_rows": 468951,
+  "benchmark_corpus_size": 189212,
+  "validation_corpus_size": 195125,
+  "extra_validation_items": 5913,
+  "seen_text_fraction": 0.36966666666666664,
+  "seen_context_fraction": 0.043666666666666666,
+  "seen_target_item_fraction": 0.03435945273631841,
+  "split_counts": {
+    "fit": 3000,
+    "dev": 1500,
+    "audit": 1500
+  },
+  "regimes": {
+    "audit/cold_text": 924,
+    "audit/warm_context": 58,
+    "audit/warm_text": 518,
+    "dev/cold_text": 970,
+    "dev/warm_context": 60,
+    "dev/warm_text": 470,
+    "fit/cold_text": 1862,
+    "fit/warm_context": 146,
+    "fit/warm_text": 992
+  },
+  "positives_per_query": {
+    "count": 6000.0,
+    "mean": 1.072,
+    "std": 0.43264365254602255,
+    "min": 1.0,
+    "25%": 1.0,
+    "50%": 1.0,
+    "75%": 1.0,
+    "max": 24.0
+  },
+  "note": "Корпус расширен отложенными объявлениями. Более плотный корпус и неполная разметка ограничивают перенос локальной оценки на платформу."
+}

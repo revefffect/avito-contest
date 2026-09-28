@@ -1,0 +1,35 @@
+{
+  "submission": {
+    "rows": 2452,
+    "empty_answers": 0,
+    "candidates_total": 122600,
+    "candidates_min": 50,
+    "candidates_max": 50,
+    "candidates_mean": 50.0,
+    "max_candidates": 50
+  },
+  "output_path": "/Users/antany/Desktop/Career/avito contest/answer_with_history.csv",
+  "csv_sha256": "633c2d2413d9c96329f640569dce5a484e05f32af3e3e59f43fd816450af8d6c",
+  "features_path": "artifacts/features_benchmark.parquet",
+  "features_sha256": "470c3d4f4648320682bd7fabdd41fa6b3cc6164171857a16fed2a3d0baa6cf94",
+  "models": [
+    {
+      "path": "artifacts/final_d6.cbm",
+      "sha256": "38ac8ea96878f50103b1be75813316131ab352d1b77d3d98ded11133991c7b70",
+      "weight": 1.0,
+      "feature_names_sha256": "cdeeb78cd47de624cd4201705aa5331873524d6a471a6dd994c874afc1405322",
+      "feature_count": 63,
+      "trees": 700
+    }
+  ],
+  "combination": "raw_model_score",
+  "queries_sha256": "38e2617260fe26e82ab303eb3e378d219ce5a72e229af7138db924172b978a22",
+  "allowed_items_sha256": "66851ee0cd44e64dba3d3c8d6d7c1def143693c18e4f94009d9d300ce3191cf2",
+  "candidate_pool": {
+    "rows": 2604640,
+    "min": 588,
+    "max": 1901,
+    "mean": 1062.2512234910278,
+    "queries_with_fewer_than_50": 0
+  }
+}

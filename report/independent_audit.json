@@ -1,0 +1,821 @@
+{
+  "status": "passed",
+  "created_at_utc": "2026-09-28T03:27:13.762051+00:00",
+  "scope": "Read-only independent verification of frozen data, models, audit metrics and submissions. No training, tuning or selection.",
+  "independence": {
+    "imported_project_modules": [],
+    "metric_implementation": "Direct set intersections and arithmetic means from full truth",
+    "ensemble_implementation": "NumPy per-query mean and population standard deviation, then frozen weighted sum",
+    "ranking": "Descending score with ascending corpus row index for ties"
+  },
+  "raw_data": {
+    "train": {
+      "rows": 497673,
+      "unique": 344825,
+      "nulls": 0,
+      "non_strings": 0,
+      "invalid_format": 0,
+      "duplicate_rows": 152848,
+      "unique_normalized_texts": 73706,
+      "unique_query_contexts": 354241,
+      "unique_context_item_pairs": 467019,
+      "repeated_context_item_pair_rows": 30654,
+      "duplicate_rows_definition": "Repeated item_id occurrences, not duplicate complete records. Repeated query-item pairs are reported separately."
+    },
+    "benchmark_queries": {
+      "rows": 2452,
+      "unique": 2452,
+      "nulls": 0,
+      "non_strings": 0,
+      "invalid_format": 0,
+      "duplicate_rows": 0
+    },
+    "benchmark_items": {
+      "rows": 189212,
+      "unique": 189212,
+      "nulls": 0,
+      "non_strings": 0,
+      "invalid_format": 0,
+      "duplicate_rows": 0
+    },
+    "processed_corpus": {
+      "rows": 195125,
+      "unique": 195125,
+      "nulls": 0,
+      "non_strings": 0,
+      "invalid_format": 0,
+      "duplicate_rows": 0
+    },
+    "retrieval_train_rows": 468951,
+    "extra_corpus_items": 5913
+  },
+  "separation": {
+    "hidden_pair_count": 6432,
+    "hidden_pair_overlap": 0,
+    "cold_text_count": 3756,
+    "cold_text_overlap": 0,
+    "declared_unseen_target_items": 6152,
+    "unseen_item_overlap": 0,
+    "query_counts": {
+      "audit": 1500,
+      "dev": 1500,
+      "fit": 3000
+    },
+    "split_intersections": {
+      "fit/dev": {
+        "query_id": 0,
+        "context_key": 0,
+        "text_key": 0,
+        "shared_relevant_item_ids": 19
+      },
+      "fit/audit": {
+        "query_id": 0,
+        "context_key": 0,
+        "text_key": 0,
+        "shared_relevant_item_ids": 12
+      },
+      "dev/audit": {
+        "query_id": 0,
+        "context_key": 0,
+        "text_key": 0,
+        "shared_relevant_item_ids": 10
+      }
+    },
+    "final_fit_dev_vs_audit_shared_relevant_item_ids": 22
+  },
+  "audit": {
+    "models": [
+      {
+        "path": "artifacts/final_d6.cbm",
+        "trees": 700,
+        "feature_count": 63
+      },
+      {
+        "path": "artifacts/final_no_history.cbm",
+        "trees": 1000,
+        "feature_count": 57
+      }
+    ],
+    "frozen_weights": [
+      0.5,
+      0.5
+    ],
+    "primary_name": "blend_0.5_0.5",
+    "metrics": {
+      "final_d6": {
+        "recall@10": 0.8278888888888888,
+        "recall@50": 0.9397777777777777,
+        "recall@100": 0.9667777777777776,
+        "recall@union": 0.9886666666666667,
+        "poststratified_recall@50": 0.9415599145333869,
+        "filter_groups": {
+          "False": {
+            "queries": 821,
+            "recall@50": 0.9352415753146568,
+            "recall@union": 0.9878197320341048
+          },
+          "True": {
+            "queries": 679,
+            "recall@50": 0.9452626411389297,
+            "recall@union": 0.9896907216494846
+          }
+        }
+      },
+      "final_no_history": {
+        "recall@10": 0.8188055555555557,
+        "recall@50": 0.9464166666666667,
+        "recall@100": 0.9694444444444443,
+        "recall@union": 0.9886666666666667,
+        "poststratified_recall@50": 0.9486735941524327,
+        "filter_groups": {
+          "False": {
+            "queries": 821,
+            "recall@50": 0.9406719447827852,
+            "recall@union": 0.9878197320341048
+          },
+          "True": {
+            "queries": 679,
+            "recall@50": 0.9533627884143347,
+            "recall@union": 0.9896907216494846
+          }
+        }
+      },
+      "blend_0.5_0.5": {
+        "recall@10": 0.8263055555555556,
+        "recall@50": 0.941111111111111,
+        "recall@100": 0.9717777777777776,
+        "recall@union": 0.9886666666666667,
+        "poststratified_recall@50": 0.9431778112629855,
+        "filter_groups": {
+          "False": {
+            "queries": 821,
+            "recall@50": 0.9358505887129516,
+            "recall@union": 0.9878197320341048
+          },
+          "True": {
+            "queries": 679,
+            "recall@50": 0.9474717722140401,
+            "recall@union": 0.9896907216494846
+          }
+        }
+      }
+    },
+    "reference_empty_filter_fraction": 0.6305057096247961,
+    "per_query_max_absolute_differences": {
+      "relevant_count": 0.0,
+      "candidate_count": 0.0,
+      "recall@10": 0.0,
+      "recall@50": 0.0,
+      "recall@100": 0.0,
+      "recall@union": 0.0
+    },
+    "candidate_pool": {
+      "audit_queries": 1500,
+      "unique_truth_pairs": 1619,
+      "raw_truth_rows": 1619,
+      "candidate_rows": 1684077,
+      "candidate_count_min": 603,
+      "candidate_count_max": 2007,
+      "candidate_count_mean": 1122.718,
+      "hybrid_macro_recall_union": 0.9886666666666667,
+      "relevant_items_missing_from_hybrid_pool": 18,
+      "queries_with_any_missing_relevant": 18,
+      "queries_with_all_relevant_missing": 16,
+      "macro_recall50_with_full_truth_denominator": 0.941111111111111,
+      "invalid_recall50_if_using_retrieved_positive_denominator_and_dropping_zero_positive_queries": 0.9519317160826594,
+      "lexical_pool_same_audit": {
+        "candidate_rows": 824513,
+        "macro_recall_union": 0.9693333333333334,
+        "missing_relevant_items": 49
+      },
+      "lexical_comparison_role": "Retrospective fixed-pool coverage check only, not model selection"
+    },
+    "target_disjoint_sensitivity": {
+      "definition": "Keep an audit query only if none of its target item IDs occurs in fit or dev truth.",
+      "role": "Post hoc sensitivity description of the frozen primary ensemble only. No model or weight selection.",
+      "shared_target_item_ids": 22,
+      "removed_queries": 22,
+      "removed_positive_pairs": 46,
+      "remaining_queries": 1478,
+      "remaining_positive_pairs": 1573,
+      "remaining_target_item_overlap": 0,
+      "macro_recall50": 0.9412494361750112,
+      "poststratified_recall50": 0.9429290473343597,
+      "reference_empty_filter_fraction": 0.6305057096247961,
+      "filter_groups": {
+        "False": {
+          "queries": 813,
+          "macro_recall50": 0.9370643706437063
+        },
+        "True": {
+          "queries": 665,
+          "macro_recall50": 0.9463659147869673
+        }
+      },
+      "method": "Subset the saved per-query table after its SHA256 and all values were independently verified against direct model inference and full truth in this audit. The exclusion mask is computed independently from truth item IDs.",
+      "interpretation_limit": "This target exclusion does not make the whole shared retrieval corpus item-disjoint. Covariate overlap and unlabeled relevance remain possible."
+    }
+  },
+  "submissions": {
+    "answer.csv": {
+      "sha256": "3ebda47a966aa2920fe9480cb3b4b1602ec91b63f207d89775d981d16995e3c6",
+      "config": "configs/final.json",
+      "query_rows": 2452,
+      "candidates_min": 50,
+      "candidates_max": 50,
+      "valid": true,
+      "matches_config_and_prior_regeneration": true
+    },
+    "answer_with_history.csv": {
+      "sha256": "633c2d2413d9c96329f640569dce5a484e05f32af3e3e59f43fd816450af8d6c",
+      "config": "configs/with_history.json",
+      "query_rows": 2452,
+      "candidates_min": 50,
+      "candidates_max": 50,
+      "valid": true,
+      "matches_config_and_prior_regeneration": true
+    },
+    "answer_no_history.csv": {
+      "sha256": "1c0d5174d676e55e66857ff34e46a7784b2af8b50b6facb2512f37da1d384dac",
+      "config": "configs/no_history.json",
+      "query_rows": 2452,
+      "candidates_min": 50,
+      "candidates_max": 50,
+      "valid": true,
+      "matches_config_and_prior_regeneration": true
+    }
+  },
+  "archive_sha256": "699149dd7f0e84abf13461d5378cf371e701c7da9c3ce49dfcdc92c59cff5aad",
+  "checks": [
+    {
+      "name": "source_row_counts",
+      "passed": true,
+      "actual": {
+        "train": 497673,
+        "benchmark_queries": 2452,
+        "benchmark_items": 189212
+      }
+    },
+    {
+      "name": "benchmark_queries_ids_unique_and_valid",
+      "passed": true
+    },
+    {
+      "name": "benchmark_items_ids_unique_and_valid",
+      "passed": true
+    },
+    {
+      "name": "processed_corpus_ids_unique_and_valid",
+      "passed": true
+    },
+    {
+      "name": "train_item_ids_are_valid_strings",
+      "passed": true
+    },
+    {
+      "name": "corpus_benchmark_prefix_exact",
+      "passed": true
+    },
+    {
+      "name": "retrieval_context_keys_match_independent_recomputation",
+      "passed": true,
+      "mismatched_rows": 0
+    },
+    {
+      "name": "query_context_keys_match_independent_recomputation",
+      "passed": true,
+      "mismatched_rows": 0
+    },
+    {
+      "name": "retrieval_text_keys_match_independent_recomputation",
+      "passed": true
+    },
+    {
+      "name": "query_text_keys_match_independent_recomputation",
+      "passed": true
+    },
+    {
+      "name": "no_hidden_context_item_pairs_in_retrieval_train",
+      "passed": true,
+      "overlap_count": 0
+    },
+    {
+      "name": "no_cold_texts_in_retrieval_train",
+      "passed": true,
+      "overlap_count": 0
+    },
+    {
+      "name": "no_declared_unseen_target_items_in_retrieval_train",
+      "passed": true,
+      "overlap_count": 0
+    },
+    {
+      "name": "truth_split_matches_query_split",
+      "passed": true
+    },
+    {
+      "name": "all_truth_items_are_in_corpus",
+      "passed": true
+    },
+    {
+      "name": "truth_seen_item_flag_matches_retrieval_train",
+      "passed": true
+    },
+    {
+      "name": "fit_dev_queries_contexts_texts_disjoint",
+      "passed": true,
+      "intersections": {
+        "query_id": 0,
+        "context_key": 0,
+        "text_key": 0
+      }
+    },
+    {
+      "name": "fit_audit_queries_contexts_texts_disjoint",
+      "passed": true,
+      "intersections": {
+        "query_id": 0,
+        "context_key": 0,
+        "text_key": 0
+      }
+    },
+    {
+      "name": "dev_audit_queries_contexts_texts_disjoint",
+      "passed": true,
+      "intersections": {
+        "query_id": 0,
+        "context_key": 0,
+        "text_key": 0
+      }
+    },
+    {
+      "name": "model_excludes_ids_and_labels_final_d6",
+      "passed": true
+    },
+    {
+      "name": "saved_training_split_final_d6",
+      "passed": true,
+      "fit_splits": "fit,dev",
+      "fixed_iterations": true,
+      "fit_query_count": 4500
+    },
+    {
+      "name": "model_excludes_ids_and_labels_final_no_history",
+      "passed": true
+    },
+    {
+      "name": "saved_training_split_final_no_history",
+      "passed": true,
+      "fit_splits": "fit,dev",
+      "fixed_iterations": true,
+      "fit_query_count": 4500
+    },
+    {
+      "name": "audit_candidate_qid_coverage_exact",
+      "passed": true
+    },
+    {
+      "name": "audit_candidates_unique",
+      "passed": true
+    },
+    {
+      "name": "audit_candidate_indices_in_range",
+      "passed": true
+    },
+    {
+      "name": "model_feature_order_final_d6",
+      "passed": true
+    },
+    {
+      "name": "finite_model_scores_final_d6",
+      "passed": true
+    },
+    {
+      "name": "model_feature_order_final_no_history",
+      "passed": true
+    },
+    {
+      "name": "finite_model_scores_final_no_history",
+      "passed": true
+    },
+    {
+      "name": "candidate_labels_match_independent_truth_lookup",
+      "passed": true,
+      "disagreeing_rows": 0
+    },
+    {
+      "name": "saved_per_query_exact_coverage",
+      "passed": true
+    },
+    {
+      "name": "saved_per_query_relevant_count",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "saved_per_query_candidate_count",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "saved_per_query_recall@10",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "saved_per_query_recall@50",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "saved_per_query_recall@100",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "saved_per_query_recall@union",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "saved_per_query_filter_flags",
+      "passed": true
+    },
+    {
+      "name": "saved_aggregate_final_d6_recall@10",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "name": "saved_aggregate_final_d6_recall@50",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "name": "saved_aggregate_final_d6_recall@100",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "name": "saved_aggregate_final_d6_recall@union",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "name": "saved_aggregate_final_d6_poststratified_recall@50",
+      "passed": true,
+      "absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "name": "saved_aggregate_final_no_history_recall@10",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "name": "saved_aggregate_final_no_history_recall@50",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "name": "saved_aggregate_final_no_history_recall@100",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "name": "saved_aggregate_final_no_history_recall@union",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "name": "saved_aggregate_final_no_history_poststratified_recall@50",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "name": "saved_aggregate_blend_0.5_0.5_recall@10",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "name": "saved_aggregate_blend_0.5_0.5_recall@50",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "name": "saved_aggregate_blend_0.5_0.5_recall@100",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "name": "saved_aggregate_blend_0.5_0.5_recall@union",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "name": "saved_aggregate_blend_0.5_0.5_poststratified_recall@50",
+      "passed": true,
+      "absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "name": "saved_reference_filter_fraction",
+      "passed": true
+    },
+    {
+      "name": "saved_primary_result",
+      "passed": true
+    },
+    {
+      "name": "saved_selection_unchanged_after_audit",
+      "passed": true
+    },
+    {
+      "name": "frozen_model_recipe_matches_selection",
+      "passed": true
+    },
+    {
+      "name": "csv_schema_ids_and_membership_answer.csv",
+      "passed": true,
+      "invalid_rows": 0
+    },
+    {
+      "name": "csv_config_prior_verification_hash_answer.csv",
+      "passed": true
+    },
+    {
+      "name": "frozen_input_hash_configs/final.json_artifacts/features_benchmark.parquet",
+      "passed": true
+    },
+    {
+      "name": "frozen_input_hash_configs/final.json_data/ids/benchmark_queries.parquet",
+      "passed": true
+    },
+    {
+      "name": "frozen_input_hash_configs/final.json_data/ids/benchmark_items.parquet",
+      "passed": true
+    },
+    {
+      "name": "frozen_input_hash_configs/final.json_data/ids/corpus.parquet",
+      "passed": true
+    },
+    {
+      "name": "frozen_input_hash_configs/final.json_artifacts/final_d6.cbm",
+      "passed": true
+    },
+    {
+      "name": "frozen_input_hash_configs/final.json_artifacts/final_d6.feature_names.json",
+      "passed": true
+    },
+    {
+      "name": "frozen_input_hash_configs/final.json_artifacts/final_no_history.cbm",
+      "passed": true
+    },
+    {
+      "name": "frozen_input_hash_configs/final.json_artifacts/final_no_history.feature_names.json",
+      "passed": true
+    },
+    {
+      "name": "csv_schema_ids_and_membership_answer_with_history.csv",
+      "passed": true,
+      "invalid_rows": 0
+    },
+    {
+      "name": "csv_config_prior_verification_hash_answer_with_history.csv",
+      "passed": true
+    },
+    {
+      "name": "frozen_input_hash_configs/with_history.json_artifacts/features_benchmark.parquet",
+      "passed": true
+    },
+    {
+      "name": "frozen_input_hash_configs/with_history.json_data/ids/benchmark_queries.parquet",
+      "passed": true
+    },
+    {
+      "name": "frozen_input_hash_configs/with_history.json_data/ids/benchmark_items.parquet",
+      "passed": true
+    },
+    {
+      "name": "frozen_input_hash_configs/with_history.json_data/ids/corpus.parquet",
+      "passed": true
+    },
+    {
+      "name": "frozen_input_hash_configs/with_history.json_artifacts/final_d6.cbm",
+      "passed": true
+    },
+    {
+      "name": "frozen_input_hash_configs/with_history.json_artifacts/final_d6.feature_names.json",
+      "passed": true
+    },
+    {
+      "name": "csv_schema_ids_and_membership_answer_no_history.csv",
+      "passed": true,
+      "invalid_rows": 0
+    },
+    {
+      "name": "csv_config_prior_verification_hash_answer_no_history.csv",
+      "passed": true
+    },
+    {
+      "name": "frozen_input_hash_configs/no_history.json_artifacts/features_benchmark.parquet",
+      "passed": true
+    },
+    {
+      "name": "frozen_input_hash_configs/no_history.json_data/ids/benchmark_queries.parquet",
+      "passed": true
+    },
+    {
+      "name": "frozen_input_hash_configs/no_history.json_data/ids/benchmark_items.parquet",
+      "passed": true
+    },
+    {
+      "name": "frozen_input_hash_configs/no_history.json_data/ids/corpus.parquet",
+      "passed": true
+    },
+    {
+      "name": "frozen_input_hash_configs/no_history.json_artifacts/final_no_history.cbm",
+      "passed": true
+    },
+    {
+      "name": "frozen_input_hash_configs/no_history.json_artifacts/final_no_history.feature_names.json",
+      "passed": true
+    },
+    {
+      "name": "archive_hash_matches_prior_verification",
+      "passed": true
+    },
+    {
+      "name": "prior_regeneration_report_passed",
+      "passed": true
+    },
+    {
+      "name": "sensitivity_no_target_overlap_after_query_exclusion",
+      "passed": true,
+      "remaining_target_item_overlap": 0
+    }
+  ],
+  "checks_passed": 87,
+  "checks_total": 87,
+  "unknowns_and_limits": [
+    "Скрытая метрика платформы не наблюдалась. Локальный audit не равен результату benchmark.",
+    "Положительные пары отражают наблюдённый выбор. Полная релевантность остальных объявлений неизвестна.",
+    "Перенос с учётом доли пустых фильтров корректирует только один наблюдаемый сдвиг состава запросов.",
+    "Разделение выполнено по запросам. Между fit+dev и audit есть 22 общих целевых item_id, поэтому проверка не является полностью раздельной по объявлениям.",
+    "Проверен один сохранённый split. Независимое повторное обучение и вариативность между split здесь не измерялись.",
+    "Исторический порядок выбора модели подтверждается сохранёнными конфигурациями и отчётами, а не независимым журналом событий.",
+    "Повторное получение трёх CSV в этой проверке не запускалось. Проверены текущие хеши и прежний успешный отчёт фактического воспроизведения.",
+    "Дополнительная чувствительность исключает пересечение известных целевых item_id. Корпус кандидатов остаётся общим, а неизвестная релевантность не проверяется."
+  ],
+  "sources": {
+    "configs/final.json": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/configs/final.json",
+      "sha256": "23aed16f25a3a087aa9bb1761b655056f85258d193d403cc5e80e7bf1e8575dc",
+      "bytes": 2415
+    },
+    "configs/selection.json": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/configs/selection.json",
+      "sha256": "0794eeeae97538bd95c2827c4f1feb3ddba75522365a8b308386a8b4ac4a5601",
+      "bytes": 2125
+    },
+    "artifacts/final_d6.feature_names.json": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/artifacts/final_d6.feature_names.json",
+      "sha256": "cdeeb78cd47de624cd4201705aa5331873524d6a471a6dd994c874afc1405322",
+      "bytes": 1282
+    },
+    "artifacts/final_d6.train_config.json": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/artifacts/final_d6.train_config.json",
+      "sha256": "1c170ef35cb99150eae324984935e9b5e2e660d5d0ef8625bfa82466c159ba00",
+      "bytes": 714
+    },
+    "artifacts/final_no_history.feature_names.json": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/artifacts/final_no_history.feature_names.json",
+      "sha256": "d61d1ac25dab384e21f497b912a8be3f228e560513cc5458eb8c1ec28514ee31",
+      "bytes": 1165
+    },
+    "artifacts/final_no_history.train_config.json": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/artifacts/final_no_history.train_config.json",
+      "sha256": "83447d68327aefcdc0a2aa3221e7554abe48581372e01fcb176f8b62e4e059b9",
+      "bytes": 940
+    },
+    "artifacts/final_d6.cbm": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/artifacts/final_d6.cbm",
+      "sha256": "38ac8ea96878f50103b1be75813316131ab352d1b77d3d98ded11133991c7b70",
+      "bytes": 795272
+    },
+    "artifacts/final_no_history.cbm": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/artifacts/final_no_history.cbm",
+      "sha256": "a987e85b19fe82f1d10811db73299d17c9a3e53b1b188619d8241dadb2134919",
+      "bytes": 1130080
+    },
+    "reports/final_audit.json": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/reports/final_audit.json",
+      "sha256": "99c52cb9bf0e9395fd611eaa9abf34d7a0b5256e121b74485f47e65aad90da7b",
+      "bytes": 13600
+    },
+    "reports/final_audit.per_query.parquet": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/reports/final_audit.per_query.parquet",
+      "sha256": "64ddac76d3027b7e0b6b33213dbfe4ccfb8e03fe927381bf2819e63d388b93c2",
+      "bytes": 61797
+    },
+    "reports/final_results.json": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/reports/final_results.json",
+      "sha256": "236db753ec7c223ee2e313a633a5d1b3f994451eaec10b565a490abfa1d04629",
+      "bytes": 5186
+    },
+    "deliverables/verification.json": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/deliverables/verification.json",
+      "sha256": "afaeba9e242aa33f11d3ee6ef567c1f47d94f511a7386cfce00544bdebc89de3",
+      "bytes": 4776
+    },
+    "answer.csv": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/answer.csv",
+      "sha256": "3ebda47a966aa2920fe9480cb3b4b1602ec91b63f207d89775d981d16995e3c6",
+      "bytes": 2125900
+    },
+    "artifacts/features_benchmark.parquet": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/artifacts/features_benchmark.parquet",
+      "sha256": "470c3d4f4648320682bd7fabdd41fa6b3cc6164171857a16fed2a3d0baa6cf94",
+      "bytes": 257006331
+    },
+    "data/ids/benchmark_queries.parquet": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/data/ids/benchmark_queries.parquet",
+      "sha256": "38e2617260fe26e82ab303eb3e378d219ce5a72e229af7138db924172b978a22",
+      "bytes": 34707
+    },
+    "data/ids/benchmark_items.parquet": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/data/ids/benchmark_items.parquet",
+      "sha256": "66851ee0cd44e64dba3d3c8d6d7c1def143693c18e4f94009d9d300ce3191cf2",
+      "bytes": 1788903
+    },
+    "data/ids/corpus.parquet": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/data/ids/corpus.parquet",
+      "sha256": "d3aff319545e10b99f3cadde76196a612d539ebfecb0d51d2ee5746dc6543ac4",
+      "bytes": 1841471
+    },
+    "configs/with_history.json": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/configs/with_history.json",
+      "sha256": "7ed11f98246ee8cc81f7fc22248e6bc85c960080760157edf9112effe02fbee3",
+      "bytes": 1551
+    },
+    "answer_with_history.csv": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/answer_with_history.csv",
+      "sha256": "633c2d2413d9c96329f640569dce5a484e05f32af3e3e59f43fd816450af8d6c",
+      "bytes": 2125900
+    },
+    "configs/no_history.json": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/configs/no_history.json",
+      "sha256": "ddce9a45a34eae55c4acd7ec9368daec1f03dfd0206bb515698d76611886bbda",
+      "bytes": 1729
+    },
+    "answer_no_history.csv": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/answer_no_history.csv",
+      "sha256": "1c0d5174d676e55e66857ff34e46a7784b2af8b50b6facb2512f37da1d384dac",
+      "bytes": 2125900
+    },
+    "data/raw/train.parquet": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/data/raw/train.parquet",
+      "sha256": "e150ab7a5c98769f643b95ee3a02dc0f664b647facd69a7d280ec6d48ca554a7",
+      "bytes": 490236125
+    },
+    "data/raw/benchmark_queries.parquet": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/data/raw/benchmark_queries.parquet",
+      "sha256": "e49de4fb76f03979a4af96034817767d39ae5de9f94e254fed028243188dda06",
+      "bytes": 127374
+    },
+    "data/raw/benchmark_items.parquet": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/data/raw/benchmark_items.parquet",
+      "sha256": "193b3a3961464620cbf8d8797152b7f90cae1826ca749fb7817a210984a09899",
+      "bytes": 195679553
+    },
+    "data/processed/retrieval_train.parquet": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/data/processed/retrieval_train.parquet",
+      "sha256": "982156099181b89742471f6aaa7c42a1399cd1e7f6cc9fb6a36eb87edf2d96cb",
+      "bytes": 42156657
+    },
+    "data/processed/eval_queries.parquet": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/data/processed/eval_queries.parquet",
+      "sha256": "dce7d2a2be0aca772f7f1c1d8dee85ed9892977b467f1b71ce69f7f3d4beec40",
+      "bytes": 695779
+    },
+    "data/processed/eval_truth.parquet": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/data/processed/eval_truth.parquet",
+      "sha256": "7ae5679600b1d51801ce8dcec2c01c09dfa7fe24eada9b666467b0bf65b53e3f",
+      "bytes": 232594
+    },
+    "data/processed/corpus.parquet": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/data/processed/corpus.parquet",
+      "sha256": "e3c5ae47ea02161d6e9f8ab7134b31b7dfe58c3115063b917034796a66e9562f",
+      "bytes": 334832603
+    },
+    "artifacts/features_hybrid.parquet": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/artifacts/features_hybrid.parquet",
+      "sha256": "d91221dae0c83835e2decacb5ae9e3f4846e6c53b2a4dbf84780eb4ea161afc9",
+      "bytes": 664399329
+    },
+    "artifacts/features_lexical.parquet": {
+      "absolute_path": "/Users/antany/Desktop/Career/avito contest/artifacts/features_lexical.parquet",
+      "sha256": "e695ca52927f16002998bc305fa8b813f7fb18e9dcc07150d0e00570489e3c80",
+      "bytes": 245221913
+    }
+  },
+  "elapsed_seconds": 10.303
+}

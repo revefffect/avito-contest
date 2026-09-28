@@ -1,0 +1,78 @@
+{
+  "frozen_at_utc": "2026-09-28T03:01:24.152451+00:00",
+  "audit_quality_seen": false,
+  "primary": "equal within-query standardized blend of d6 history and d6 no-history",
+  "selection_split": "dev",
+  "selection_queries": 1500,
+  "primary_dev_recall50": 0.9429444444444444,
+  "primary_dev_poststratified_recall50": 0.9371367695172583,
+  "delta_vs_d6": {
+    "recall@50": {
+      "delta": 0.0003333333333333333,
+      "ci95": [
+        -0.004333333333333333,
+        0.005
+      ],
+      "bootstrap_positive_fraction": 0.524
+    },
+    "poststratified_recall@50": {
+      "delta": 0.0007068429292429088,
+      "ci95": [
+        -0.0032095268809655447,
+        0.005006202967090593
+      ],
+      "bootstrap_positive_fraction": 0.6355
+    }
+  },
+  "reason": "Best raw Recall@50 among the tested models and mixtures; gain over d6 is small and not statistically established. The equal mixture limits dependence on direct item-choice counts under an unknown test distribution. Audit will be reported without revising the frozen configuration.",
+  "final_training_splits": [
+    "fit",
+    "dev"
+  ],
+  "final_training_queries": 4500,
+  "models": [
+    {
+      "path": "artifacts/final_d6.cbm",
+      "loss": "Logloss",
+      "iterations": 700,
+      "depth": 6,
+      "learning_rate": 0.07,
+      "seed": 42,
+      "threads": 4,
+      "drop_features": [
+        "category_match"
+      ]
+    },
+    {
+      "path": "artifacts/final_no_history.cbm",
+      "loss": "Logloss",
+      "iterations": 1000,
+      "depth": 6,
+      "learning_rate": 0.07,
+      "seed": 42,
+      "threads": 4,
+      "drop_features": [
+        "category_match",
+        "popularity",
+        "memory_score",
+        "text_item_count",
+        "context_item_count",
+        "rank_memory",
+        "rank_geo_memory"
+      ]
+    }
+  ],
+  "weights": [
+    0.5,
+    0.5
+  ],
+  "prespecified_alternatives": [
+    "with_history",
+    "no_history"
+  ],
+  "dev_reports": [
+    "reports/hybrid_models_dev.json",
+    "reports/history_ablation_dev.json"
+  ],
+  "audit_policy": "Evaluate final fit+dev models and the frozen equal blend once; do not tune on audit."
+}

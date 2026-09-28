@@ -1,0 +1,240 @@
+{
+  "files": {
+    "data_dump/experiments/artifacts/final_d6.evaluation.json": {
+      "path": "data_dump/experiments/artifacts/final_d6.evaluation.json",
+      "sha256": "cda2969302b8c83a9951fdd12f013d3eb878cedb89bcda9dc1c4cdec9b426829",
+      "bytes": 53,
+      "original_path": "artifacts/final_d6.evaluation.json"
+    },
+    "data_dump/experiments/artifacts/final_d6.feature_names.json": {
+      "path": "data_dump/experiments/artifacts/final_d6.feature_names.json",
+      "sha256": "cdeeb78cd47de624cd4201705aa5331873524d6a471a6dd994c874afc1405322",
+      "bytes": 1282,
+      "original_path": "artifacts/final_d6.feature_names.json"
+    },
+    "data_dump/experiments/artifacts/final_d6.train_config.json": {
+      "path": "data_dump/experiments/artifacts/final_d6.train_config.json",
+      "sha256": "1c170ef35cb99150eae324984935e9b5e2e660d5d0ef8625bfa82466c159ba00",
+      "bytes": 714,
+      "original_path": "artifacts/final_d6.train_config.json"
+    },
+    "data_dump/experiments/artifacts/final_no_history.evaluation.json": {
+      "path": "data_dump/experiments/artifacts/final_no_history.evaluation.json",
+      "sha256": "20a7c63f1cefa664fd3837164e1a922ef8af3b1547dec1eb38464c82bd53727b",
+      "bytes": 54,
+      "original_path": "artifacts/final_no_history.evaluation.json"
+    },
+    "data_dump/experiments/artifacts/final_no_history.feature_names.json": {
+      "path": "data_dump/experiments/artifacts/final_no_history.feature_names.json",
+      "sha256": "d61d1ac25dab384e21f497b912a8be3f228e560513cc5458eb8c1ec28514ee31",
+      "bytes": 1165,
+      "original_path": "artifacts/final_no_history.feature_names.json"
+    },
+    "data_dump/experiments/artifacts/final_no_history.train_config.json": {
+      "path": "data_dump/experiments/artifacts/final_no_history.train_config.json",
+      "sha256": "83447d68327aefcdc0a2aa3221e7554abe48581372e01fcb176f8b62e4e059b9",
+      "bytes": 940,
+      "original_path": "artifacts/final_no_history.train_config.json"
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_d6.dev_queries.parquet": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_d6.dev_queries.parquet",
+      "sha256": "00b0596e40151e627ddf665242f0b7119ce80e243c065e7067f72cc66b3928f8",
+      "bytes": 50676,
+      "original_path": "artifacts/ranker_hybrid_d6.dev_queries.parquet",
+      "rows": 1500,
+      "columns": [
+        "qid",
+        "query_id",
+        "relevant_count",
+        "candidate_count",
+        "recall@union",
+        "recall@10",
+        "recall@50",
+        "recall@100",
+        "regime",
+        "seen_text",
+        "seen_context",
+        "filter_empty",
+        "seen_item_group"
+      ]
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_d6.evaluation.json": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_d6.evaluation.json",
+      "sha256": "763a2099b8720775669f599f22acf5157775cf9bf90e1b977b5e80c16a643e10",
+      "bytes": 86385,
+      "original_path": "artifacts/ranker_hybrid_d6.evaluation.json"
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_d6.feature_names.json": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_d6.feature_names.json",
+      "sha256": "cdeeb78cd47de624cd4201705aa5331873524d6a471a6dd994c874afc1405322",
+      "bytes": 1282,
+      "original_path": "artifacts/ranker_hybrid_d6.feature_names.json"
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_d6.train_config.json": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_d6.train_config.json",
+      "sha256": "96e3abbc1c1f022bc19d3e2c7e6b7c2cee22e6285c106614e24978a6bf3c0821",
+      "bytes": 785,
+      "original_path": "artifacts/ranker_hybrid_d6.train_config.json"
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_d7.dev_queries.parquet": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_d7.dev_queries.parquet",
+      "sha256": "39e304c304080bea91cfb851fdfc957fc7e44550392d49c99d2903e3965cf5d4",
+      "bytes": 50724,
+      "original_path": "artifacts/ranker_hybrid_d7.dev_queries.parquet",
+      "rows": 1500,
+      "columns": [
+        "qid",
+        "query_id",
+        "relevant_count",
+        "candidate_count",
+        "recall@union",
+        "recall@10",
+        "recall@50",
+        "recall@100",
+        "regime",
+        "seen_text",
+        "seen_context",
+        "filter_empty",
+        "seen_item_group"
+      ]
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_d7.evaluation.json": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_d7.evaluation.json",
+      "sha256": "d04c3c479d064f368acf1259ff3642a12fb98396fc066f9f5f92834caf39cdf7",
+      "bytes": 71063,
+      "original_path": "artifacts/ranker_hybrid_d7.evaluation.json"
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_d7.feature_names.json": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_d7.feature_names.json",
+      "sha256": "cdeeb78cd47de624cd4201705aa5331873524d6a471a6dd994c874afc1405322",
+      "bytes": 1282,
+      "original_path": "artifacts/ranker_hybrid_d7.feature_names.json"
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_d7.train_config.json": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_d7.train_config.json",
+      "sha256": "65fdd9c32a3143d90feaab0fbbc7d0b824c60c2eeeb29ab696e5ca99767a3022",
+      "bytes": 786,
+      "original_path": "artifacts/ranker_hybrid_d7.train_config.json"
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_no_history.dev_queries.parquet": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_no_history.dev_queries.parquet",
+      "sha256": "bf009942f377e6e3dd9f40d006360477a89ddcb2c8dc8fc173a3c14ab8db0acf",
+      "bytes": 50698,
+      "original_path": "artifacts/ranker_hybrid_no_history.dev_queries.parquet",
+      "rows": 1500,
+      "columns": [
+        "qid",
+        "query_id",
+        "relevant_count",
+        "candidate_count",
+        "recall@union",
+        "recall@10",
+        "recall@50",
+        "recall@100",
+        "regime",
+        "seen_text",
+        "seen_context",
+        "filter_empty",
+        "seen_item_group"
+      ]
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_no_history.evaluation.json": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_no_history.evaluation.json",
+      "sha256": "7f7463eeb7611e2a23fa295729234a379022e9e6c4ad3e007abe38413f17f5f6",
+      "bytes": 70815,
+      "original_path": "artifacts/ranker_hybrid_no_history.evaluation.json"
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_no_history.feature_names.json": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_no_history.feature_names.json",
+      "sha256": "d61d1ac25dab384e21f497b912a8be3f228e560513cc5458eb8c1ec28514ee31",
+      "bytes": 1165,
+      "original_path": "artifacts/ranker_hybrid_no_history.feature_names.json"
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_no_history.train_config.json": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_no_history.train_config.json",
+      "sha256": "2eb23341b3e8facd6fb275a26d7c4689d2d20d33b00cc7c3a87acdd8fb1654a4",
+      "bytes": 1012,
+      "original_path": "artifacts/ranker_hybrid_no_history.train_config.json"
+    },
+    "data_dump/experiments/artifacts/ranker_lexical_logloss.dev_queries.parquet": {
+      "path": "data_dump/experiments/artifacts/ranker_lexical_logloss.dev_queries.parquet",
+      "sha256": "b7946496552dec4aac62afb800b8b0ba5d7823a1d601958856ddb4ba7ea83b41",
+      "bytes": 49913,
+      "original_path": "artifacts/ranker_lexical_logloss.dev_queries.parquet",
+      "rows": 1500,
+      "columns": [
+        "qid",
+        "query_id",
+        "relevant_count",
+        "candidate_count",
+        "recall@union",
+        "recall@10",
+        "recall@50",
+        "recall@100",
+        "regime",
+        "seen_text",
+        "seen_context",
+        "filter_empty",
+        "seen_item_group"
+      ]
+    },
+    "data_dump/experiments/artifacts/ranker_lexical_logloss.evaluation.json": {
+      "path": "data_dump/experiments/artifacts/ranker_lexical_logloss.evaluation.json",
+      "sha256": "395ad73da7b434915083261081b3064eb4801143d85ad58a76a81f18c6998969",
+      "bytes": 43191,
+      "original_path": "artifacts/ranker_lexical_logloss.evaluation.json"
+    },
+    "data_dump/experiments/artifacts/ranker_lexical_logloss.feature_names.json": {
+      "path": "data_dump/experiments/artifacts/ranker_lexical_logloss.feature_names.json",
+      "sha256": "6b034cd42f1afdd95226f8d204681fe3b6dd412eeca3d11cf9a893508864c9d9",
+      "bytes": 1028,
+      "original_path": "artifacts/ranker_lexical_logloss.feature_names.json"
+    },
+    "data_dump/experiments/artifacts/ranker_lexical_logloss.train_config.json": {
+      "path": "data_dump/experiments/artifacts/ranker_lexical_logloss.train_config.json",
+      "sha256": "4dffbc8a91a6afe406074076b94098198e9b17a20109880300560df2e6c6a6c8",
+      "bytes": 754,
+      "original_path": "artifacts/ranker_lexical_logloss.train_config.json"
+    },
+    "data_dump/experiments/artifacts/ranker_lexical_softmax.dev_queries.parquet": {
+      "path": "data_dump/experiments/artifacts/ranker_lexical_softmax.dev_queries.parquet",
+      "sha256": "9fb0fed21906f0b3acf4047bff6d40179fd0d0a447605497e5cc4377a3744fc3",
+      "bytes": 49930,
+      "original_path": "artifacts/ranker_lexical_softmax.dev_queries.parquet",
+      "rows": 1500,
+      "columns": [
+        "qid",
+        "query_id",
+        "relevant_count",
+        "candidate_count",
+        "recall@union",
+        "recall@10",
+        "recall@50",
+        "recall@100",
+        "regime",
+        "seen_text",
+        "seen_context",
+        "filter_empty",
+        "seen_item_group"
+      ]
+    },
+    "data_dump/experiments/artifacts/ranker_lexical_softmax.evaluation.json": {
+      "path": "data_dump/experiments/artifacts/ranker_lexical_softmax.evaluation.json",
+      "sha256": "30b226c6c2d4d5953b563decba41943835e0113cd3fc8d2934a31eece81470ba",
+      "bytes": 43054,
+      "original_path": "artifacts/ranker_lexical_softmax.evaluation.json"
+    },
+    "data_dump/experiments/artifacts/ranker_lexical_softmax.feature_names.json": {
+      "path": "data_dump/experiments/artifacts/ranker_lexical_softmax.feature_names.json",
+      "sha256": "6b034cd42f1afdd95226f8d204681fe3b6dd412eeca3d11cf9a893508864c9d9",
+      "bytes": 1028,
+      "original_path": "artifacts/ranker_lexical_softmax.feature_names.json"
+    },
+    "data_dump/experiments/artifacts/ranker_lexical_softmax.train_config.json": {
+      "path": "data_dump/experiments/artifacts/ranker_lexical_softmax.train_config.json",
+      "sha256": "62560db810e2d73a27e8a078cc2f10a3b7badd2191d82c59ae1617027a8c01fd",
+      "bytes": 760,
+      "original_path": "artifacts/ranker_lexical_softmax.train_config.json"
+    }
+  }
+}

@@ -1,0 +1,518 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-09-28T03:05:47.608591+00:00",
+  "scope": "Same-machine feature regeneration for the first three benchmark queries; no audit data or quality metric was read.",
+  "saved_features": "artifacts/features_benchmark.parquet",
+  "saved_features_sha256": "470c3d4f4648320682bd7fabdd41fa6b3cc6164171857a16fed2a3d0baa6cf94",
+  "query_ids": [
+    "70DfDUpwjxB4lzFd",
+    "JTrdTaZJvSiLPkXj",
+    "LZCZNoVG4AFUkVRJ"
+  ],
+  "compared_qids": [
+    0,
+    1,
+    2
+  ],
+  "regenerated_query_count": 16,
+  "compared_query_count": 3,
+  "batch_size": 16,
+  "batch_reason": "Match the production matrix multiplication shape, then compare only qid 0..2.",
+  "threadpool_limit": 3,
+  "allowed_item_count": 189212,
+  "saved_rows": 3400,
+  "regenerated_rows_compared": 3400,
+  "columns_match": true,
+  "candidate_keys_equal": true,
+  "original_row_order_equal": true,
+  "all_numeric_values_exactly_equal": true,
+  "max_absolute_difference": 0.0,
+  "source_fingerprints": {
+    "train_sha256": "e150ab7a5c98769f643b95ee3a02dc0f664b647facd69a7d280ec6d48ca554a7",
+    "corpus_sha256": "e3c5ae47ea02161d6e9f8ab7134b31b7dfe58c3115063b917034796a66e9562f",
+    "behavior_code_sha256": "efc995f0fa646d5f9150bdef49d2d931a7e092ebedad7730fbf569907dbe9d44",
+    "geography_code_sha256": "1364190c121f44cdb302f8ba1e4ab2a1300c8696b38a14799ceb4bb682bbd5fa"
+  },
+  "candidate_code_sha256": "ec5c2a0a30f9d5638ba6fd9ee62ab457442af9d4dd3c983cfe833865776d3840",
+  "columns": {
+    "qid": {
+      "dtype": "int32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "item_idx": {
+      "dtype": "int32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "word": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "relative_word": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "full_coverage": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "relative_full_coverage": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "bm25": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "relative_bm25": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "char": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "relative_char": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "context_word": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "relative_context_word": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "dense": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "relative_dense": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "dense_plain": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "relative_dense_plain": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "rank_word": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "rank_geo_word": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "rank_bm25": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "rank_geo_bm25": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "rank_char": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "rank_geo_char": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "rank_geo_context": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "rank_memory": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "rank_geo_memory": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "rank_dense": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "rank_geo_dense": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "rank_dense_plain": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "rank_geo_dense_plain": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "geo_affinity": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "same_location": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "log_distance": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "has_center": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "transition_probability": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "transition_lift": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "scope_km": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "train_count": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "popularity": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "memory_score": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "text_item_count": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "context_item_count": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "microcat_probability": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "category_local_rate": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "query_local_rate": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "filter_microcat_probability": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "filter_train_count": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "query_train_count": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "nearest_query_similarity": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "item_price": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "item_rating_reviews_count": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "item_rating": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "item_is_phone_hidden": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "item_is_message_forbidden": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "title_length": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "description_length": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "title_coverage": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "title_precision": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "title_exact_phrase": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "filter_coverage": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "query_words": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "query_length": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "has_filters": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "delivery_search": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "category_match": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "lexical_heuristic": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "hybrid_heuristic": {
+      "dtype": "float32",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    },
+    "label": {
+      "dtype": "int8",
+      "dtype_equal": true,
+      "exact_equal": true,
+      "differing_values": 0,
+      "max_absolute_difference": 0.0
+    }
+  },
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "pyarrow": "22.0.0",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.8.0",
+    "joblib": "1.4.2"
+  },
+  "temporary_output_removed": true,
+  "elapsed_seconds": 19.62333795800805
+}

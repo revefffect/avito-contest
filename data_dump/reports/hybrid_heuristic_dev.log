@@ -1,0 +1,117 @@
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.neon'. Detail: [errno 1] Operation not permitted
+{
+  "queries": 1500,
+  "recall@10": 0.7428888888888888,
+  "recall@50": 0.8781111111111111,
+  "recall@100": 0.9101666666666667,
+  "recall@union": 0.9893333333333333,
+  "candidate_count_mean": 1121.074,
+  "groups": {
+    "regime": {
+      "cold_text": {
+        "queries": 970,
+        "recall@10": 0.7263745704467354,
+        "recall@50": 0.8580756013745704,
+        "recall@100": 0.8986254295532646,
+        "recall@union": 0.98659793814433
+      },
+      "warm_context": {
+        "queries": 60,
+        "recall@10": 0.7333333333333333,
+        "recall@50": 0.9333333333333333,
+        "recall@100": 0.9333333333333333,
+        "recall@union": 1.0
+      },
+      "warm_text": {
+        "queries": 470,
+        "recall@10": 0.7781914893617021,
+        "recall@50": 0.9124113475177306,
+        "recall@100": 0.9310283687943263,
+        "recall@union": 0.9936170212765958
+      }
+    },
+    "seen_text": {
+      "False": {
+        "queries": 976,
+        "recall@10": 0.7260075136612021,
+        "recall@50": 0.8579234972677595,
+        "recall@100": 0.8982240437158471,
+        "recall@union": 0.9866803278688525
+      },
+      "True": {
+        "queries": 524,
+        "recall@10": 0.7743320610687023,
+        "recall@50": 0.9157124681933843,
+        "recall@100": 0.932410941475827,
+        "recall@union": 0.9942748091603053
+      }
+    },
+    "seen_context": {
+      "False": {
+        "queries": 1440,
+        "recall@10": 0.743287037037037,
+        "recall@50": 0.875810185185185,
+        "recall@100": 0.9092013888888889,
+        "recall@union": 0.9888888888888889
+      },
+      "True": {
+        "queries": 60,
+        "recall@10": 0.7333333333333333,
+        "recall@50": 0.9333333333333333,
+        "recall@100": 0.9333333333333333,
+        "recall@union": 1.0
+      }
+    },
+    "filter_empty": {
+      "False": {
+        "queries": 823,
+        "recall@10": 0.7541514783313084,
+        "recall@50": 0.8997569866342648,
+        "recall@100": 0.9316524908869988,
+        "recall@union": 0.9908869987849331
+      },
+      "True": {
+        "queries": 677,
+        "recall@10": 0.7291974396848844,
+        "recall@50": 0.8517971442639094,
+        "recall@100": 0.8840472673559823,
+        "recall@union": 0.9874446085672083
+      }
+    },
+    "seen_item_group": {
+      "all_seen": {
+        "queries": 48,
+        "recall@10": 0.7708333333333334,
+        "recall@50": 0.9375,
+        "recall@100": 0.9375,
+        "recall@union": 0.9791666666666666
+      },
+      "all_unseen": {
+        "queries": 1448,
+        "recall@10": 0.7420580110497238,
+        "recall@50": 0.87603591160221,
+        "recall@100": 0.9092426335174955,
+        "recall@union": 0.9896408839779005
+      },
+      "mixed": {
+        "queries": 4,
+        "recall@10": 0.7083333333333333,
+        "recall@50": 0.9166666666666666,
+        "recall@100": 0.9166666666666666,
+        "recall@union": 1.0
+      }
+    }
+  },
+  "reference_empty_fraction": 0.6305057096247961,
+  "poststratified_recall@10": 0.7384178144865402,
+  "poststratified_recall@50": 0.8695180321870506,
+  "poststratified_recall@100": 0.9016371256427281,
+  "poststratified_recall@union": 0.9887165520979011,
+  "split": "dev",
+  "features_file": "artifacts/features_hybrid.parquet",
+  "model": null,
+  "score_column": "hybrid_heuristic"
+}

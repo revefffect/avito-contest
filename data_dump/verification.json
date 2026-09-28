@@ -1,0 +1,108 @@
+{
+  "status": "passed",
+  "started_at_utc": "2026-09-28T03:11:22.608030+00:00",
+  "archive": "/Users/antany/Desktop/Career/avito contest/deliverables/avito_solution.zip",
+  "temporary_directory": "/private/tmp/avito_contest_verify_ebm5affe",
+  "environment": {
+    "python_executable": "/opt/anaconda3/bin/python",
+    "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+    "platform": "macOS-15.3.1-arm64-arm-64bit",
+    "versions": {
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "pyarrow": "22.0.0",
+      "catboost": "1.2.8",
+      "scikit-learn": "1.8.0"
+    }
+  },
+  "manifest": {
+    "passed": true,
+    "files_verified": 74,
+    "bytes_verified": 269405334,
+    "manifest_sha256": "2a16748c82596a4b5b1a608644c2ea83dd38a089146c982c7a37ceef353290c3",
+    "exact_member_set": true,
+    "safe_paths_and_no_symlinks": true
+  },
+  "reproductions": [
+    {
+      "config": "configs/final.json",
+      "config_sha256": "23aed16f25a3a087aa9bb1761b655056f85258d193d403cc5e80e7bf1e8575dc",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "/private/tmp/avito_contest_verify_ebm5affe/bundle/scripts/reproduce.py",
+        "--config",
+        "/private/tmp/avito_contest_verify_ebm5affe/bundle/configs/final.json",
+        "--output",
+        "/private/tmp/avito_contest_verify_ebm5affe/regenerated/final.csv"
+      ],
+      "seconds": 5.374,
+      "returncode": 0,
+      "stdout_stderr_log": "/private/tmp/avito_contest_verify_ebm5affe/logs/final.log",
+      "expected_csv_sha256": "3ebda47a966aa2920fe9480cb3b4b1602ec91b63f207d89775d981d16995e3c6",
+      "passed": true,
+      "csv_sha256": "3ebda47a966aa2920fe9480cb3b4b1602ec91b63f207d89775d981d16995e3c6",
+      "output_path": "/private/tmp/avito_contest_verify_ebm5affe/regenerated/final.csv",
+      "query_rows": 2452,
+      "candidates_min": 50,
+      "candidates_max": 50
+    },
+    {
+      "config": "configs/with_history.json",
+      "config_sha256": "7ed11f98246ee8cc81f7fc22248e6bc85c960080760157edf9112effe02fbee3",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "/private/tmp/avito_contest_verify_ebm5affe/bundle/scripts/reproduce.py",
+        "--config",
+        "/private/tmp/avito_contest_verify_ebm5affe/bundle/configs/with_history.json",
+        "--output",
+        "/private/tmp/avito_contest_verify_ebm5affe/regenerated/with_history.csv"
+      ],
+      "seconds": 3.436,
+      "returncode": 0,
+      "stdout_stderr_log": "/private/tmp/avito_contest_verify_ebm5affe/logs/with_history.log",
+      "expected_csv_sha256": "633c2d2413d9c96329f640569dce5a484e05f32af3e3e59f43fd816450af8d6c",
+      "passed": true,
+      "csv_sha256": "633c2d2413d9c96329f640569dce5a484e05f32af3e3e59f43fd816450af8d6c",
+      "output_path": "/private/tmp/avito_contest_verify_ebm5affe/regenerated/with_history.csv",
+      "query_rows": 2452,
+      "candidates_min": 50,
+      "candidates_max": 50
+    },
+    {
+      "config": "configs/no_history.json",
+      "config_sha256": "ddce9a45a34eae55c4acd7ec9368daec1f03dfd0206bb515698d76611886bbda",
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "/private/tmp/avito_contest_verify_ebm5affe/bundle/scripts/reproduce.py",
+        "--config",
+        "/private/tmp/avito_contest_verify_ebm5affe/bundle/configs/no_history.json",
+        "--output",
+        "/private/tmp/avito_contest_verify_ebm5affe/regenerated/no_history.csv"
+      ],
+      "seconds": 3.675,
+      "returncode": 0,
+      "stdout_stderr_log": "/private/tmp/avito_contest_verify_ebm5affe/logs/no_history.log",
+      "expected_csv_sha256": "1c0d5174d676e55e66857ff34e46a7784b2af8b50b6facb2512f37da1d384dac",
+      "passed": true,
+      "csv_sha256": "1c0d5174d676e55e66857ff34e46a7784b2af8b50b6facb2512f37da1d384dac",
+      "output_path": "/private/tmp/avito_contest_verify_ebm5affe/regenerated/no_history.csv",
+      "query_rows": 2452,
+      "candidates_min": 50,
+      "candidates_max": 50
+    }
+  ],
+  "archive_sha256": "699149dd7f0e84abf13461d5378cf371e701c7da9c3ce49dfcdc92c59cff5aad",
+  "offline_execution": {
+    "path": "saved scripts/reproduce.py quick mode -> saved scripts/predict.py",
+    "sandbox": "default restricted environment; no network escalation requested",
+    "raw_data_in_extracted_bundle": false,
+    "dense_embeddings_or_transformer_weights_in_extracted_bundle": false,
+    "external_api_calls_in_executed_code_path": false,
+    "evidence": "Inspected quick reproduction path: local ID Parquet, numeric candidate Parquet and CatBoost files only; --rebuild was not used.",
+    "network_packet_capture_performed": false
+  },
+  "all_regenerated_outputs_match": true,
+  "source_archive_unchanged": true,
+  "finished_at_utc": "2026-09-28T03:11:36.070425+00:00",
+  "total_seconds": 13.462
+}

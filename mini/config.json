@@ -1,0 +1,26 @@
+{
+  "models": [
+    {
+      "path": "models/final_d6.cbm",
+      "features": "models/final_d6.feature_names.json",
+      "weight": 0.5
+    },
+    {
+      "path": "models/final_no_history.cbm",
+      "features": "models/final_no_history.feature_names.json",
+      "weight": 0.5
+    }
+  ],
+  "files": {
+    "data/features.parquet": "470c3d4f4648320682bd7fabdd41fa6b3cc6164171857a16fed2a3d0baa6cf94",
+    "data/queries.parquet": "38e2617260fe26e82ab303eb3e378d219ce5a72e229af7138db924172b978a22",
+    "data/items.parquet": "66851ee0cd44e64dba3d3c8d6d7c1def143693c18e4f94009d9d300ce3191cf2",
+    "models/final_d6.cbm": "38ac8ea96878f50103b1be75813316131ab352d1b77d3d98ded11133991c7b70",
+    "models/final_d6.feature_names.json": "cdeeb78cd47de624cd4201705aa5331873524d6a471a6dd994c874afc1405322",
+    "models/final_no_history.cbm": "a987e85b19fe82f1d10811db73299d17c9a3e53b1b188619d8241dadb2134919",
+    "models/final_no_history.feature_names.json": "d61d1ac25dab384e21f497b912a8be3f228e560513cc5458eb8c1ec28514ee31"
+  },
+  "answer_sha256": "3ebda47a966aa2920fe9480cb3b4b1602ec91b63f207d89775d981d16995e3c6",
+  "source_commit": "d5e15cb846a2765d7f93835a0b40022df0387064",
+  "source_config_sha256": "23aed16f25a3a087aa9bb1761b655056f85258d193d403cc5e80e7bf1e8575dc"
+}

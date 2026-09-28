@@ -1,0 +1,233 @@
+{
+  "scope": "Read-only copy of the original solution source at index refresh time",
+  "files": {
+    "data_dump/source_snapshot/README.md": {
+      "path": "data_dump/source_snapshot/README.md",
+      "sha256": "dd7fdb7472b4ad6d645451783c856505f25455fd07acf5c754c03c9ffc9d17bc",
+      "bytes": 11664,
+      "original_path": "README.md"
+    },
+    "data_dump/source_snapshot/configs/selection.json": {
+      "path": "data_dump/source_snapshot/configs/selection.json",
+      "sha256": "0794eeeae97538bd95c2827c4f1feb3ddba75522365a8b308386a8b4ac4a5601",
+      "bytes": 2125,
+      "original_path": "configs/selection.json"
+    },
+    "data_dump/source_snapshot/docs/method.md": {
+      "path": "data_dump/source_snapshot/docs/method.md",
+      "sha256": "072214b145cc94a9e232b26c02650be2a8e0dc0f882b0c928f34ea6c1aa6cbaf",
+      "bytes": 29027,
+      "original_path": "docs/method.md"
+    },
+    "data_dump/source_snapshot/docs/task.md": {
+      "path": "data_dump/source_snapshot/docs/task.md",
+      "sha256": "70fb3c5965386fac86487f56d87fa5114f8f5aa87f8c609fd5bf0995c3fc28da",
+      "bytes": 13835,
+      "original_path": "docs/task.md"
+    },
+    "data_dump/source_snapshot/docs/working_notes.md": {
+      "path": "data_dump/source_snapshot/docs/working_notes.md",
+      "sha256": "9682b521caaf027ca6e518c812b396c63c97c99440afabbdfa2fb8aafe83d2ce",
+      "bytes": 2587,
+      "original_path": "docs/working_notes.md"
+    },
+    "data_dump/source_snapshot/pyproject.toml": {
+      "path": "data_dump/source_snapshot/pyproject.toml",
+      "sha256": "ebbf5f388c137dd0b74170d93eebdc74c587fd56d6adf4679654cd871470d355",
+      "bytes": 709,
+      "original_path": "pyproject.toml"
+    },
+    "data_dump/source_snapshot/reports/final_audit.json": {
+      "path": "data_dump/source_snapshot/reports/final_audit.json",
+      "sha256": "99c52cb9bf0e9395fd611eaa9abf34d7a0b5256e121b74485f47e65aad90da7b",
+      "bytes": 13600,
+      "original_path": "reports/final_audit.json"
+    },
+    "data_dump/source_snapshot/reports/lexical_error_analysis.md": {
+      "path": "data_dump/source_snapshot/reports/lexical_error_analysis.md",
+      "sha256": "6398733e8e61565feaea70be00c5bce2aa03d16fa23f40dcf225968c197098be",
+      "bytes": 12240,
+      "original_path": "reports/lexical_error_analysis.md"
+    },
+    "data_dump/source_snapshot/scripts/build_features.py": {
+      "path": "data_dump/source_snapshot/scripts/build_features.py",
+      "sha256": "94dc818643d825abf6737df56b3e0600be604555be21a1ff70ceb1ea81ec0d09",
+      "bytes": 5695,
+      "original_path": "scripts/build_features.py"
+    },
+    "data_dump/source_snapshot/scripts/compare_models.py": {
+      "path": "data_dump/source_snapshot/scripts/compare_models.py",
+      "sha256": "a93ecc7adab5aad3c8fd2aa1736e7d0694c3a4180d67f05da951df695282f2ff",
+      "bytes": 9637,
+      "original_path": "scripts/compare_models.py"
+    },
+    "data_dump/source_snapshot/scripts/download_data.py": {
+      "path": "data_dump/source_snapshot/scripts/download_data.py",
+      "sha256": "b5cd579ea8ce60cfb45a53159cfd5cb4c89eb4dc943871476b9806514bf00bd0",
+      "bytes": 5955,
+      "original_path": "scripts/download_data.py"
+    },
+    "data_dump/source_snapshot/scripts/evaluate.py": {
+      "path": "data_dump/source_snapshot/scripts/evaluate.py",
+      "sha256": "c22b804f94574e911452035f91c7913c30d6ff8c1acd309b8411bea890d3cae2",
+      "bytes": 3020,
+      "original_path": "scripts/evaluate.py"
+    },
+    "data_dump/source_snapshot/scripts/package_solution.py": {
+      "path": "data_dump/source_snapshot/scripts/package_solution.py",
+      "sha256": "ed6cfc1346044f286a8dfdbff464122662acf5daf8391e6195f119e53a7c44d7",
+      "bytes": 14317,
+      "original_path": "scripts/package_solution.py"
+    },
+    "data_dump/source_snapshot/scripts/predict.py": {
+      "path": "data_dump/source_snapshot/scripts/predict.py",
+      "sha256": "e9533fc46f975a7d711ae254adcba0c70a2d8a03e63cda8eb04ef3b2c6509585",
+      "bytes": 9646,
+      "original_path": "scripts/predict.py"
+    },
+    "data_dump/source_snapshot/scripts/prepare_dense.py": {
+      "path": "data_dump/source_snapshot/scripts/prepare_dense.py",
+      "sha256": "0a21e75d307aaf9a749fa49553392c12353be898b491b1f96cd1724ecc752324",
+      "bytes": 4213,
+      "original_path": "scripts/prepare_dense.py"
+    },
+    "data_dump/source_snapshot/scripts/prepare_lexical.py": {
+      "path": "data_dump/source_snapshot/scripts/prepare_lexical.py",
+      "sha256": "fad0dd10e079451dba7bb520632c42c9fa54618a339fe3175a6367dfde0c6fc0",
+      "bytes": 2196,
+      "original_path": "scripts/prepare_lexical.py"
+    },
+    "data_dump/source_snapshot/scripts/prepare_validation.py": {
+      "path": "data_dump/source_snapshot/scripts/prepare_validation.py",
+      "sha256": "41de6ed018b59e474557426f28ae073de19894d414a01ddfd25a8ae9e4b131ad",
+      "bytes": 7512,
+      "original_path": "scripts/prepare_validation.py"
+    },
+    "data_dump/source_snapshot/scripts/profile_data.py": {
+      "path": "data_dump/source_snapshot/scripts/profile_data.py",
+      "sha256": "8c469a08f777edbb2b7c5bf4e0a2883a0cd0701640c19b9c10f6f406e5dd9189",
+      "bytes": 4154,
+      "original_path": "scripts/profile_data.py"
+    },
+    "data_dump/source_snapshot/scripts/reproduce.py": {
+      "path": "data_dump/source_snapshot/scripts/reproduce.py",
+      "sha256": "770db5db44d50002fc881c72aa9e3d0ba74e2faf16ed0eda4c59d2791d315f7f",
+      "bytes": 6289,
+      "original_path": "scripts/reproduce.py"
+    },
+    "data_dump/source_snapshot/scripts/train_ranker.py": {
+      "path": "data_dump/source_snapshot/scripts/train_ranker.py",
+      "sha256": "97a1c473b9d17a0cff47544328730fc4ff34b4783557e8a52840596173c91bc5",
+      "bytes": 9703,
+      "original_path": "scripts/train_ranker.py"
+    },
+    "data_dump/source_snapshot/src/avito_retrieval/__init__.py": {
+      "path": "data_dump/source_snapshot/src/avito_retrieval/__init__.py",
+      "sha256": "319504c0c2217fa66e2c810694617e07e666395b5140306262d42e69131e806a",
+      "bytes": 115,
+      "original_path": "src/avito_retrieval/__init__.py"
+    },
+    "data_dump/source_snapshot/src/avito_retrieval/behavior.py": {
+      "path": "data_dump/source_snapshot/src/avito_retrieval/behavior.py",
+      "sha256": "efc995f0fa646d5f9150bdef49d2d931a7e092ebedad7730fbf569907dbe9d44",
+      "bytes": 7243,
+      "original_path": "src/avito_retrieval/behavior.py"
+    },
+    "data_dump/source_snapshot/src/avito_retrieval/candidates.py": {
+      "path": "data_dump/source_snapshot/src/avito_retrieval/candidates.py",
+      "sha256": "ec5c2a0a30f9d5638ba6fd9ee62ab457442af9d4dd3c983cfe833865776d3840",
+      "bytes": 11619,
+      "original_path": "src/avito_retrieval/candidates.py"
+    },
+    "data_dump/source_snapshot/src/avito_retrieval/dense.py": {
+      "path": "data_dump/source_snapshot/src/avito_retrieval/dense.py",
+      "sha256": "77d946d30a0d6ec743cfe6d4c286322bea19e9ba94a626162874b5d684115bc1",
+      "bytes": 16248,
+      "original_path": "src/avito_retrieval/dense.py"
+    },
+    "data_dump/source_snapshot/src/avito_retrieval/evaluation.py": {
+      "path": "data_dump/source_snapshot/src/avito_retrieval/evaluation.py",
+      "sha256": "253905ae5ae7c526b5c9190b9f88aa8c83029941cd688bc01077af2c73a4423b",
+      "bytes": 7326,
+      "original_path": "src/avito_retrieval/evaluation.py"
+    },
+    "data_dump/source_snapshot/src/avito_retrieval/geography.py": {
+      "path": "data_dump/source_snapshot/src/avito_retrieval/geography.py",
+      "sha256": "1364190c121f44cdb302f8ba1e4ab2a1300c8696b38a14799ceb4bb682bbd5fa",
+      "bytes": 7881,
+      "original_path": "src/avito_retrieval/geography.py"
+    },
+    "data_dump/source_snapshot/src/avito_retrieval/lexical.py": {
+      "path": "data_dump/source_snapshot/src/avito_retrieval/lexical.py",
+      "sha256": "e2c746d77e58f14deb17204a844c3fba7e3dfc60a0eb8c7919d5e33f767812db",
+      "bytes": 11074,
+      "original_path": "src/avito_retrieval/lexical.py"
+    },
+    "data_dump/source_snapshot/src/avito_retrieval/submission.py": {
+      "path": "data_dump/source_snapshot/src/avito_retrieval/submission.py",
+      "sha256": "23686f592f9440623eb93e5986cbb9eaaeec519078c075618042341ef089b901",
+      "bytes": 8331,
+      "original_path": "src/avito_retrieval/submission.py"
+    },
+    "data_dump/source_snapshot/src/avito_retrieval/text.py": {
+      "path": "data_dump/source_snapshot/src/avito_retrieval/text.py",
+      "sha256": "f3f7bb8653b6eff5288d98949dee197276465a1cc5a2d072cb29be5e5df73212",
+      "bytes": 1199,
+      "original_path": "src/avito_retrieval/text.py"
+    },
+    "data_dump/source_snapshot/tests/test_behavior.py": {
+      "path": "data_dump/source_snapshot/tests/test_behavior.py",
+      "sha256": "09b6a9d688e5a10d0150a7b146b4ff813ef70ef6e3966d4ef2d406adc39f861f",
+      "bytes": 4213,
+      "original_path": "tests/test_behavior.py"
+    },
+    "data_dump/source_snapshot/tests/test_candidates.py": {
+      "path": "data_dump/source_snapshot/tests/test_candidates.py",
+      "sha256": "2c82a1b2f4a588d1f1c5750d7a96f034375358be5adcb2bf347d94cadd81ad32",
+      "bytes": 7731,
+      "original_path": "tests/test_candidates.py"
+    },
+    "data_dump/source_snapshot/tests/test_compare_models.py": {
+      "path": "data_dump/source_snapshot/tests/test_compare_models.py",
+      "sha256": "8c16c5e696f75a44fda33d04c417453b9bb7a70e052b36a9a7d20243d2d6023f",
+      "bytes": 1697,
+      "original_path": "tests/test_compare_models.py"
+    },
+    "data_dump/source_snapshot/tests/test_evaluation.py": {
+      "path": "data_dump/source_snapshot/tests/test_evaluation.py",
+      "sha256": "8da4ba6ba38e7cfc98eacfabb7359644aa6d64b62b365bd62ff663a6d49c9573",
+      "bytes": 2843,
+      "original_path": "tests/test_evaluation.py"
+    },
+    "data_dump/source_snapshot/tests/test_geography.py": {
+      "path": "data_dump/source_snapshot/tests/test_geography.py",
+      "sha256": "8f688be8c3b81256f76cca38e21fce2d9036e4386c3f1262320fa5fb61b70445",
+      "bytes": 3059,
+      "original_path": "tests/test_geography.py"
+    },
+    "data_dump/source_snapshot/tests/test_lexical.py": {
+      "path": "data_dump/source_snapshot/tests/test_lexical.py",
+      "sha256": "c0529a2cf0b63d17644e8c241fd954f63b7310a704061f5d05e37880df5c1fba",
+      "bytes": 3644,
+      "original_path": "tests/test_lexical.py"
+    },
+    "data_dump/source_snapshot/tests/test_predict.py": {
+      "path": "data_dump/source_snapshot/tests/test_predict.py",
+      "sha256": "6d20ab2bc2d52c001f31d31076a3d66c95db48354a2006100863848e92254751",
+      "bytes": 2497,
+      "original_path": "tests/test_predict.py"
+    },
+    "data_dump/source_snapshot/tests/test_reproduce.py": {
+      "path": "data_dump/source_snapshot/tests/test_reproduce.py",
+      "sha256": "bb80ae1be0c42730bf7bbd35f9420161134bb90757ea3f8b18c6ff1672457e08",
+      "bytes": 1778,
+      "original_path": "tests/test_reproduce.py"
+    },
+    "data_dump/source_snapshot/tests/test_submission.py": {
+      "path": "data_dump/source_snapshot/tests/test_submission.py",
+      "sha256": "41e2dd2778f1ee731b0b310348bea87b6104810db16c8ec5ec4cc3772fb9ab0c",
+      "bytes": 5882,
+      "original_path": "tests/test_submission.py"
+    }
+  }
+}

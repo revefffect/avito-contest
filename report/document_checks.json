@@ -1,0 +1,9 @@
+{
+  "pages": 4,
+  "sha256": "bd78d85ad7e98ca8f89ae91110606afad06dd8c90bef5c3518c6fe328c0c52e5",
+  "evidence_links": 45,
+  "absolute_evidence_links": true,
+  "forbidden_text_markers_absent": true,
+  "visual_review": "All four pages rendered and inspected after the final link update. No overlap, clipping or missing glyphs was observed.",
+  "layout": "Adapted ICML 2025, explicitly labelled as a contest technical report"
+}

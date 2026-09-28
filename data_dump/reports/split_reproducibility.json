@@ -1,0 +1,70 @@
+{
+  "verified_at_utc": "2026-09-28T02:46:09.468545+00:00",
+  "seed": 20260928,
+  "queries": 6000,
+  "script": "scripts/prepare_validation.py",
+  "script_sha256": "41de6ed018b59e474557426f28ae073de19894d414a01ddfd25a8ae9e4b131ad",
+  "text_code_sha256": "f3f7bb8653b6eff5288d98949dee197276465a1cc5a2d072cb29be5e5df73212",
+  "runtime": {
+    "python": "3.12.7",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "pyarrow": "22.0.0"
+  },
+  "source_sha256": {
+    "train.parquet": "e150ab7a5c98769f643b95ee3a02dc0f664b647facd69a7d280ec6d48ca554a7",
+    "benchmark_queries.parquet": "e49de4fb76f03979a4af96034817767d39ae5de9f94e254fed028243188dda06",
+    "benchmark_items.parquet": "193b3a3961464620cbf8d8797152b7f90cae1826ca749fb7817a210984a09899"
+  },
+  "all_files_match": true,
+  "files": {
+    "corpus.parquet": {
+      "original_sha256": "e3c5ae47ea02161d6e9f8ab7134b31b7dfe58c3115063b917034796a66e9562f",
+      "recheck_sha256": "e3c5ae47ea02161d6e9f8ab7134b31b7dfe58c3115063b917034796a66e9562f",
+      "byte_identical": true,
+      "original_rows": 195125,
+      "recheck_rows": 195125,
+      "original_bytes": 334832603,
+      "recheck_bytes": 334832603
+    },
+    "retrieval_train.parquet": {
+      "original_sha256": "982156099181b89742471f6aaa7c42a1399cd1e7f6cc9fb6a36eb87edf2d96cb",
+      "recheck_sha256": "982156099181b89742471f6aaa7c42a1399cd1e7f6cc9fb6a36eb87edf2d96cb",
+      "byte_identical": true,
+      "original_rows": 468951,
+      "recheck_rows": 468951,
+      "original_bytes": 42156657,
+      "recheck_bytes": 42156657
+    },
+    "eval_queries.parquet": {
+      "original_sha256": "dce7d2a2be0aca772f7f1c1d8dee85ed9892977b467f1b71ce69f7f3d4beec40",
+      "recheck_sha256": "dce7d2a2be0aca772f7f1c1d8dee85ed9892977b467f1b71ce69f7f3d4beec40",
+      "byte_identical": true,
+      "original_rows": 6000,
+      "recheck_rows": 6000,
+      "original_bytes": 695779,
+      "recheck_bytes": 695779
+    },
+    "eval_truth.parquet": {
+      "original_sha256": "7ae5679600b1d51801ce8dcec2c01c09dfa7fe24eada9b666467b0bf65b53e3f",
+      "recheck_sha256": "7ae5679600b1d51801ce8dcec2c01c09dfa7fe24eada9b666467b0bf65b53e3f",
+      "byte_identical": true,
+      "original_rows": 6432,
+      "recheck_rows": 6432,
+      "original_bytes": 232594,
+      "recheck_bytes": 232594
+    }
+  },
+  "checks": "SHA256, byte size and Parquet metadata row counts only; no audit quality evaluation",
+  "cleanup": {
+    "removed": true,
+    "files": [
+      "data/validation_recheck/corpus.parquet",
+      "data/validation_recheck/retrieval_train.parquet",
+      "data/validation_recheck/eval_queries.parquet",
+      "data/validation_recheck/eval_truth.parquet",
+      "data/validation_recheck/prepare.log",
+      "data/validation_recheck/reports/validation_split.json"
+    ]
+  }
+}

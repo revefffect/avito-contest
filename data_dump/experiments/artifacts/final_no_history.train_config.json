@@ -1,0 +1,32 @@
+{
+  "features": "artifacts/features_hybrid.parquet",
+  "output": "artifacts/final_no_history.cbm",
+  "queries": "data/processed/eval_queries.parquet",
+  "truth": "data/processed/eval_truth.parquet",
+  "corpus": "data/processed/corpus.parquet",
+  "loss": "Logloss",
+  "iterations": 1000,
+  "depth": 6,
+  "learning_rate": 0.07,
+  "checkpoint_period": 50,
+  "threads": 4,
+  "seed": 42,
+  "drop_features": "category_match,popularity,memory_score,text_item_count,context_item_count,rank_memory,rank_geo_memory",
+  "fit_splits": "fit,dev",
+  "fixed_iterations": true,
+  "reference_queries": "data/raw/benchmark_queries.parquet",
+  "fit_query_count": 4500,
+  "dev_query_count": 0,
+  "dropped_features": [
+    "category_match",
+    "context_item_count",
+    "memory_score",
+    "popularity",
+    "rank_geo_memory",
+    "rank_memory",
+    "text_item_count"
+  ],
+  "selected_iteration": 1000,
+  "selected_dev_recall@50": null,
+  "seconds": 354.439
+}

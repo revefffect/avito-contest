@@ -1,0 +1,1077 @@
+{
+  "excluded_self": "data_dump/provenance/dump_inventory.json",
+  "files": {
+    "data_dump/configs/final.json": {
+      "path": "data_dump/configs/final.json",
+      "sha256": "23aed16f25a3a087aa9bb1761b655056f85258d193d403cc5e80e7bf1e8575dc",
+      "bytes": 2415,
+      "original_path": "configs/final.json"
+    },
+    "data_dump/configs/no_history.json": {
+      "path": "data_dump/configs/no_history.json",
+      "sha256": "ddce9a45a34eae55c4acd7ec9368daec1f03dfd0206bb515698d76611886bbda",
+      "bytes": 1729,
+      "original_path": "configs/no_history.json"
+    },
+    "data_dump/configs/selection.json": {
+      "path": "data_dump/configs/selection.json",
+      "sha256": "0794eeeae97538bd95c2827c4f1feb3ddba75522365a8b308386a8b4ac4a5601",
+      "bytes": 2125,
+      "original_path": "configs/selection.json"
+    },
+    "data_dump/configs/with_history.json": {
+      "path": "data_dump/configs/with_history.json",
+      "sha256": "7ed11f98246ee8cc81f7fc22248e6bc85c960080760157edf9112effe02fbee3",
+      "bytes": 1551,
+      "original_path": "configs/with_history.json"
+    },
+    "data_dump/docs/task.md": {
+      "path": "data_dump/docs/task.md",
+      "sha256": "70fb3c5965386fac86487f56d87fa5114f8f5aa87f8c609fd5bf0995c3fc28da",
+      "bytes": 13835,
+      "original_path": "docs/task.md"
+    },
+    "data_dump/experiments/artifacts/answer.log": {
+      "path": "data_dump/experiments/artifacts/answer.log",
+      "sha256": "be2441adfa0c493f74c3b84fe9305368d0d3eff20a5eedaed4dd59ee6d17510b",
+      "bytes": 2745,
+      "original_path": "artifacts/answer.log"
+    },
+    "data_dump/experiments/artifacts/answer_no_history.log": {
+      "path": "data_dump/experiments/artifacts/answer_no_history.log",
+      "sha256": "f65a146373e4a4a3ca4f6ea37ea70d3d35595328e198b688ae2115672c2477c5",
+      "bytes": 2426,
+      "original_path": "artifacts/answer_no_history.log"
+    },
+    "data_dump/experiments/artifacts/answer_with_history.log": {
+      "path": "data_dump/experiments/artifacts/answer_with_history.log",
+      "sha256": "1c6128429161b59fc07dcab099b21f72d4da2c99b62b13cb89bb52c4821cea46",
+      "bytes": 2413,
+      "original_path": "artifacts/answer_with_history.log"
+    },
+    "data_dump/experiments/artifacts/dense/benchmark100.json": {
+      "path": "data_dump/experiments/artifacts/dense/benchmark100.json",
+      "sha256": "9297af96577f7466edc983d8149c539979169ac403e0cf8c5790bee4cea09c1f",
+      "bytes": 696,
+      "original_path": "artifacts/dense/benchmark100.json"
+    },
+    "data_dump/experiments/artifacts/dense/benchmark_queries.meta.json": {
+      "path": "data_dump/experiments/artifacts/dense/benchmark_queries.meta.json",
+      "sha256": "c96461ac39f75f406c7856ae0a0fcea938811039f5d20262e80e90fe7a9d9008",
+      "bytes": 1074,
+      "original_path": "artifacts/dense/benchmark_queries.meta.json"
+    },
+    "data_dump/experiments/artifacts/dense/benchmark_queries_plain.meta.json": {
+      "path": "data_dump/experiments/artifacts/dense/benchmark_queries_plain.meta.json",
+      "sha256": "42749a2cb7469d2c7d2d3178c877ca70c37c9a98e46a36ba6bd633398c5c8808",
+      "bytes": 1102,
+      "original_path": "artifacts/dense/benchmark_queries_plain.meta.json"
+    },
+    "data_dump/experiments/artifacts/dense/eval_queries.meta.json": {
+      "path": "data_dump/experiments/artifacts/dense/eval_queries.meta.json",
+      "sha256": "9999ab24d2930eb3d52947f4fa6036d7488387340127225bda3164496cf1990e",
+      "bytes": 1068,
+      "original_path": "artifacts/dense/eval_queries.meta.json"
+    },
+    "data_dump/experiments/artifacts/dense/eval_queries_plain.meta.json": {
+      "path": "data_dump/experiments/artifacts/dense/eval_queries_plain.meta.json",
+      "sha256": "7cd402c49cbb661cd696eaf95943ba079891dc3491047956ddf561b1e761bba3",
+      "bytes": 1097,
+      "original_path": "artifacts/dense/eval_queries_plain.meta.json"
+    },
+    "data_dump/experiments/artifacts/dense/items.meta.json": {
+      "path": "data_dump/experiments/artifacts/dense/items.meta.json",
+      "sha256": "ae59c8573a2de405201109d6a42cc40a99b4de5f730fa8bffc5bb27ef99ac392",
+      "bytes": 1067,
+      "original_path": "artifacts/dense/items.meta.json"
+    },
+    "data_dump/experiments/artifacts/dense/prepare.log": {
+      "path": "data_dump/experiments/artifacts/dense/prepare.log",
+      "sha256": "400d20cf61b2fdcad4582bda0e43a87f736c3cee40b7e9a829cf3e7d50fb476b",
+      "bytes": 29480,
+      "original_path": "artifacts/dense/prepare.log"
+    },
+    "data_dump/experiments/artifacts/dense/prepare_plain.log": {
+      "path": "data_dump/experiments/artifacts/dense/prepare_plain.log",
+      "sha256": "ecc8465436968434d71f1cebb7b4e7a1c1dbdb2964cefb3d678402f2b43295e7",
+      "bytes": 1559,
+      "original_path": "artifacts/dense/prepare_plain.log"
+    },
+    "data_dump/experiments/artifacts/dense/smoke100/items.meta.json": {
+      "path": "data_dump/experiments/artifacts/dense/smoke100/items.meta.json",
+      "sha256": "7a22664eefa31c1f573712586081798502b9ed4f1a51987b6b5a0ddffca7148a",
+      "bytes": 1061,
+      "original_path": "artifacts/dense/smoke100/items.meta.json"
+    },
+    "data_dump/experiments/artifacts/features_benchmark.log": {
+      "path": "data_dump/experiments/artifacts/features_benchmark.log",
+      "sha256": "0dad001c6d578e65db3058825db52047d0e52977ef883cc1f95bc1bd3a8ce7e5",
+      "bytes": 1924,
+      "original_path": "artifacts/features_benchmark.log"
+    },
+    "data_dump/experiments/artifacts/features_benchmark.metadata.json": {
+      "path": "data_dump/experiments/artifacts/features_benchmark.metadata.json",
+      "sha256": "7c60598c6b85f3943fb7b5cae1256ce877e0b61d27f163f9ca2ac07bc42da6c0",
+      "bytes": 781,
+      "original_path": "artifacts/features_benchmark.metadata.json"
+    },
+    "data_dump/experiments/artifacts/features_hybrid.log": {
+      "path": "data_dump/experiments/artifacts/features_hybrid.log",
+      "sha256": "4d7f225d768758fa9985b4a0e830c5f11127d658ef43c8c0ab94d934a22db185",
+      "bytes": 3421,
+      "original_path": "artifacts/features_hybrid.log"
+    },
+    "data_dump/experiments/artifacts/features_hybrid.metadata.json": {
+      "path": "data_dump/experiments/artifacts/features_hybrid.metadata.json",
+      "sha256": "d1fc09b48e0f20dcbf91fd9304faab92557ee01a4aa63151f3b69aad1ff2740c",
+      "bytes": 782,
+      "original_path": "artifacts/features_hybrid.metadata.json"
+    },
+    "data_dump/experiments/artifacts/features_lexical.log": {
+      "path": "data_dump/experiments/artifacts/features_lexical.log",
+      "sha256": "b53b47fd50c055c7653121677c6a55595ec1fcff5b3b1f73a8b83efc7dbaa1cf",
+      "bytes": 3327,
+      "original_path": "artifacts/features_lexical.log"
+    },
+    "data_dump/experiments/artifacts/features_smoke.log": {
+      "path": "data_dump/experiments/artifacts/features_smoke.log",
+      "sha256": "fd3c71c3eef1e1add4b8d4191a144b90c97eab912d503cf080a1df88879e7ee2",
+      "bytes": 933,
+      "original_path": "artifacts/features_smoke.log"
+    },
+    "data_dump/experiments/artifacts/final_audit.log": {
+      "path": "data_dump/experiments/artifacts/final_audit.log",
+      "sha256": "d8e0eba784a636c719e40dcd18564732546ade58ea84f861ade5510ec69a7b69",
+      "bytes": 1012,
+      "original_path": "artifacts/final_audit.log"
+    },
+    "data_dump/experiments/artifacts/final_d6.evaluation.json": {
+      "path": "data_dump/experiments/artifacts/final_d6.evaluation.json",
+      "sha256": "cda2969302b8c83a9951fdd12f013d3eb878cedb89bcda9dc1c4cdec9b426829",
+      "bytes": 53,
+      "original_path": "artifacts/final_d6.evaluation.json"
+    },
+    "data_dump/experiments/artifacts/final_d6.feature_names.json": {
+      "path": "data_dump/experiments/artifacts/final_d6.feature_names.json",
+      "sha256": "cdeeb78cd47de624cd4201705aa5331873524d6a471a6dd994c874afc1405322",
+      "bytes": 1282,
+      "original_path": "artifacts/final_d6.feature_names.json"
+    },
+    "data_dump/experiments/artifacts/final_d6.log": {
+      "path": "data_dump/experiments/artifacts/final_d6.log",
+      "sha256": "d6e45f2a0cdef057aef4e43c1ccef111acb3acdb299114be92f692fa9570e7ca",
+      "bytes": 1879,
+      "original_path": "artifacts/final_d6.log"
+    },
+    "data_dump/experiments/artifacts/final_d6.train_config.json": {
+      "path": "data_dump/experiments/artifacts/final_d6.train_config.json",
+      "sha256": "1c170ef35cb99150eae324984935e9b5e2e660d5d0ef8625bfa82466c159ba00",
+      "bytes": 714,
+      "original_path": "artifacts/final_d6.train_config.json"
+    },
+    "data_dump/experiments/artifacts/final_no_history.evaluation.json": {
+      "path": "data_dump/experiments/artifacts/final_no_history.evaluation.json",
+      "sha256": "20a7c63f1cefa664fd3837164e1a922ef8af3b1547dec1eb38464c82bd53727b",
+      "bytes": 54,
+      "original_path": "artifacts/final_no_history.evaluation.json"
+    },
+    "data_dump/experiments/artifacts/final_no_history.feature_names.json": {
+      "path": "data_dump/experiments/artifacts/final_no_history.feature_names.json",
+      "sha256": "d61d1ac25dab384e21f497b912a8be3f228e560513cc5458eb8c1ec28514ee31",
+      "bytes": 1165,
+      "original_path": "artifacts/final_no_history.feature_names.json"
+    },
+    "data_dump/experiments/artifacts/final_no_history.log": {
+      "path": "data_dump/experiments/artifacts/final_no_history.log",
+      "sha256": "b7a909882691466aa9496d688385baafac030c16915c8bbe66958dbc52620970",
+      "bytes": 2268,
+      "original_path": "artifacts/final_no_history.log"
+    },
+    "data_dump/experiments/artifacts/final_no_history.train_config.json": {
+      "path": "data_dump/experiments/artifacts/final_no_history.train_config.json",
+      "sha256": "83447d68327aefcdc0a2aa3221e7554abe48581372e01fcb176f8b62e4e059b9",
+      "bytes": 940,
+      "original_path": "artifacts/final_no_history.train_config.json"
+    },
+    "data_dump/experiments/artifacts/knowledge_benchmark.json": {
+      "path": "data_dump/experiments/artifacts/knowledge_benchmark.json",
+      "sha256": "1f5f61a9e68514da29c91a75269e2d996f76b3a4c4d6bc39224b1ef5c6b85a63",
+      "bytes": 365,
+      "original_path": "artifacts/knowledge_benchmark.json"
+    },
+    "data_dump/experiments/artifacts/knowledge_validation.json": {
+      "path": "data_dump/experiments/artifacts/knowledge_validation.json",
+      "sha256": "006c8ec23cae7adf5ef59427f4d93b0509907b6aa51ed6d749a7d20db93cec6c",
+      "bytes": 365,
+      "original_path": "artifacts/knowledge_validation.json"
+    },
+    "data_dump/experiments/artifacts/lexical.metadata.json": {
+      "path": "data_dump/experiments/artifacts/lexical.metadata.json",
+      "sha256": "27c0547af156ce9eeb39724b53708fb333cb38a3cf45497bb9ed7e1004c6cf61",
+      "bytes": 736,
+      "original_path": "artifacts/lexical.metadata.json"
+    },
+    "data_dump/experiments/artifacts/package.log": {
+      "path": "data_dump/experiments/artifacts/package.log",
+      "sha256": "2cc9fe8690e8da7681fd9eda996df197054dc31fef747248371c5bf305e5c447",
+      "bytes": 922,
+      "original_path": "artifacts/package.log"
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_d6.dev_queries.parquet": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_d6.dev_queries.parquet",
+      "sha256": "00b0596e40151e627ddf665242f0b7119ce80e243c065e7067f72cc66b3928f8",
+      "bytes": 50676,
+      "original_path": "artifacts/ranker_hybrid_d6.dev_queries.parquet",
+      "rows": 1500,
+      "columns": [
+        "qid",
+        "query_id",
+        "relevant_count",
+        "candidate_count",
+        "recall@union",
+        "recall@10",
+        "recall@50",
+        "recall@100",
+        "regime",
+        "seen_text",
+        "seen_context",
+        "filter_empty",
+        "seen_item_group"
+      ]
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_d6.evaluation.json": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_d6.evaluation.json",
+      "sha256": "763a2099b8720775669f599f22acf5157775cf9bf90e1b977b5e80c16a643e10",
+      "bytes": 86385,
+      "original_path": "artifacts/ranker_hybrid_d6.evaluation.json"
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_d6.feature_names.json": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_d6.feature_names.json",
+      "sha256": "cdeeb78cd47de624cd4201705aa5331873524d6a471a6dd994c874afc1405322",
+      "bytes": 1282,
+      "original_path": "artifacts/ranker_hybrid_d6.feature_names.json"
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_d6.log": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_d6.log",
+      "sha256": "c0f05de4686367385a5baf6e18d4e2f93f7f6fc50964700348cf0fed593a3d2b",
+      "bytes": 3563,
+      "original_path": "artifacts/ranker_hybrid_d6.log"
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_d6.train_config.json": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_d6.train_config.json",
+      "sha256": "96e3abbc1c1f022bc19d3e2c7e6b7c2cee22e6285c106614e24978a6bf3c0821",
+      "bytes": 785,
+      "original_path": "artifacts/ranker_hybrid_d6.train_config.json"
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_d7.dev_queries.parquet": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_d7.dev_queries.parquet",
+      "sha256": "39e304c304080bea91cfb851fdfc957fc7e44550392d49c99d2903e3965cf5d4",
+      "bytes": 50724,
+      "original_path": "artifacts/ranker_hybrid_d7.dev_queries.parquet",
+      "rows": 1500,
+      "columns": [
+        "qid",
+        "query_id",
+        "relevant_count",
+        "candidate_count",
+        "recall@union",
+        "recall@10",
+        "recall@50",
+        "recall@100",
+        "regime",
+        "seen_text",
+        "seen_context",
+        "filter_empty",
+        "seen_item_group"
+      ]
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_d7.evaluation.json": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_d7.evaluation.json",
+      "sha256": "d04c3c479d064f368acf1259ff3642a12fb98396fc066f9f5f92834caf39cdf7",
+      "bytes": 71063,
+      "original_path": "artifacts/ranker_hybrid_d7.evaluation.json"
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_d7.feature_names.json": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_d7.feature_names.json",
+      "sha256": "cdeeb78cd47de624cd4201705aa5331873524d6a471a6dd994c874afc1405322",
+      "bytes": 1282,
+      "original_path": "artifacts/ranker_hybrid_d7.feature_names.json"
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_d7.log": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_d7.log",
+      "sha256": "f2f829e72045ec27ebad00f287cc8a6ff466aa700d6b430f790f33bf4a1a86d1",
+      "bytes": 3213,
+      "original_path": "artifacts/ranker_hybrid_d7.log"
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_d7.train_config.json": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_d7.train_config.json",
+      "sha256": "65fdd9c32a3143d90feaab0fbbc7d0b824c60c2eeeb29ab696e5ca99767a3022",
+      "bytes": 786,
+      "original_path": "artifacts/ranker_hybrid_d7.train_config.json"
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_no_history.dev_queries.parquet": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_no_history.dev_queries.parquet",
+      "sha256": "bf009942f377e6e3dd9f40d006360477a89ddcb2c8dc8fc173a3c14ab8db0acf",
+      "bytes": 50698,
+      "original_path": "artifacts/ranker_hybrid_no_history.dev_queries.parquet",
+      "rows": 1500,
+      "columns": [
+        "qid",
+        "query_id",
+        "relevant_count",
+        "candidate_count",
+        "recall@union",
+        "recall@10",
+        "recall@50",
+        "recall@100",
+        "regime",
+        "seen_text",
+        "seen_context",
+        "filter_empty",
+        "seen_item_group"
+      ]
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_no_history.evaluation.json": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_no_history.evaluation.json",
+      "sha256": "7f7463eeb7611e2a23fa295729234a379022e9e6c4ad3e007abe38413f17f5f6",
+      "bytes": 70815,
+      "original_path": "artifacts/ranker_hybrid_no_history.evaluation.json"
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_no_history.feature_names.json": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_no_history.feature_names.json",
+      "sha256": "d61d1ac25dab384e21f497b912a8be3f228e560513cc5458eb8c1ec28514ee31",
+      "bytes": 1165,
+      "original_path": "artifacts/ranker_hybrid_no_history.feature_names.json"
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_no_history.log": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_no_history.log",
+      "sha256": "2eedb2245f6270d77f94a897c14d0cfc9ebf66f84bcd653cfa7609702c276651",
+      "bytes": 3414,
+      "original_path": "artifacts/ranker_hybrid_no_history.log"
+    },
+    "data_dump/experiments/artifacts/ranker_hybrid_no_history.train_config.json": {
+      "path": "data_dump/experiments/artifacts/ranker_hybrid_no_history.train_config.json",
+      "sha256": "2eb23341b3e8facd6fb275a26d7c4689d2d20d33b00cc7c3a87acdd8fb1654a4",
+      "bytes": 1012,
+      "original_path": "artifacts/ranker_hybrid_no_history.train_config.json"
+    },
+    "data_dump/experiments/artifacts/ranker_lexical_logloss.dev_queries.parquet": {
+      "path": "data_dump/experiments/artifacts/ranker_lexical_logloss.dev_queries.parquet",
+      "sha256": "b7946496552dec4aac62afb800b8b0ba5d7823a1d601958856ddb4ba7ea83b41",
+      "bytes": 49913,
+      "original_path": "artifacts/ranker_lexical_logloss.dev_queries.parquet",
+      "rows": 1500,
+      "columns": [
+        "qid",
+        "query_id",
+        "relevant_count",
+        "candidate_count",
+        "recall@union",
+        "recall@10",
+        "recall@50",
+        "recall@100",
+        "regime",
+        "seen_text",
+        "seen_context",
+        "filter_empty",
+        "seen_item_group"
+      ]
+    },
+    "data_dump/experiments/artifacts/ranker_lexical_logloss.evaluation.json": {
+      "path": "data_dump/experiments/artifacts/ranker_lexical_logloss.evaluation.json",
+      "sha256": "395ad73da7b434915083261081b3064eb4801143d85ad58a76a81f18c6998969",
+      "bytes": 43191,
+      "original_path": "artifacts/ranker_lexical_logloss.evaluation.json"
+    },
+    "data_dump/experiments/artifacts/ranker_lexical_logloss.feature_names.json": {
+      "path": "data_dump/experiments/artifacts/ranker_lexical_logloss.feature_names.json",
+      "sha256": "6b034cd42f1afdd95226f8d204681fe3b6dd412eeca3d11cf9a893508864c9d9",
+      "bytes": 1028,
+      "original_path": "artifacts/ranker_lexical_logloss.feature_names.json"
+    },
+    "data_dump/experiments/artifacts/ranker_lexical_logloss.log": {
+      "path": "data_dump/experiments/artifacts/ranker_lexical_logloss.log",
+      "sha256": "9bb81f51f5cfe455023eead2098fdb22abd1e0163fad80892a0439d743575476",
+      "bytes": 2525,
+      "original_path": "artifacts/ranker_lexical_logloss.log"
+    },
+    "data_dump/experiments/artifacts/ranker_lexical_logloss.train_config.json": {
+      "path": "data_dump/experiments/artifacts/ranker_lexical_logloss.train_config.json",
+      "sha256": "4dffbc8a91a6afe406074076b94098198e9b17a20109880300560df2e6c6a6c8",
+      "bytes": 754,
+      "original_path": "artifacts/ranker_lexical_logloss.train_config.json"
+    },
+    "data_dump/experiments/artifacts/ranker_lexical_softmax.dev_queries.parquet": {
+      "path": "data_dump/experiments/artifacts/ranker_lexical_softmax.dev_queries.parquet",
+      "sha256": "9fb0fed21906f0b3acf4047bff6d40179fd0d0a447605497e5cc4377a3744fc3",
+      "bytes": 49930,
+      "original_path": "artifacts/ranker_lexical_softmax.dev_queries.parquet",
+      "rows": 1500,
+      "columns": [
+        "qid",
+        "query_id",
+        "relevant_count",
+        "candidate_count",
+        "recall@union",
+        "recall@10",
+        "recall@50",
+        "recall@100",
+        "regime",
+        "seen_text",
+        "seen_context",
+        "filter_empty",
+        "seen_item_group"
+      ]
+    },
+    "data_dump/experiments/artifacts/ranker_lexical_softmax.evaluation.json": {
+      "path": "data_dump/experiments/artifacts/ranker_lexical_softmax.evaluation.json",
+      "sha256": "30b226c6c2d4d5953b563decba41943835e0113cd3fc8d2934a31eece81470ba",
+      "bytes": 43054,
+      "original_path": "artifacts/ranker_lexical_softmax.evaluation.json"
+    },
+    "data_dump/experiments/artifacts/ranker_lexical_softmax.feature_names.json": {
+      "path": "data_dump/experiments/artifacts/ranker_lexical_softmax.feature_names.json",
+      "sha256": "6b034cd42f1afdd95226f8d204681fe3b6dd412eeca3d11cf9a893508864c9d9",
+      "bytes": 1028,
+      "original_path": "artifacts/ranker_lexical_softmax.feature_names.json"
+    },
+    "data_dump/experiments/artifacts/ranker_lexical_softmax.log": {
+      "path": "data_dump/experiments/artifacts/ranker_lexical_softmax.log",
+      "sha256": "48e1c36e381dbed23cbe36423fbb50ead5e343c1a4e1a03f70b4fbf709a9e8eb",
+      "bytes": 2554,
+      "original_path": "artifacts/ranker_lexical_softmax.log"
+    },
+    "data_dump/experiments/artifacts/ranker_lexical_softmax.train_config.json": {
+      "path": "data_dump/experiments/artifacts/ranker_lexical_softmax.train_config.json",
+      "sha256": "62560db810e2d73a27e8a078cc2f10a3b7badd2191d82c59ae1617027a8c01fd",
+      "bytes": 760,
+      "original_path": "artifacts/ranker_lexical_softmax.train_config.json"
+    },
+    "data_dump/experiments/artifacts/reproduce_check.log": {
+      "path": "data_dump/experiments/artifacts/reproduce_check.log",
+      "sha256": "68e61152098942355f07d46661a1864f3f96c51f39e00936feaf8b3cd264eae2",
+      "bytes": 2767,
+      "original_path": "artifacts/reproduce_check.log"
+    },
+    "data_dump/reports/answer.report.json": {
+      "path": "data_dump/reports/answer.report.json",
+      "sha256": "3f75c3bd73b71c3d3293d138b5991ea4f5940d6e5cc3f0f6f564b9cbfb4cfbee",
+      "bytes": 1514,
+      "original_path": "answer.report.json"
+    },
+    "data_dump/reports/answer_no_history.report.json": {
+      "path": "data_dump/reports/answer_no_history.report.json",
+      "sha256": "d8716a9298bc722978c44196193e947fc8e892c75c0e16bf1f750ff312dafb5d",
+      "bytes": 1219,
+      "original_path": "answer_no_history.report.json"
+    },
+    "data_dump/reports/answer_with_history.report.json": {
+      "path": "data_dump/reports/answer_with_history.report.json",
+      "sha256": "f2494aba687ae267d56af6b2d0abfe3177a35f592a1159d4849d14105435a5a6",
+      "bytes": 1212,
+      "original_path": "answer_with_history.report.json"
+    },
+    "data_dump/reports/category_shift.json": {
+      "path": "data_dump/reports/category_shift.json",
+      "sha256": "f35c60257aab620b7f18ed3e9c7fcd7942807656f33a374fa3e494c4fe09031e",
+      "bytes": 580,
+      "original_path": "reports/category_shift.json"
+    },
+    "data_dump/reports/data_profile.json": {
+      "path": "data_dump/reports/data_profile.json",
+      "sha256": "975bafbceca6393a829d4c210dbbf9f25565bd1113ec52a794b51a6d41cb670e",
+      "bytes": 9970,
+      "original_path": "reports/data_profile.json"
+    },
+    "data_dump/reports/embedding_verification.json": {
+      "path": "data_dump/reports/embedding_verification.json",
+      "sha256": "618b9e16102dbf907658171d411128cd440a387be9a9ae79486e870f54193dc0",
+      "bytes": 6546,
+      "original_path": "reports/embedding_verification.json"
+    },
+    "data_dump/reports/feature_reproducibility.json": {
+      "path": "data_dump/reports/feature_reproducibility.json",
+      "sha256": "24fea7408bf2b7cc1b2636dc8126253b8f3133e8d930c13378b3411f67999015",
+      "bytes": 13575,
+      "original_path": "reports/feature_reproducibility.json"
+    },
+    "data_dump/reports/final_audit.json": {
+      "path": "data_dump/reports/final_audit.json",
+      "sha256": "99c52cb9bf0e9395fd611eaa9abf34d7a0b5256e121b74485f47e65aad90da7b",
+      "bytes": 13600,
+      "original_path": "reports/final_audit.json"
+    },
+    "data_dump/reports/final_audit.per_query.parquet": {
+      "path": "data_dump/reports/final_audit.per_query.parquet",
+      "sha256": "64ddac76d3027b7e0b6b33213dbfe4ccfb8e03fe927381bf2819e63d388b93c2",
+      "bytes": 61797,
+      "original_path": "reports/final_audit.per_query.parquet",
+      "rows": 4500,
+      "columns": [
+        "qid",
+        "query_id",
+        "relevant_count",
+        "candidate_count",
+        "recall@union",
+        "recall@10",
+        "recall@50",
+        "recall@100",
+        "regime",
+        "seen_text",
+        "seen_context",
+        "filter_empty",
+        "seen_item_group",
+        "model_name"
+      ]
+    },
+    "data_dump/reports/final_results.json": {
+      "path": "data_dump/reports/final_results.json",
+      "sha256": "236db753ec7c223ee2e313a633a5d1b3f994451eaec10b565a490abfa1d04629",
+      "bytes": 5186,
+      "original_path": "reports/final_results.json"
+    },
+    "data_dump/reports/formatting.log": {
+      "path": "data_dump/reports/formatting.log",
+      "sha256": "3fb378ee4bdf84eef7fb44da6305647ca97c24c81d0b41aab7e72b579c01368e",
+      "bytes": 1863,
+      "original_path": "reports/formatting.log"
+    },
+    "data_dump/reports/geography_analysis.json": {
+      "path": "data_dump/reports/geography_analysis.json",
+      "sha256": "eefcb1f4964e02c5c7fe4bc3c52cd4d0874f26f74c972b257439db2e8e94f73a",
+      "bytes": 39171,
+      "original_path": "reports/geography_analysis.json"
+    },
+    "data_dump/reports/history_ablation_dev.json": {
+      "path": "data_dump/reports/history_ablation_dev.json",
+      "sha256": "37b954fbe49d49c342712132d98103cff59669f95937e4595293fa36f9caf220",
+      "bytes": 22184,
+      "original_path": "reports/history_ablation_dev.json"
+    },
+    "data_dump/reports/history_ablation_dev.per_query.parquet": {
+      "path": "data_dump/reports/history_ablation_dev.per_query.parquet",
+      "sha256": "5b16b5a7738e47fb1748cedbc63fa0f51c95b724537633e66e1ad4e1dc9cfa3d",
+      "bytes": 67050,
+      "original_path": "reports/history_ablation_dev.per_query.parquet",
+      "rows": 7500,
+      "columns": [
+        "qid",
+        "query_id",
+        "relevant_count",
+        "candidate_count",
+        "recall@union",
+        "recall@10",
+        "recall@50",
+        "recall@100",
+        "regime",
+        "seen_text",
+        "seen_context",
+        "filter_empty",
+        "seen_item_group",
+        "model_name"
+      ]
+    },
+    "data_dump/reports/hybrid_heuristic_dev.json": {
+      "path": "data_dump/reports/hybrid_heuristic_dev.json",
+      "sha256": "faf7f960ac99ba5e6426f768de54d3f278714d7cae3470e78022f260f212b6e2",
+      "bytes": 3282,
+      "original_path": "reports/hybrid_heuristic_dev.json"
+    },
+    "data_dump/reports/hybrid_heuristic_dev.log": {
+      "path": "data_dump/reports/hybrid_heuristic_dev.log",
+      "sha256": "64917dc962648621af7ccfe1446a211bc451cc67ec386eecf5f6ad6ac6176f09",
+      "bytes": 3973,
+      "original_path": "reports/hybrid_heuristic_dev.log"
+    },
+    "data_dump/reports/hybrid_heuristic_dev.queries.parquet": {
+      "path": "data_dump/reports/hybrid_heuristic_dev.queries.parquet",
+      "sha256": "5b939789d5d35fd700ce8a4d5f4e5468d740f1868abcfa732b5058b4e16a9f99",
+      "bytes": 51041,
+      "original_path": "reports/hybrid_heuristic_dev.queries.parquet",
+      "rows": 1500,
+      "columns": [
+        "qid",
+        "query_id",
+        "relevant_count",
+        "candidate_count",
+        "recall@union",
+        "recall@10",
+        "recall@50",
+        "recall@100",
+        "regime",
+        "seen_text",
+        "seen_context",
+        "filter_empty",
+        "seen_item_group"
+      ]
+    },
+    "data_dump/reports/hybrid_models_dev.json": {
+      "path": "data_dump/reports/hybrid_models_dev.json",
+      "sha256": "56f905d29cacf285bf658a0e8fd85ab6c4842a58e6739e21ddb2ff5898f0dcec",
+      "bytes": 22235,
+      "original_path": "reports/hybrid_models_dev.json"
+    },
+    "data_dump/reports/hybrid_models_dev.per_query.parquet": {
+      "path": "data_dump/reports/hybrid_models_dev.per_query.parquet",
+      "sha256": "fbce2dca6696d6295dd64abbf11b4607255d627cd623b17948c73cc928401d99",
+      "bytes": 66836,
+      "original_path": "reports/hybrid_models_dev.per_query.parquet",
+      "rows": 7500,
+      "columns": [
+        "qid",
+        "query_id",
+        "relevant_count",
+        "candidate_count",
+        "recall@union",
+        "recall@10",
+        "recall@50",
+        "recall@100",
+        "regime",
+        "seen_text",
+        "seen_context",
+        "filter_empty",
+        "seen_item_group",
+        "model_name"
+      ]
+    },
+    "data_dump/reports/lexical_error_analysis.md": {
+      "path": "data_dump/reports/lexical_error_analysis.md",
+      "sha256": "6398733e8e61565feaea70be00c5bce2aa03d16fa23f40dcf225968c197098be",
+      "bytes": 12240,
+      "original_path": "reports/lexical_error_analysis.md"
+    },
+    "data_dump/reports/lexical_heuristic_dev.json": {
+      "path": "data_dump/reports/lexical_heuristic_dev.json",
+      "sha256": "924aacc1d23f3759c9169f3d91db8dcd3786b097aa63307d422d7ad976160fc2",
+      "bytes": 2982,
+      "original_path": "reports/lexical_heuristic_dev.json"
+    },
+    "data_dump/reports/lexical_heuristic_dev.log": {
+      "path": "data_dump/reports/lexical_heuristic_dev.log",
+      "sha256": "f9e1f463e20206d5d2a251937b84bc43ec3dc710bbe77016bdf2896560296b54",
+      "bytes": 3673,
+      "original_path": "reports/lexical_heuristic_dev.log"
+    },
+    "data_dump/reports/lexical_heuristic_dev.queries.parquet": {
+      "path": "data_dump/reports/lexical_heuristic_dev.queries.parquet",
+      "sha256": "f7cb2ac277b00c1e0b20256e6af733d095f9177b3e20bd464bd3937dd3fcee5d",
+      "bytes": 50205,
+      "original_path": "reports/lexical_heuristic_dev.queries.parquet",
+      "rows": 1500,
+      "columns": [
+        "qid",
+        "query_id",
+        "relevant_count",
+        "candidate_count",
+        "recall@union",
+        "recall@10",
+        "recall@50",
+        "recall@100",
+        "regime",
+        "seen_text",
+        "seen_context",
+        "filter_empty",
+        "seen_item_group"
+      ]
+    },
+    "data_dump/reports/lexical_logloss_dev.json": {
+      "path": "data_dump/reports/lexical_logloss_dev.json",
+      "sha256": "c258cff16ea288407186fe544223fdad14ebabfc86300f1960b14e422a3a1425",
+      "bytes": 3296,
+      "original_path": "reports/lexical_logloss_dev.json"
+    },
+    "data_dump/reports/lexical_logloss_dev.log": {
+      "path": "data_dump/reports/lexical_logloss_dev.log",
+      "sha256": "bfbc9e5b42e4b8ce8a34e8ed0857ce34110c23e3fb346c3665a30f3fc9662f27",
+      "bytes": 3987,
+      "original_path": "reports/lexical_logloss_dev.log"
+    },
+    "data_dump/reports/lexical_logloss_dev.queries.parquet": {
+      "path": "data_dump/reports/lexical_logloss_dev.queries.parquet",
+      "sha256": "b7946496552dec4aac62afb800b8b0ba5d7823a1d601958856ddb4ba7ea83b41",
+      "bytes": 49913,
+      "original_path": "reports/lexical_logloss_dev.queries.parquet",
+      "rows": 1500,
+      "columns": [
+        "qid",
+        "query_id",
+        "relevant_count",
+        "candidate_count",
+        "recall@union",
+        "recall@10",
+        "recall@50",
+        "recall@100",
+        "regime",
+        "seen_text",
+        "seen_context",
+        "filter_empty",
+        "seen_item_group"
+      ]
+    },
+    "data_dump/reports/lexical_models_dev.json": {
+      "path": "data_dump/reports/lexical_models_dev.json",
+      "sha256": "d88310c490def05f157abc877d70bb7d6db816e42f251d516745ecf7aec01f95",
+      "bytes": 9644,
+      "original_path": "reports/lexical_models_dev.json"
+    },
+    "data_dump/reports/lexical_models_dev.log": {
+      "path": "data_dump/reports/lexical_models_dev.log",
+      "sha256": "b830cc3318695e66b7ee9cca31ba49104c43c87f02ca5ee4147a202ae92d6840",
+      "bytes": 923,
+      "original_path": "reports/lexical_models_dev.log"
+    },
+    "data_dump/reports/lexical_models_dev.per_query.parquet": {
+      "path": "data_dump/reports/lexical_models_dev.per_query.parquet",
+      "sha256": "47cf9dfe88b3a4ab4fdf9f0c7c1ea09b088ea245e8af5ca9dc9f8ca7cd2b7838",
+      "bytes": 57671,
+      "original_path": "reports/lexical_models_dev.per_query.parquet",
+      "rows": 3000,
+      "columns": [
+        "qid",
+        "query_id",
+        "relevant_count",
+        "candidate_count",
+        "recall@union",
+        "recall@10",
+        "recall@50",
+        "recall@100",
+        "regime",
+        "seen_text",
+        "seen_context",
+        "filter_empty",
+        "seen_item_group",
+        "model_name"
+      ]
+    },
+    "data_dump/reports/portable_ids.json": {
+      "path": "data_dump/reports/portable_ids.json",
+      "sha256": "89af144dee04d635a2b1c5bf743c6515ef81414967ad3f318ffaf961a1c00de1",
+      "bytes": 518,
+      "original_path": "reports/portable_ids.json"
+    },
+    "data_dump/reports/profile.log": {
+      "path": "data_dump/reports/profile.log",
+      "sha256": "5a18854a02835e9ff5cda07c2dcb9e17625d340240df28e7f2bdc96efcbc9e16",
+      "bytes": 3003,
+      "original_path": "reports/profile.log"
+    },
+    "data_dump/reports/runtime.json": {
+      "path": "data_dump/reports/runtime.json",
+      "sha256": "0d71705ce12d74dbe3d05b774647214ea1b1ce4a45a03ee5884da2945031bc04",
+      "bytes": 763,
+      "original_path": "reports/runtime.json"
+    },
+    "data_dump/reports/split_reproducibility.json": {
+      "path": "data_dump/reports/split_reproducibility.json",
+      "sha256": "0022343991c220d71f292e9403386614d2ad8a56989c28e5b9e808c53ae239bf",
+      "bytes": 2769,
+      "original_path": "reports/split_reproducibility.json"
+    },
+    "data_dump/reports/validation_prepare.log": {
+      "path": "data_dump/reports/validation_prepare.log",
+      "sha256": "35e940583b68658982e17df174275fbe3ea814b21dcd3bab37834ba48d6f9198",
+      "bytes": 1834,
+      "original_path": "reports/validation_prepare.log"
+    },
+    "data_dump/reports/validation_split.json": {
+      "path": "data_dump/reports/validation_split.json",
+      "sha256": "5c04e5c0854b3df2dcf70525a2ef395823a2f52b7159f1c2dbfeb3ac74a71730",
+      "bytes": 1143,
+      "original_path": "reports/validation_split.json"
+    },
+    "data_dump/source_snapshot/README.md": {
+      "path": "data_dump/source_snapshot/README.md",
+      "sha256": "dd7fdb7472b4ad6d645451783c856505f25455fd07acf5c754c03c9ffc9d17bc",
+      "bytes": 11664,
+      "original_path": "README.md"
+    },
+    "data_dump/source_snapshot/configs/selection.json": {
+      "path": "data_dump/source_snapshot/configs/selection.json",
+      "sha256": "0794eeeae97538bd95c2827c4f1feb3ddba75522365a8b308386a8b4ac4a5601",
+      "bytes": 2125,
+      "original_path": "configs/selection.json"
+    },
+    "data_dump/source_snapshot/docs/method.md": {
+      "path": "data_dump/source_snapshot/docs/method.md",
+      "sha256": "072214b145cc94a9e232b26c02650be2a8e0dc0f882b0c928f34ea6c1aa6cbaf",
+      "bytes": 29027,
+      "original_path": "docs/method.md"
+    },
+    "data_dump/source_snapshot/docs/task.md": {
+      "path": "data_dump/source_snapshot/docs/task.md",
+      "sha256": "70fb3c5965386fac86487f56d87fa5114f8f5aa87f8c609fd5bf0995c3fc28da",
+      "bytes": 13835,
+      "original_path": "docs/task.md"
+    },
+    "data_dump/source_snapshot/docs/working_notes.md": {
+      "path": "data_dump/source_snapshot/docs/working_notes.md",
+      "sha256": "9682b521caaf027ca6e518c812b396c63c97c99440afabbdfa2fb8aafe83d2ce",
+      "bytes": 2587,
+      "original_path": "docs/working_notes.md"
+    },
+    "data_dump/source_snapshot/pyproject.toml": {
+      "path": "data_dump/source_snapshot/pyproject.toml",
+      "sha256": "ebbf5f388c137dd0b74170d93eebdc74c587fd56d6adf4679654cd871470d355",
+      "bytes": 709,
+      "original_path": "pyproject.toml"
+    },
+    "data_dump/source_snapshot/reports/final_audit.json": {
+      "path": "data_dump/source_snapshot/reports/final_audit.json",
+      "sha256": "99c52cb9bf0e9395fd611eaa9abf34d7a0b5256e121b74485f47e65aad90da7b",
+      "bytes": 13600,
+      "original_path": "reports/final_audit.json"
+    },
+    "data_dump/source_snapshot/reports/lexical_error_analysis.md": {
+      "path": "data_dump/source_snapshot/reports/lexical_error_analysis.md",
+      "sha256": "6398733e8e61565feaea70be00c5bce2aa03d16fa23f40dcf225968c197098be",
+      "bytes": 12240,
+      "original_path": "reports/lexical_error_analysis.md"
+    },
+    "data_dump/source_snapshot/scripts/build_features.py": {
+      "path": "data_dump/source_snapshot/scripts/build_features.py",
+      "sha256": "94dc818643d825abf6737df56b3e0600be604555be21a1ff70ceb1ea81ec0d09",
+      "bytes": 5695,
+      "original_path": "scripts/build_features.py"
+    },
+    "data_dump/source_snapshot/scripts/compare_models.py": {
+      "path": "data_dump/source_snapshot/scripts/compare_models.py",
+      "sha256": "a93ecc7adab5aad3c8fd2aa1736e7d0694c3a4180d67f05da951df695282f2ff",
+      "bytes": 9637,
+      "original_path": "scripts/compare_models.py"
+    },
+    "data_dump/source_snapshot/scripts/download_data.py": {
+      "path": "data_dump/source_snapshot/scripts/download_data.py",
+      "sha256": "b5cd579ea8ce60cfb45a53159cfd5cb4c89eb4dc943871476b9806514bf00bd0",
+      "bytes": 5955,
+      "original_path": "scripts/download_data.py"
+    },
+    "data_dump/source_snapshot/scripts/evaluate.py": {
+      "path": "data_dump/source_snapshot/scripts/evaluate.py",
+      "sha256": "c22b804f94574e911452035f91c7913c30d6ff8c1acd309b8411bea890d3cae2",
+      "bytes": 3020,
+      "original_path": "scripts/evaluate.py"
+    },
+    "data_dump/source_snapshot/scripts/package_solution.py": {
+      "path": "data_dump/source_snapshot/scripts/package_solution.py",
+      "sha256": "ed6cfc1346044f286a8dfdbff464122662acf5daf8391e6195f119e53a7c44d7",
+      "bytes": 14317,
+      "original_path": "scripts/package_solution.py"
+    },
+    "data_dump/source_snapshot/scripts/predict.py": {
+      "path": "data_dump/source_snapshot/scripts/predict.py",
+      "sha256": "e9533fc46f975a7d711ae254adcba0c70a2d8a03e63cda8eb04ef3b2c6509585",
+      "bytes": 9646,
+      "original_path": "scripts/predict.py"
+    },
+    "data_dump/source_snapshot/scripts/prepare_dense.py": {
+      "path": "data_dump/source_snapshot/scripts/prepare_dense.py",
+      "sha256": "0a21e75d307aaf9a749fa49553392c12353be898b491b1f96cd1724ecc752324",
+      "bytes": 4213,
+      "original_path": "scripts/prepare_dense.py"
+    },
+    "data_dump/source_snapshot/scripts/prepare_lexical.py": {
+      "path": "data_dump/source_snapshot/scripts/prepare_lexical.py",
+      "sha256": "fad0dd10e079451dba7bb520632c42c9fa54618a339fe3175a6367dfde0c6fc0",
+      "bytes": 2196,
+      "original_path": "scripts/prepare_lexical.py"
+    },
+    "data_dump/source_snapshot/scripts/prepare_validation.py": {
+      "path": "data_dump/source_snapshot/scripts/prepare_validation.py",
+      "sha256": "41de6ed018b59e474557426f28ae073de19894d414a01ddfd25a8ae9e4b131ad",
+      "bytes": 7512,
+      "original_path": "scripts/prepare_validation.py"
+    },
+    "data_dump/source_snapshot/scripts/profile_data.py": {
+      "path": "data_dump/source_snapshot/scripts/profile_data.py",
+      "sha256": "8c469a08f777edbb2b7c5bf4e0a2883a0cd0701640c19b9c10f6f406e5dd9189",
+      "bytes": 4154,
+      "original_path": "scripts/profile_data.py"
+    },
+    "data_dump/source_snapshot/scripts/reproduce.py": {
+      "path": "data_dump/source_snapshot/scripts/reproduce.py",
+      "sha256": "770db5db44d50002fc881c72aa9e3d0ba74e2faf16ed0eda4c59d2791d315f7f",
+      "bytes": 6289,
+      "original_path": "scripts/reproduce.py"
+    },
+    "data_dump/source_snapshot/scripts/train_ranker.py": {
+      "path": "data_dump/source_snapshot/scripts/train_ranker.py",
+      "sha256": "97a1c473b9d17a0cff47544328730fc4ff34b4783557e8a52840596173c91bc5",
+      "bytes": 9703,
+      "original_path": "scripts/train_ranker.py"
+    },
+    "data_dump/source_snapshot/src/avito_retrieval/__init__.py": {
+      "path": "data_dump/source_snapshot/src/avito_retrieval/__init__.py",
+      "sha256": "319504c0c2217fa66e2c810694617e07e666395b5140306262d42e69131e806a",
+      "bytes": 115,
+      "original_path": "src/avito_retrieval/__init__.py"
+    },
+    "data_dump/source_snapshot/src/avito_retrieval/behavior.py": {
+      "path": "data_dump/source_snapshot/src/avito_retrieval/behavior.py",
+      "sha256": "efc995f0fa646d5f9150bdef49d2d931a7e092ebedad7730fbf569907dbe9d44",
+      "bytes": 7243,
+      "original_path": "src/avito_retrieval/behavior.py"
+    },
+    "data_dump/source_snapshot/src/avito_retrieval/candidates.py": {
+      "path": "data_dump/source_snapshot/src/avito_retrieval/candidates.py",
+      "sha256": "ec5c2a0a30f9d5638ba6fd9ee62ab457442af9d4dd3c983cfe833865776d3840",
+      "bytes": 11619,
+      "original_path": "src/avito_retrieval/candidates.py"
+    },
+    "data_dump/source_snapshot/src/avito_retrieval/dense.py": {
+      "path": "data_dump/source_snapshot/src/avito_retrieval/dense.py",
+      "sha256": "77d946d30a0d6ec743cfe6d4c286322bea19e9ba94a626162874b5d684115bc1",
+      "bytes": 16248,
+      "original_path": "src/avito_retrieval/dense.py"
+    },
+    "data_dump/source_snapshot/src/avito_retrieval/evaluation.py": {
+      "path": "data_dump/source_snapshot/src/avito_retrieval/evaluation.py",
+      "sha256": "253905ae5ae7c526b5c9190b9f88aa8c83029941cd688bc01077af2c73a4423b",
+      "bytes": 7326,
+      "original_path": "src/avito_retrieval/evaluation.py"
+    },
+    "data_dump/source_snapshot/src/avito_retrieval/geography.py": {
+      "path": "data_dump/source_snapshot/src/avito_retrieval/geography.py",
+      "sha256": "1364190c121f44cdb302f8ba1e4ab2a1300c8696b38a14799ceb4bb682bbd5fa",
+      "bytes": 7881,
+      "original_path": "src/avito_retrieval/geography.py"
+    },
+    "data_dump/source_snapshot/src/avito_retrieval/lexical.py": {
+      "path": "data_dump/source_snapshot/src/avito_retrieval/lexical.py",
+      "sha256": "e2c746d77e58f14deb17204a844c3fba7e3dfc60a0eb8c7919d5e33f767812db",
+      "bytes": 11074,
+      "original_path": "src/avito_retrieval/lexical.py"
+    },
+    "data_dump/source_snapshot/src/avito_retrieval/submission.py": {
+      "path": "data_dump/source_snapshot/src/avito_retrieval/submission.py",
+      "sha256": "23686f592f9440623eb93e5986cbb9eaaeec519078c075618042341ef089b901",
+      "bytes": 8331,
+      "original_path": "src/avito_retrieval/submission.py"
+    },
+    "data_dump/source_snapshot/src/avito_retrieval/text.py": {
+      "path": "data_dump/source_snapshot/src/avito_retrieval/text.py",
+      "sha256": "f3f7bb8653b6eff5288d98949dee197276465a1cc5a2d072cb29be5e5df73212",
+      "bytes": 1199,
+      "original_path": "src/avito_retrieval/text.py"
+    },
+    "data_dump/source_snapshot/tests/test_behavior.py": {
+      "path": "data_dump/source_snapshot/tests/test_behavior.py",
+      "sha256": "09b6a9d688e5a10d0150a7b146b4ff813ef70ef6e3966d4ef2d406adc39f861f",
+      "bytes": 4213,
+      "original_path": "tests/test_behavior.py"
+    },
+    "data_dump/source_snapshot/tests/test_candidates.py": {
+      "path": "data_dump/source_snapshot/tests/test_candidates.py",
+      "sha256": "2c82a1b2f4a588d1f1c5750d7a96f034375358be5adcb2bf347d94cadd81ad32",
+      "bytes": 7731,
+      "original_path": "tests/test_candidates.py"
+    },
+    "data_dump/source_snapshot/tests/test_compare_models.py": {
+      "path": "data_dump/source_snapshot/tests/test_compare_models.py",
+      "sha256": "8c16c5e696f75a44fda33d04c417453b9bb7a70e052b36a9a7d20243d2d6023f",
+      "bytes": 1697,
+      "original_path": "tests/test_compare_models.py"
+    },
+    "data_dump/source_snapshot/tests/test_evaluation.py": {
+      "path": "data_dump/source_snapshot/tests/test_evaluation.py",
+      "sha256": "8da4ba6ba38e7cfc98eacfabb7359644aa6d64b62b365bd62ff663a6d49c9573",
+      "bytes": 2843,
+      "original_path": "tests/test_evaluation.py"
+    },
+    "data_dump/source_snapshot/tests/test_geography.py": {
+      "path": "data_dump/source_snapshot/tests/test_geography.py",
+      "sha256": "8f688be8c3b81256f76cca38e21fce2d9036e4386c3f1262320fa5fb61b70445",
+      "bytes": 3059,
+      "original_path": "tests/test_geography.py"
+    },
+    "data_dump/source_snapshot/tests/test_lexical.py": {
+      "path": "data_dump/source_snapshot/tests/test_lexical.py",
+      "sha256": "c0529a2cf0b63d17644e8c241fd954f63b7310a704061f5d05e37880df5c1fba",
+      "bytes": 3644,
+      "original_path": "tests/test_lexical.py"
+    },
+    "data_dump/source_snapshot/tests/test_predict.py": {
+      "path": "data_dump/source_snapshot/tests/test_predict.py",
+      "sha256": "6d20ab2bc2d52c001f31d31076a3d66c95db48354a2006100863848e92254751",
+      "bytes": 2497,
+      "original_path": "tests/test_predict.py"
+    },
+    "data_dump/source_snapshot/tests/test_reproduce.py": {
+      "path": "data_dump/source_snapshot/tests/test_reproduce.py",
+      "sha256": "bb80ae1be0c42730bf7bbd35f9420161134bb90757ea3f8b18c6ff1672457e08",
+      "bytes": 1778,
+      "original_path": "tests/test_reproduce.py"
+    },
+    "data_dump/source_snapshot/tests/test_submission.py": {
+      "path": "data_dump/source_snapshot/tests/test_submission.py",
+      "sha256": "41e2dd2778f1ee731b0b310348bea87b6104810db16c8ec5ec4cc3772fb9ab0c",
+      "bytes": 5882,
+      "original_path": "tests/test_submission.py"
+    },
+    "data_dump/verification.json": {
+      "path": "data_dump/verification.json",
+      "sha256": "afaeba9e242aa33f11d3ee6ef567c1f47d94f511a7386cfce00544bdebc89de3",
+      "bytes": 4776,
+      "original_path": "deliverables/verification.json"
+    },
+    "data_dump/independent/independent_audit.json": {
+      "path": "data_dump/independent/independent_audit.json",
+      "sha256": "28f823d0460da4d76743b6bc53d56f569b04cee894c1283eb7e2789cc99483a8",
+      "bytes": 27953,
+      "original_path": "avito submission/report/independent_audit.json"
+    },
+    "data_dump/independent/independent_audit.md": {
+      "path": "data_dump/independent/independent_audit.md",
+      "sha256": "dfeab6b1b7efa2e10e33f087f80116c9a41f88cf06af5c8febbcd93083f492e9",
+      "bytes": 9002,
+      "original_path": "avito submission/report/independent_audit.md",
+      "original_sha256": "d21a82c223daa29bd7d6a833ddddb8e47c150557392539af86508adb4eb17ecc",
+      "copy_transform": "Rebased evidence links for the relocated Markdown copy"
+    },
+    "data_dump/independent/notebook_verification.json": {
+      "path": "data_dump/independent/notebook_verification.json",
+      "sha256": "a07ebf211ae189c8f7a52df46b43fa8a6544c5c47bd56e7c71abfa7756580c66",
+      "bytes": 4099,
+      "original_path": "avito submission/report/notebook_verification.json"
+    },
+    "data_dump/provenance/dataset.json": {
+      "path": "data_dump/provenance/dataset.json",
+      "sha256": "c585de27b090b7e9f953966b620e2c43db01f3cc0d2c6bb022ba6d19342f5ad0",
+      "bytes": 2305
+    },
+    "data_dump/provenance/model.json": {
+      "path": "data_dump/provenance/model.json",
+      "sha256": "ffc878df9f64d21a8633e32f39adc0cfd71cfa4b0cbe10eb2eac10cc747f23a9",
+      "bytes": 906
+    },
+    "data_dump/provenance/artifacts.json": {
+      "path": "data_dump/provenance/artifacts.json",
+      "sha256": "a8a67caeb98e3158d325a2da6f9a191ba70dd4f0288ecc3288822e4864d8729a",
+      "bytes": 21143
+    },
+    "data_dump/provenance/source_snapshot.json": {
+      "path": "data_dump/provenance/source_snapshot.json",
+      "sha256": "b20790b88a32a4e4504889c1c8e44e262fb4e79ca0fce0e1626565d398477f9c",
+      "bytes": 11154
+    },
+    "data_dump/provenance/training_runs.json": {
+      "path": "data_dump/provenance/training_runs.json",
+      "sha256": "d2e9b844c9a0c34f9ed7b14709eab7669fbfdcefb9f6d4f35777b4381370b1d0",
+      "bytes": 10774
+    },
+    "data_dump/provenance/logs.json": {
+      "path": "data_dump/provenance/logs.json",
+      "sha256": "44653fc5f4a3c7646de9aec4022bd9b54aae628a5da969f490a7af233a36d0a9",
+      "bytes": 7651
+    },
+    "data_dump/provenance/metric_recheck.json": {
+      "path": "data_dump/provenance/metric_recheck.json",
+      "sha256": "d223f9c59e8ff5e9cb16bc9e9e43154ac55d586ab8613f59873bb51328381a10",
+      "bytes": 65100
+    },
+    "data_dump/provenance/solution_manifest.json": {
+      "path": "data_dump/provenance/solution_manifest.json",
+      "sha256": "2a16748c82596a4b5b1a608644c2ea83dd38a089146c982c7a37ceef353290c3",
+      "bytes": 11172
+    }
+  }
+}

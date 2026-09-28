@@ -1,0 +1,16 @@
+{
+  "mode": "benchmark",
+  "dense": true,
+  "plain_query": true,
+  "query_count": 2452,
+  "allowed_n_items": 189212,
+  "queries_sha256": "e49de4fb76f03979a4af96034817767d39ae5de9f94e254fed028243188dda06",
+  "knowledge": {
+    "train_sha256": "e150ab7a5c98769f643b95ee3a02dc0f664b647facd69a7d280ec6d48ca554a7",
+    "corpus_sha256": "e3c5ae47ea02161d6e9f8ab7134b31b7dfe58c3115063b917034796a66e9562f",
+    "behavior_code_sha256": "efc995f0fa646d5f9150bdef49d2d931a7e092ebedad7730fbf569907dbe9d44",
+    "geography_code_sha256": "1364190c121f44cdb302f8ba1e4ab2a1300c8696b38a14799ceb4bb682bbd5fa"
+  },
+  "candidate_code_sha256": "ec5c2a0a30f9d5638ba6fd9ee62ab457442af9d4dd3c983cfe833865776d3840",
+  "features_sha256": "470c3d4f4648320682bd7fabdd41fa6b3cc6164171857a16fed2a3d0baa6cf94"
+}

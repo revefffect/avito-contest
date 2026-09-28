@@ -1,0 +1,63 @@
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.neon'. Detail: [errno 1] Operation not permitted
+{"fit_rows": 3372909, "dev_rows": 1681611, "features": 63}
+0:	learn: 0.4281921	total: 403ms	remaining: 6m 42s
+100:	learn: 0.0027797	total: 31.2s	remaining: 4m 37s
+200:	learn: 0.0025179	total: 1m 1s	remaining: 4m 3s
+300:	learn: 0.0023237	total: 1m 28s	remaining: 3m 25s
+400:	learn: 0.0021731	total: 1m 58s	remaining: 2m 56s
+500:	learn: 0.0020374	total: 2m 32s	remaining: 2m 31s
+600:	learn: 0.0019189	total: 3m 6s	remaining: 2m 3s
+700:	learn: 0.0018002	total: 3m 39s	remaining: 1m 33s
+800:	learn: 0.0017061	total: 4m 12s	remaining: 1m 2s
+900:	learn: 0.0016228	total: 4m 44s	remaining: 31.3s
+999:	learn: 0.0015467	total: 5m 18s	remaining: 0us
+{"iteration": 50, "dev_recall@50": 0.9262777777777779}
+{"iteration": 100, "dev_recall@50": 0.9306111111111112}
+{"iteration": 150, "dev_recall@50": 0.9337222222222223}
+{"iteration": 200, "dev_recall@50": 0.9378333333333333}
+{"iteration": 250, "dev_recall@50": 0.9391666666666667}
+{"iteration": 300, "dev_recall@50": 0.9395}
+{"iteration": 350, "dev_recall@50": 0.9392777777777779}
+{"iteration": 400, "dev_recall@50": 0.9395}
+{"iteration": 450, "dev_recall@50": 0.9406111111111112}
+{"iteration": 500, "dev_recall@50": 0.9406111111111112}
+{"iteration": 550, "dev_recall@50": 0.9406111111111112}
+{"iteration": 600, "dev_recall@50": 0.9399444444444445}
+{"iteration": 650, "dev_recall@50": 0.9396111111111112}
+{"iteration": 700, "dev_recall@50": 0.9398333333333333}
+{"iteration": 750, "dev_recall@50": 0.9389444444444445}
+{"iteration": 800, "dev_recall@50": 0.9399444444444445}
+{"iteration": 850, "dev_recall@50": 0.9391666666666667}
+{"iteration": 900, "dev_recall@50": 0.9401666666666667}
+{"iteration": 950, "dev_recall@50": 0.9398333333333333}
+{"iteration": 1000, "dev_recall@50": 0.9378333333333333}
+{
+  "features": "artifacts/features_hybrid.parquet",
+  "output": "artifacts/ranker_hybrid_d7.cbm",
+  "queries": "data/processed/eval_queries.parquet",
+  "truth": "data/processed/eval_truth.parquet",
+  "corpus": "data/processed/corpus.parquet",
+  "loss": "Logloss",
+  "iterations": 1000,
+  "depth": 7,
+  "learning_rate": 0.07,
+  "checkpoint_period": 50,
+  "threads": 4,
+  "seed": 42,
+  "drop_features": "category_match",
+  "fit_splits": "fit",
+  "fixed_iterations": false,
+  "reference_queries": "data/raw/benchmark_queries.parquet",
+  "fit_query_count": 3000,
+  "dev_query_count": 1500,
+  "dropped_features": [
+    "category_match"
+  ],
+  "selected_iteration": 450,
+  "selected_dev_recall@50": 0.9406111111111112,
+  "reference_empty_fraction": 0.6305057096247961,
+  "seconds": 347.01
+}

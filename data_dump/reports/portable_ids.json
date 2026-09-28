@@ -1,0 +1,17 @@
+{
+  "queries_ids": {
+    "path": "data/ids/benchmark_queries.parquet",
+    "rows": 2452,
+    "sha256": "38e2617260fe26e82ab303eb3e378d219ce5a72e229af7138db924172b978a22"
+  },
+  "allowed_items_ids": {
+    "path": "data/ids/benchmark_items.parquet",
+    "rows": 189212,
+    "sha256": "66851ee0cd44e64dba3d3c8d6d7c1def143693c18e4f94009d9d300ce3191cf2"
+  },
+  "corpus_ids": {
+    "path": "data/ids/corpus.parquet",
+    "rows": 195125,
+    "sha256": "d3aff319545e10b99f3cadde76196a612d539ebfecb0d51d2ee5746dc6543ac4"
+  }
+}

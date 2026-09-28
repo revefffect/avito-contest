@@ -1,0 +1,117 @@
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.neon'. Detail: [errno 1] Operation not permitted
+{
+  "queries": 1500,
+  "recall@10": 0.8140555555555556,
+  "recall@50": 0.929888888888889,
+  "recall@100": 0.950888888888889,
+  "recall@union": 0.9667777777777776,
+  "candidate_count_mean": 544.5513333333333,
+  "groups": {
+    "regime": {
+      "cold_text": {
+        "queries": 970,
+        "recall@10": 0.8029209621993127,
+        "recall@50": 0.9206185567010309,
+        "recall@100": 0.9436426116838487,
+        "recall@union": 0.9630584192439862
+      },
+      "warm_context": {
+        "queries": 60,
+        "recall@10": 0.7833333333333333,
+        "recall@50": 0.9833333333333333,
+        "recall@100": 1.0,
+        "recall@union": 1.0
+      },
+      "warm_text": {
+        "queries": 470,
+        "recall@10": 0.8409574468085106,
+        "recall@50": 0.9421985815602838,
+        "recall@100": 0.9595744680851064,
+        "recall@union": 0.9702127659574468
+      }
+    },
+    "seen_text": {
+      "False": {
+        "queries": 976,
+        "recall@10": 0.8031079234972678,
+        "recall@50": 0.9200819672131147,
+        "recall@100": 0.942964480874317,
+        "recall@union": 0.9622609289617486
+      },
+      "True": {
+        "queries": 524,
+        "recall@10": 0.8344465648854962,
+        "recall@50": 0.9481552162849873,
+        "recall@100": 0.9656488549618321,
+        "recall@union": 0.9751908396946565
+      }
+    },
+    "seen_context": {
+      "False": {
+        "queries": 1440,
+        "recall@10": 0.8153356481481481,
+        "recall@50": 0.927662037037037,
+        "recall@100": 0.9488425925925927,
+        "recall@union": 0.9653935185185184
+      },
+      "True": {
+        "queries": 60,
+        "recall@10": 0.7833333333333333,
+        "recall@50": 0.9833333333333333,
+        "recall@100": 1.0,
+        "recall@union": 1.0
+      }
+    },
+    "filter_empty": {
+      "False": {
+        "queries": 823,
+        "recall@10": 0.8279667881733495,
+        "recall@50": 0.9451194815714863,
+        "recall@100": 0.9641555285540705,
+        "recall@union": 0.9793438639125152
+      },
+      "True": {
+        "queries": 677,
+        "recall@10": 0.7971442639094043,
+        "recall@50": 0.9113737075332349,
+        "recall@100": 0.9347612013786311,
+        "recall@union": 0.9515017232890203
+      }
+    },
+    "seen_item_group": {
+      "all_seen": {
+        "queries": 48,
+        "recall@10": 0.7708333333333334,
+        "recall@50": 0.9166666666666666,
+        "recall@100": 0.9375,
+        "recall@union": 0.9791666666666666
+      },
+      "all_unseen": {
+        "queries": 1448,
+        "recall@10": 0.815895488029466,
+        "recall@50": 0.9303637200736649,
+        "recall@100": 0.9514272559852671,
+        "recall@union": 0.9662753222836095
+      },
+      "mixed": {
+        "queries": 4,
+        "recall@10": 0.6666666666666666,
+        "recall@50": 0.9166666666666666,
+        "recall@100": 0.9166666666666666,
+        "recall@union": 1.0
+      }
+    }
+  },
+  "reference_empty_fraction": 0.6305057096247961,
+  "poststratified_recall@10": 0.8085330106398831,
+  "poststratified_recall@50": 0.9238425783646607,
+  "poststratified_recall@100": 0.9456222374393767,
+  "poststratified_recall@union": 0.9617892352812252,
+  "split": "dev",
+  "features_file": "artifacts/features_lexical.parquet",
+  "model": "artifacts/ranker_lexical_logloss.cbm",
+  "score_column": null
+}

@@ -1,0 +1,14 @@
+{
+  "train_search_category_zero_rows": 34,
+  "train_rows": 497673,
+  "benchmark_search_category_zero_rows": 222,
+  "benchmark_queries": 2452,
+  "corpus_category_114_items": 187336,
+  "corpus_items": 189212,
+  "corpus_category_zero_items": 0,
+  "positive_search_zero_item_categories": [
+    114
+  ],
+  "positive_search_zero_microcategories": 27,
+  "decision": "Exclude category_match from all final models because the development split does not represent the large shift in this feature. Other category evidence comes from training query and filter microcategory distributions."
+}

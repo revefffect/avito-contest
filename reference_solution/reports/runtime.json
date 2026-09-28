@@ -1,0 +1,27 @@
+{
+  "python": "3.12.7",
+  "system": "Darwin",
+  "machine": "arm64",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "pyarrow": "22.0.0",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.8.0",
+    "catboost": "1.2.8",
+    "nltk": "3.9.1",
+    "torch": "2.9.1",
+    "transformers": "5.6.2",
+    "huggingface-hub": "1.12.0",
+    "pytest": "9.0.3"
+  },
+  "training_device": "cpu",
+  "embedding_device": "mps",
+  "embedding_precision": "float32",
+  "tests": {
+    "passed": 67,
+    "command": "PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 python -m pytest -p no:capture tests -q",
+    "black_check": "30 files unchanged"
+  },
+  "note": "Offline quick reproduction uses saved numeric features and CatBoost models. Full dense rebuild may vary between CPU and MPS."
+}

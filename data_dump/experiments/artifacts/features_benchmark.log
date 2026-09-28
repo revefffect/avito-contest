@@ -1,0 +1,23 @@
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.neon'. Detail: [errno 1] Operation not permitted
+Обучаем статистики запросов и географии
+Загружаем текстовый индекс
+Собираем кандидатов и признаки
+16/2452 запросов, 17,297 кандидатов, 1.2с
+160/2452 запросов, 169,169 кандидатов, 7.3с
+320/2452 запросов, 337,097 кандидатов, 13.1с
+480/2452 запросов, 511,263 кандидатов, 18.7с
+640/2452 запросов, 681,639 кандидатов, 24.2с
+800/2452 запросов, 851,788 кандидатов, 32.3с
+960/2452 запросов, 1,021,147 кандидатов, 38.3с
+1120/2452 запросов, 1,189,280 кандидатов, 44.6с
+1280/2452 запросов, 1,360,019 кандидатов, 50.4с
+1440/2452 запросов, 1,526,977 кандидатов, 58.6с
+1600/2452 запросов, 1,698,163 кандидатов, 64.0с
+1760/2452 запросов, 1,867,335 кандидатов, 71.3с
+1920/2452 запросов, 2,035,280 кандидатов, 77.1с
+2080/2452 запросов, 2,204,585 кандидатов, 83.3с
+2240/2452 запросов, 2,374,320 кандидатов, 90.1с
+2400/2452 запросов, 2,548,421 кандидатов, 96.9с

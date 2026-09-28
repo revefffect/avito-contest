@@ -1,0 +1,1423 @@
+{
+  "rows": 497673,
+  "unique_query_locations": 273,
+  "unique_corpus_locations": 2877,
+  "unique_train_search_locations": 2782,
+  "unique_metadata_locations": 3196,
+  "train_exact_location_fraction": 0.83102,
+  "benchmark_query_fraction_with_exact_corpus_location": 0.825856,
+  "benchmark_query_fraction_with_metadata_center": 0.826672,
+  "benchmark_local_corpus_count_quantiles": {
+    "0": 0.0,
+    "0.1": 0.0,
+    "0.25": 368.75,
+    "0.5": 1638.0,
+    "0.75": 3659.0,
+    "0.9": 19543.0,
+    "0.95": 19543.0,
+    "0.99": 19543.0,
+    "1": 19543.0
+  },
+  "benchmark_no_exact_corpus_location": {
+    "107620": 119,
+    "621540": 94,
+    "107621": 50,
+    "637680": 14,
+    "651110": 8,
+    "629990": 8,
+    "653700": 7,
+    "660710": 7,
+    "632660": 7,
+    "645790": 6,
+    "652560": 6,
+    "624770": 5,
+    "629430": 5,
+    "650130": 5,
+    "621550": 4,
+    "640310": 4,
+    "660711": 4,
+    "657610": 3,
+    "641470": 3,
+    "648070": 3,
+    "624300": 3,
+    "634748": 3,
+    "628780": 3,
+    "636370": 3,
+    "646710": 3,
+    "649820": 3,
+    "623840": 3,
+    "634930": 3,
+    "630270": 3,
+    "653420": 2,
+    "657310": 2,
+    "642480": 2,
+    "630660": 2,
+    "643700": 2,
+    "638220": 2,
+    "636030": 2,
+    "656890": 2,
+    "621590": 2,
+    "662811": 1,
+    "642020": 1,
+    "637260": 1,
+    "630750": 1,
+    "662821": 1,
+    "655190": 1,
+    "622470": 1,
+    "628792": 1,
+    "622650": 1,
+    "623410": 1,
+    "633655": 1,
+    "658170": 1,
+    "652220": 1,
+    "650890": 1,
+    "661460": 1,
+    "645530": 1,
+    "623110": 1,
+    "628450": 1,
+    "648960": 1,
+    "659540": 1
+  },
+  "train_query_center_to_clicked_item_distance_km": {
+    "all_known": {
+      "0": 0.0,
+      "0.1": 0.045,
+      "0.25": 0.849,
+      "0.5": 2.941,
+      "0.75": 6.634,
+      "0.9": 13.362,
+      "0.95": 22.262,
+      "0.99": 232.678,
+      "1": 14773.147
+    },
+    "exact_location": {
+      "0": 0.0,
+      "0.1": 0.017,
+      "0.25": 0.754,
+      "0.5": 2.578,
+      "0.75": 5.684,
+      "0.9": 9.871,
+      "0.95": 13.056,
+      "0.99": 20.072,
+      "1": 10972.639
+    },
+    "different_location": {
+      "0": 0.0,
+      "0.1": 9.377,
+      "0.25": 17.383,
+      "0.5": 33.983,
+      "0.75": 98.436,
+      "0.9": 484.928,
+      "0.95": 1152.322,
+      "0.99": 3191.721,
+      "1": 14773.147
+    },
+    "different_location_known_count": 30355,
+    "different_location_total_count": 84097
+  },
+  "different_location_distance_cdf": {
+    "5": 0.033042,
+    "10": 0.110097,
+    "25": 0.39552,
+    "50": 0.621842,
+    "100": 0.752166,
+    "200": 0.84197,
+    "500": 0.901334,
+    "1000": 0.944194
+  },
+  "important_location_profiles": [
+    {
+      "search_location_id": 637640,
+      "benchmark_queries": 329,
+      "corpus_exact_items": 19543,
+      "train_pairs": 36276,
+      "train_same_fraction": 0.920802,
+      "clicked_unique_locations": 262,
+      "top_clicked_locations": {
+        "637640": 33403,
+        "637641": 482,
+        "639740": 176,
+        "638790": 170,
+        "638570": 161
+      },
+      "has_item_metadata_center": true,
+      "clicked_spread_km": {
+        "0.5": 10.26,
+        "0.9": 20.025,
+        "0.99": 628.117
+      },
+      "clicked_median_center": [
+        55.75502,
+        37.61652
+      ],
+      "item_metadata_center": [
+        55.75582,
+        37.6177
+      ]
+    },
+    {
+      "search_location_id": 653240,
+      "benchmark_queries": 214,
+      "corpus_exact_items": 12145,
+      "train_pairs": 25229,
+      "train_same_fraction": 0.943914,
+      "clicked_unique_locations": 160,
+      "top_clicked_locations": {
+        "653240": 23814,
+        "806660": 184,
+        "636840": 177,
+        "806540": 149,
+        "806520": 145
+      },
+      "has_item_metadata_center": true,
+      "clicked_spread_km": {
+        "0.5": 8.393,
+        "0.9": 14.911,
+        "0.99": 59.477
+      },
+      "clicked_median_center": [
+        59.93545,
+        30.32481
+      ],
+      "item_metadata_center": [
+        59.93676,
+        30.32274
+      ]
+    },
+    {
+      "search_location_id": 107620,
+      "benchmark_queries": 119,
+      "corpus_exact_items": 0,
+      "train_pairs": 12277,
+      "train_same_fraction": 0.0,
+      "clicked_unique_locations": 233,
+      "top_clicked_locations": {
+        "637640": 7517,
+        "638790": 346,
+        "637770": 300,
+        "638570": 295,
+        "639740": 261
+      },
+      "has_item_metadata_center": false,
+      "clicked_spread_km": {
+        "0.5": 15.461,
+        "0.9": 41.736,
+        "0.99": 193.5
+      },
+      "clicked_median_center": [
+        55.75089,
+        37.6177
+      ]
+    },
+    {
+      "search_location_id": 621540,
+      "benchmark_queries": 94,
+      "corpus_exact_items": 0,
+      "train_pairs": 6839,
+      "train_same_fraction": 0.0,
+      "clicked_unique_locations": 590,
+      "top_clicked_locations": {
+        "637640": 1870,
+        "653240": 732,
+        "633540": 222,
+        "650400": 147,
+        "652000": 145
+      },
+      "has_item_metadata_center": false,
+      "clicked_spread_km": {
+        "0.5": 639.195,
+        "0.9": 2160.859,
+        "0.99": 6131.347
+      },
+      "clicked_median_center": [
+        55.75237,
+        37.7811
+      ]
+    },
+    {
+      "search_location_id": 650400,
+      "benchmark_queries": 75,
+      "corpus_exact_items": 3659,
+      "train_pairs": 10720,
+      "train_same_fraction": 0.979291,
+      "clicked_unique_locations": 77,
+      "top_clicked_locations": {
+        "650400": 10498,
+        "650350": 22,
+        "637640": 21,
+        "650390": 16,
+        "662210": 11
+      },
+      "has_item_metadata_center": true,
+      "clicked_spread_km": {
+        "0.5": 4.443,
+        "0.9": 8.838,
+        "0.99": 220.943
+      },
+      "clicked_median_center": [
+        55.79613,
+        49.13157
+      ],
+      "item_metadata_center": [
+        55.79613,
+        49.12479
+      ]
+    },
+    {
+      "search_location_id": 633540,
+      "benchmark_queries": 66,
+      "corpus_exact_items": 4494,
+      "train_pairs": 11441,
+      "train_same_fraction": 0.973429,
+      "clicked_unique_locations": 114,
+      "top_clicked_locations": {
+        "633540": 11137,
+        "634450": 27,
+        "645780": 18,
+        "637640": 18,
+        "652000": 12
+      },
+      "has_item_metadata_center": true,
+      "clicked_spread_km": {
+        "0.5": 4.171,
+        "0.9": 9.398,
+        "0.99": 247.988
+      },
+      "clicked_median_center": [
+        45.04843,
+        38.99858
+      ],
+      "item_metadata_center": [
+        45.04441,
+        38.99063
+      ]
+    },
+    {
+      "search_location_id": 640860,
+      "benchmark_queries": 50,
+      "corpus_exact_items": 3070,
+      "train_pairs": 7644,
+      "train_same_fraction": 0.976845,
+      "clicked_unique_locations": 73,
+      "top_clicked_locations": {
+        "640860": 7467,
+        "640650": 25,
+        "640760": 23,
+        "640410": 17,
+        "637640": 16
+      },
+      "has_item_metadata_center": true,
+      "clicked_spread_km": {
+        "0.5": 4.756,
+        "0.9": 9.981,
+        "0.99": 155.958
+      },
+      "clicked_median_center": [
+        56.3106,
+        43.94658
+      ],
+      "item_metadata_center": [
+        56.31427,
+        43.96293
+      ]
+    },
+    {
+      "search_location_id": 107621,
+      "benchmark_queries": 50,
+      "corpus_exact_items": 0,
+      "train_pairs": 6310,
+      "train_same_fraction": 0.0,
+      "clicked_unique_locations": 138,
+      "top_clicked_locations": {
+        "653240": 5016,
+        "636840": 237,
+        "636736": 112,
+        "636550": 66,
+        "806660": 58
+      },
+      "has_item_metadata_center": false,
+      "clicked_spread_km": {
+        "0.5": 9.657,
+        "0.9": 25.083,
+        "0.99": 629.209
+      },
+      "clicked_median_center": [
+        59.9336,
+        30.33883
+      ]
+    },
+    {
+      "search_location_id": 661420,
+      "benchmark_queries": 49,
+      "corpus_exact_items": 2726,
+      "train_pairs": 6594,
+      "train_same_fraction": 0.97801,
+      "clicked_unique_locations": 68,
+      "top_clicked_locations": {
+        "661420": 6449,
+        "654070": 22,
+        "661010": 15,
+        "637640": 10,
+        "661130": 7
+      },
+      "has_item_metadata_center": true,
+      "clicked_spread_km": {
+        "0.5": 4.359,
+        "0.9": 9.007,
+        "0.99": 338.988
+      },
+      "clicked_median_center": [
+        55.16741,
+        61.39509
+      ],
+      "item_metadata_center": [
+        55.16513,
+        61.39875
+      ]
+    },
+    {
+      "search_location_id": 652000,
+      "benchmark_queries": 46,
+      "corpus_exact_items": 3027,
+      "train_pairs": 7963,
+      "train_same_fraction": 0.977144,
+      "clicked_unique_locations": 66,
+      "top_clicked_locations": {
+        "652000": 7781,
+        "651130": 26,
+        "651180": 24,
+        "637640": 14,
+        "633540": 11
+      },
+      "has_item_metadata_center": true,
+      "clicked_spread_km": {
+        "0.5": 4.863,
+        "0.9": 8.763,
+        "0.99": 163.499
+      },
+      "clicked_median_center": [
+        47.23306,
+        39.71483
+      ],
+      "item_metadata_center": [
+        47.23129,
+        39.7165
+      ]
+    },
+    {
+      "search_location_id": 641780,
+      "benchmark_queries": 45,
+      "corpus_exact_items": 3178,
+      "train_pairs": 8145,
+      "train_same_fraction": 0.979374,
+      "clicked_unique_locations": 73,
+      "top_clicked_locations": {
+        "641780": 7977,
+        "641510": 22,
+        "641680": 11,
+        "637640": 6,
+        "641790": 6
+      },
+      "has_item_metadata_center": true,
+      "clicked_spread_km": {
+        "0.5": 3.95,
+        "0.9": 10.49,
+        "0.99": 400.968
+      },
+      "clicked_median_center": [
+        55.0302,
+        82.92043
+      ],
+      "item_metadata_center": [
+        55.0302,
+        82.92043
+      ]
+    },
+    {
+      "search_location_id": 654070,
+      "benchmark_queries": 42,
+      "corpus_exact_items": 3157,
+      "train_pairs": 8204,
+      "train_same_fraction": 0.977694,
+      "clicked_unique_locations": 73,
+      "top_clicked_locations": {
+        "654070": 8021,
+        "637640": 15,
+        "653820": 13,
+        "653940": 10,
+        "653730": 9
+      },
+      "has_item_metadata_center": true,
+      "clicked_spread_km": {
+        "0.5": 3.497,
+        "0.9": 8.43,
+        "0.99": 372.336
+      },
+      "clicked_median_center": [
+        56.83682,
+        60.59764
+      ],
+      "item_metadata_center": [
+        56.83743,
+        60.59747
+      ]
+    },
+    {
+      "search_location_id": 625810,
+      "benchmark_queries": 39,
+      "corpus_exact_items": 2575,
+      "train_pairs": 8106,
+      "train_same_fraction": 0.981495,
+      "clicked_unique_locations": 62,
+      "top_clicked_locations": {
+        "625810": 7956,
+        "637640": 21,
+        "626080": 13,
+        "637440": 10,
+        "623290": 7
+      },
+      "has_item_metadata_center": true,
+      "clicked_spread_km": {
+        "0.5": 4.221,
+        "0.9": 8.076,
+        "0.99": 208.709
+      },
+      "clicked_median_center": [
+        51.67021,
+        39.19515
+      ],
+      "item_metadata_center": [
+        51.66787,
+        39.19816
+      ]
+    },
+    {
+      "search_location_id": 646600,
+      "benchmark_queries": 38,
+      "corpus_exact_items": 2326,
+      "train_pairs": 7706,
+      "train_same_fraction": 0.985206,
+      "clicked_unique_locations": 59,
+      "top_clicked_locations": {
+        "646600": 7592,
+        "637640": 9,
+        "646110": 7,
+        "650400": 7,
+        "646400": 6
+      },
+      "has_item_metadata_center": true,
+      "clicked_spread_km": {
+        "0.5": 3.897,
+        "0.9": 12.018,
+        "0.99": 152.601
+      },
+      "clicked_median_center": [
+        54.73568,
+        55.98619
+      ],
+      "item_metadata_center": [
+        54.73515,
+        55.98351
+      ]
+    },
+    {
+      "search_location_id": 653040,
+      "benchmark_queries": 37,
+      "corpus_exact_items": 2368,
+      "train_pairs": 6059,
+      "train_same_fraction": 0.973263,
+      "clicked_unique_locations": 59,
+      "top_clicked_locations": {
+        "653040": 5897,
+        "653140": 27,
+        "652870": 13,
+        "650400": 12,
+        "637640": 11
+      },
+      "has_item_metadata_center": true,
+      "clicked_spread_km": {
+        "0.5": 4.834,
+        "0.9": 12.151,
+        "0.99": 293.222
+      },
+      "clicked_median_center": [
+        53.21147,
+        50.19242
+      ],
+      "item_metadata_center": [
+        53.20739,
+        50.18949
+      ]
+    },
+    {
+      "search_location_id": 637680,
+      "benchmark_queries": 14,
+      "corpus_exact_items": 0,
+      "train_pairs": 1528,
+      "train_same_fraction": 0.0,
+      "clicked_unique_locations": 169,
+      "top_clicked_locations": {
+        "637770": 85,
+        "638150": 80,
+        "638920": 78,
+        "638570": 74,
+        "637640": 71
+      },
+      "has_item_metadata_center": false,
+      "clicked_spread_km": {
+        "0.5": 32.999,
+        "0.9": 88.154,
+        "0.99": 299.514
+      },
+      "clicked_median_center": [
+        55.73298,
+        37.72579
+      ]
+    },
+    {
+      "search_location_id": 629990,
+      "benchmark_queries": 8,
+      "corpus_exact_items": 0,
+      "train_pairs": 1024,
+      "train_same_fraction": 0.0,
+      "clicked_unique_locations": 28,
+      "top_clicked_locations": {
+        "630090": 868,
+        "630040": 33,
+        "630070": 25,
+        "630020": 17,
+        "630240": 12
+      },
+      "has_item_metadata_center": false,
+      "clicked_spread_km": {
+        "0.5": 3.312,
+        "0.9": 24.395,
+        "0.99": 811.781
+      },
+      "clicked_median_center": [
+        54.71549,
+        20.51013
+      ]
+    },
+    {
+      "search_location_id": 651110,
+      "benchmark_queries": 8,
+      "corpus_exact_items": 0,
+      "train_pairs": 1000,
+      "train_same_fraction": 0.0,
+      "clicked_unique_locations": 56,
+      "top_clicked_locations": {
+        "652000": 677,
+        "651180": 49,
+        "651130": 46,
+        "652200": 38,
+        "652100": 36
+      },
+      "has_item_metadata_center": false,
+      "clicked_spread_km": {
+        "0.5": 6.852,
+        "0.9": 64.344,
+        "0.99": 240.366
+      },
+      "clicked_median_center": [
+        47.23788,
+        39.71881
+      ]
+    },
+    {
+      "search_location_id": 632660,
+      "benchmark_queries": 7,
+      "corpus_exact_items": 0,
+      "train_pairs": 1422,
+      "train_same_fraction": 0.0,
+      "clicked_unique_locations": 108,
+      "top_clicked_locations": {
+        "633540": 930,
+        "634450": 72,
+        "634030": 51,
+        "632720": 32,
+        "633080": 18
+      },
+      "has_item_metadata_center": false,
+      "clicked_spread_km": {
+        "0.5": 7.205,
+        "0.9": 145.714,
+        "0.99": 982.206
+      },
+      "clicked_median_center": [
+        45.03962,
+        38.99705
+      ]
+    },
+    {
+      "search_location_id": 660710,
+      "benchmark_queries": 7,
+      "corpus_exact_items": 0,
+      "train_pairs": 717,
+      "train_same_fraction": 0.0,
+      "clicked_unique_locations": 28,
+      "top_clicked_locations": {
+        "661420": 600,
+        "661100": 24,
+        "661010": 22,
+        "661130": 15,
+        "660930": 13
+      },
+      "has_item_metadata_center": false,
+      "clicked_spread_km": {
+        "0.5": 5.154,
+        "0.9": 80.767,
+        "0.99": 255.321
+      },
+      "clicked_median_center": [
+        55.1656,
+        61.38739
+      ]
+    },
+    {
+      "search_location_id": 653700,
+      "benchmark_queries": 7,
+      "corpus_exact_items": 0,
+      "train_pairs": 742,
+      "train_same_fraction": 0.0,
+      "clicked_unique_locations": 47,
+      "top_clicked_locations": {
+        "654070": 568,
+        "654410": 19,
+        "653940": 16,
+        "654170": 16,
+        "653820": 15
+      },
+      "has_item_metadata_center": false,
+      "clicked_spread_km": {
+        "0.5": 5.346,
+        "0.9": 76.734,
+        "0.99": 809.339
+      },
+      "clicked_median_center": [
+        56.83744,
+        60.59764
+      ]
+    },
+    {
+      "search_location_id": 652560,
+      "benchmark_queries": 6,
+      "corpus_exact_items": 0,
+      "train_pairs": 809,
+      "train_same_fraction": 0.0,
+      "clicked_unique_locations": 42,
+      "top_clicked_locations": {
+        "653040": 610,
+        "653140": 71,
+        "652870": 17,
+        "652880": 10,
+        "652760": 10
+      },
+      "has_item_metadata_center": false,
+      "clicked_spread_km": {
+        "0.5": 6.143,
+        "0.9": 66.457,
+        "0.99": 829.222
+      },
+      "clicked_median_center": [
+        53.21903,
+        50.18396
+      ]
+    },
+    {
+      "search_location_id": 645790,
+      "benchmark_queries": 6,
+      "corpus_exact_items": 0,
+      "train_pairs": 350,
+      "train_same_fraction": 0.0,
+      "clicked_unique_locations": 38,
+      "top_clicked_locations": {
+        "646600": 248,
+        "646520": 25,
+        "646360": 7,
+        "646570": 7,
+        "646450": 5
+      },
+      "has_item_metadata_center": false,
+      "clicked_spread_km": {
+        "0.5": 8.159,
+        "0.9": 160.75,
+        "0.99": 415.523
+      },
+      "clicked_median_center": [
+        54.73515,
+        55.97237
+      ]
+    },
+    {
+      "search_location_id": 624770,
+      "benchmark_queries": 5,
+      "corpus_exact_items": 0,
+      "train_pairs": 395,
+      "train_same_fraction": 0.0,
+      "clicked_unique_locations": 25,
+      "top_clicked_locations": {
+        "624840": 279,
+        "624850": 67,
+        "625020": 6,
+        "624860": 6,
+        "624970": 6
+      },
+      "has_item_metadata_center": false,
+      "clicked_spread_km": {
+        "0.5": 7.019,
+        "0.9": 26.494,
+        "0.99": 447.879
+      },
+      "clicked_median_center": [
+        48.73213,
+        44.51698
+      ]
+    },
+    {
+      "search_location_id": 629430,
+      "benchmark_queries": 5,
+      "corpus_exact_items": 0,
+      "train_pairs": 542,
+      "train_same_fraction": 0.0,
+      "clicked_unique_locations": 37,
+      "top_clicked_locations": {
+        "629770": 379,
+        "629490": 33,
+        "629840": 29,
+        "629790": 16,
+        "629560": 10
+      },
+      "has_item_metadata_center": false,
+      "clicked_spread_km": {
+        "0.5": 2.613,
+        "0.9": 44.075,
+        "0.99": 1425.623
+      },
+      "clicked_median_center": [
+        43.49106,
+        43.60708
+      ]
+    },
+    {
+      "search_location_id": 650130,
+      "benchmark_queries": 5,
+      "corpus_exact_items": 0,
+      "train_pairs": 433,
+      "train_same_fraction": 0.0,
+      "clicked_unique_locations": 31,
+      "top_clicked_locations": {
+        "650400": 300,
+        "650510": 53,
+        "650520": 13,
+        "650350": 10,
+        "650210": 9
+      },
+      "has_item_metadata_center": false,
+      "clicked_spread_km": {
+        "0.5": 6.662,
+        "0.9": 202.172,
+        "0.99": 615.818
+      },
+      "clicked_median_center": [
+        55.78801,
+        49.18206
+      ]
+    }
+  ],
+  "service_filter_analysis": [
+    {
+      "service": "Автосервис, аренда",
+      "train_pairs": 61919,
+      "benchmark_queries": 0,
+      "same_location_fraction": 0.799189,
+      "item_params_contain_search_service_fraction": 0.985255,
+      "microcat_count": 101,
+      "top_microcat_fraction": 0.340832,
+      "top5_microcat_fraction": 0.744473
+    },
+    {
+      "service": "Красота, здоровье",
+      "train_pairs": 61273,
+      "benchmark_queries": 111,
+      "same_location_fraction": 0.89395,
+      "item_params_contain_search_service_fraction": 0.995969,
+      "microcat_count": 47,
+      "top_microcat_fraction": 0.29238,
+      "top5_microcat_fraction": 0.819186
+    },
+    {
+      "service": "Ремонт и отделка",
+      "train_pairs": 42840,
+      "benchmark_queries": 154,
+      "same_location_fraction": 0.867227,
+      "item_params_contain_search_service_fraction": 0.984874,
+      "microcat_count": 93,
+      "top_microcat_fraction": 0.169188,
+      "top5_microcat_fraction": 0.491433
+    },
+    {
+      "service": "Сад, благоустройство",
+      "train_pairs": 16728,
+      "benchmark_queries": 39,
+      "same_location_fraction": 0.838355,
+      "item_params_contain_search_service_fraction": 0.987626,
+      "microcat_count": 49,
+      "top_microcat_fraction": 0.375239,
+      "top5_microcat_fraction": 0.958214
+    },
+    {
+      "service": "Ремонт и обслуживание техники",
+      "train_pairs": 16600,
+      "benchmark_queries": 65,
+      "same_location_fraction": 0.831566,
+      "item_params_contain_search_service_fraction": 0.971627,
+      "microcat_count": 80,
+      "top_microcat_fraction": 0.218373,
+      "top5_microcat_fraction": 0.715542
+    },
+    {
+      "service": "Обучение, курсы",
+      "train_pairs": 14903,
+      "benchmark_queries": 71,
+      "same_location_fraction": 0.800107,
+      "item_params_contain_search_service_fraction": 0.990472,
+      "microcat_count": 58,
+      "top_microcat_fraction": 0.198148,
+      "top5_microcat_fraction": 0.749514
+    },
+    {
+      "service": "Строительство",
+      "train_pairs": 14614,
+      "benchmark_queries": 46,
+      "same_location_fraction": 0.797249,
+      "item_params_contain_search_service_fraction": 0.967634,
+      "microcat_count": 71,
+      "top_microcat_fraction": 0.157315,
+      "top5_microcat_fraction": 0.544752
+    },
+    {
+      "service": "Праздники, мероприятия",
+      "train_pairs": 12795,
+      "benchmark_queries": 40,
+      "same_location_fraction": 0.795936,
+      "item_params_contain_search_service_fraction": 0.981555,
+      "microcat_count": 47,
+      "top_microcat_fraction": 0.399218,
+      "top5_microcat_fraction": 0.981555
+    },
+    {
+      "service": "Грузоперевозки",
+      "train_pairs": 9347,
+      "benchmark_queries": 32,
+      "same_location_fraction": 0.872793,
+      "item_params_contain_search_service_fraction": 0.985878,
+      "microcat_count": 35,
+      "top_microcat_fraction": 0.542848,
+      "top5_microcat_fraction": 0.98898
+    },
+    {
+      "service": "Оборудование, производство",
+      "train_pairs": 8783,
+      "benchmark_queries": 55,
+      "same_location_fraction": 0.815553,
+      "item_params_contain_search_service_fraction": 0.977001,
+      "microcat_count": 68,
+      "top_microcat_fraction": 0.367073,
+      "top5_microcat_fraction": 0.833201
+    },
+    {
+      "service": "Деловые услуги",
+      "train_pairs": 8731,
+      "benchmark_queries": 37,
+      "same_location_fraction": 0.769213,
+      "item_params_contain_search_service_fraction": 0.978009,
+      "microcat_count": 59,
+      "top_microcat_fraction": 0.375673,
+      "top5_microcat_fraction": 0.785592
+    },
+    {
+      "service": "Вывоз мусора и вторсырья",
+      "train_pairs": 8678,
+      "benchmark_queries": 36,
+      "same_location_fraction": 0.824038,
+      "item_params_contain_search_service_fraction": 0.982139,
+      "microcat_count": 40,
+      "top_microcat_fraction": 0.492164,
+      "top5_microcat_fraction": 0.989744
+    },
+    {
+      "service": "Фото- и видеосъёмка",
+      "train_pairs": 4809,
+      "benchmark_queries": 16,
+      "same_location_fraction": 0.85132,
+      "item_params_contain_search_service_fraction": 0.994801,
+      "microcat_count": 19,
+      "top_microcat_fraction": 0.735496,
+      "top5_microcat_fraction": 0.996465
+    },
+    {
+      "service": "Уход за животными",
+      "train_pairs": 4704,
+      "benchmark_queries": 25,
+      "same_location_fraction": 0.838861,
+      "item_params_contain_search_service_fraction": 0.997874,
+      "microcat_count": 5,
+      "top_microcat_fraction": 0.997874,
+      "top5_microcat_fraction": 1.0
+    },
+    {
+      "service": "Монтаж и установка техники",
+      "train_pairs": 4182,
+      "benchmark_queries": 1,
+      "same_location_fraction": 0.848398,
+      "item_params_contain_search_service_fraction": 0.954567,
+      "microcat_count": 39,
+      "top_microcat_fraction": 0.870158,
+      "top5_microcat_fraction": 0.954567
+    },
+    {
+      "service": "Доставка еды и продуктов",
+      "train_pairs": 4154,
+      "benchmark_queries": 15,
+      "same_location_fraction": 0.869764,
+      "item_params_contain_search_service_fraction": 0.994704,
+      "microcat_count": 13,
+      "top_microcat_fraction": 0.757583,
+      "top5_microcat_fraction": 0.997111
+    },
+    {
+      "service": "Пассажирские перевозки",
+      "train_pairs": 3909,
+      "benchmark_queries": 23,
+      "same_location_fraction": 0.835508,
+      "item_params_contain_search_service_fraction": 0.986697,
+      "microcat_count": 19,
+      "top_microcat_fraction": 0.437452,
+      "top5_microcat_fraction": 0.99386
+    },
+    {
+      "service": "Уборка",
+      "train_pairs": 3743,
+      "benchmark_queries": 9,
+      "same_location_fraction": 0.885653,
+      "item_params_contain_search_service_fraction": 0.986909,
+      "microcat_count": 24,
+      "top_microcat_fraction": 0.479562,
+      "top5_microcat_fraction": 0.986909
+    },
+    {
+      "service": "Компьютерная помощь",
+      "train_pairs": 3438,
+      "benchmark_queries": 16,
+      "same_location_fraction": 0.832461,
+      "item_params_contain_search_service_fraction": 0.985748,
+      "microcat_count": 26,
+      "top_microcat_fraction": 0.458697,
+      "top5_microcat_fraction": 0.981966
+    },
+    {
+      "service": "Услуги эвакуатора",
+      "train_pairs": 3405,
+      "benchmark_queries": 5,
+      "same_location_fraction": 0.869604,
+      "item_params_contain_search_service_fraction": 0.986197,
+      "microcat_count": 17,
+      "top_microcat_fraction": 0.986197,
+      "top5_microcat_fraction": 0.994126
+    },
+    {
+      "service": "Другое",
+      "train_pairs": 3100,
+      "benchmark_queries": 5,
+      "same_location_fraction": 0.761935,
+      "item_params_contain_search_service_fraction": 0.806129,
+      "microcat_count": 100,
+      "top_microcat_fraction": 0.450968,
+      "top5_microcat_fraction": 0.839032
+    },
+    {
+      "service": "Бытовые услуги",
+      "train_pairs": 2800,
+      "benchmark_queries": 13,
+      "same_location_fraction": 0.819643,
+      "item_params_contain_search_service_fraction": 0.972143,
+      "microcat_count": 26,
+      "top_microcat_fraction": 0.608214,
+      "top5_microcat_fraction": 0.972143
+    },
+    {
+      "service": "Няни, сиделки",
+      "train_pairs": 1836,
+      "benchmark_queries": 7,
+      "same_location_fraction": 0.854031,
+      "item_params_contain_search_service_fraction": 0.991285,
+      "microcat_count": 7,
+      "top_microcat_fraction": 0.991285,
+      "top5_microcat_fraction": 0.998911
+    },
+    {
+      "service": "Грузчики, складские услуги",
+      "train_pairs": 1365,
+      "benchmark_queries": 3,
+      "same_location_fraction": 0.907692,
+      "item_params_contain_search_service_fraction": 0.976557,
+      "microcat_count": 11,
+      "top_microcat_fraction": 0.871795,
+      "top5_microcat_fraction": 0.994139
+    },
+    {
+      "service": "Искусство",
+      "train_pairs": 1137,
+      "benchmark_queries": 7,
+      "same_location_fraction": 0.734389,
+      "item_params_contain_search_service_fraction": 0.96482,
+      "microcat_count": 21,
+      "top_microcat_fraction": 0.51715,
+      "top5_microcat_fraction": 0.973615
+    },
+    {
+      "service": "Охрана, безопасность",
+      "train_pairs": 471,
+      "benchmark_queries": 2,
+      "same_location_fraction": 0.760085,
+      "item_params_contain_search_service_fraction": 0.978769,
+      "microcat_count": 10,
+      "top_microcat_fraction": 0.978769,
+      "top5_microcat_fraction": 0.989384
+    }
+  ],
+  "filter_coverage": {
+    "train_empty_fraction": 0.329532,
+    "benchmark_empty_fraction": 0.630506,
+    "train_bare_service_label_fraction": 0.021231,
+    "benchmark_bare_service_label_fraction": 0.02447
+  },
+  "frequent_benchmark_filter_microcats": [
+    {
+      "filter": "Вид услуги",
+      "train_pairs": 10566,
+      "benchmark_queries": 60,
+      "microcat_count": 78,
+      "top1_fraction": 0.356994,
+      "top3_fraction": 0.706511,
+      "top_microcats": {
+        "2303374": 3772,
+        "2302479": 2389,
+        "2301738": 1304,
+        "2302184": 905,
+        "2303376": 461
+      }
+    },
+    {
+      "filter": "Вид услуги Оборудование, производство",
+      "train_pairs": 8433,
+      "benchmark_queries": 53,
+      "microcat_count": 65,
+      "top1_fraction": 0.365706,
+      "top3_fraction": 0.643899,
+      "top_microcats": {
+        "2303435": 3084,
+        "2303428": 1186,
+        "2303426": 1160,
+        "2303439": 937,
+        "2303425": 648
+      }
+    },
+    {
+      "filter": "Вид услуги Ремонт и отделка",
+      "train_pairs": 15586,
+      "benchmark_queries": 48,
+      "microcat_count": 72,
+      "top1_fraction": 0.117606,
+      "top3_fraction": 0.339856,
+      "top_microcats": {
+        "44725": 1833,
+        "44730": 1760,
+        "2303705": 1704,
+        "1287645": 1379,
+        "44732": 1102
+      }
+    },
+    {
+      "filter": "Вид услуги Праздники, мероприятия",
+      "train_pairs": 12474,
+      "benchmark_queries": 40,
+      "microcat_count": 47,
+      "top1_fraction": 0.400673,
+      "top3_fraction": 0.820266,
+      "top_microcats": {
+        "2301563": 4998,
+        "2301566": 2715,
+        "2301565": 2519,
+        "2301564": 1964,
+        "734": 52
+      }
+    },
+    {
+      "filter": "Вид услуги Обучение, курсы",
+      "train_pairs": 11080,
+      "benchmark_queries": 39,
+      "microcat_count": 54,
+      "top1_fraction": 0.19639,
+      "top3_fraction": 0.533303,
+      "top_microcats": {
+        "86456": 2176,
+        "2096704": 1960,
+        "86457": 1773,
+        "86452": 1610,
+        "86458": 1517
+      }
+    },
+    {
+      "filter": "Вид услуги Вывоз мусора и вторсырья",
+      "train_pairs": 8512,
+      "benchmark_queries": 36,
+      "microcat_count": 39,
+      "top1_fraction": 0.496241,
+      "top3_fraction": 0.986607,
+      "top_microcats": {
+        "2301618": 4224,
+        "2301617": 4138,
+        "2303374": 36,
+        "1289833": 17,
+        "2058735": 13
+      }
+    },
+    {
+      "filter": "Вид услуги Красота, здоровье",
+      "train_pairs": 15355,
+      "benchmark_queries": 36,
+      "microcat_count": 34,
+      "top1_fraction": 0.246369,
+      "top3_fraction": 0.506871,
+      "top_microcats": {
+        "2096640": 3783,
+        "2096641": 2010,
+        "86469": 1990,
+        "2059415": 1834,
+        "86467": 1448
+      }
+    },
+    {
+      "filter": "Вид услуги Грузоперевозки",
+      "train_pairs": 8597,
+      "benchmark_queries": 31,
+      "microcat_count": 29,
+      "top1_fraction": 0.543678,
+      "top3_fraction": 0.989182,
+      "top_microcats": {
+        "2097890": 4674,
+        "2097891": 3634,
+        "2097892": 196,
+        "2071300": 16,
+        "2071301": 12
+      }
+    },
+    {
+      "filter": "Тип услуги Услуги парикмахера Вид услуги Красота, здоровье",
+      "train_pairs": 6294,
+      "benchmark_queries": 26,
+      "microcat_count": 12,
+      "top1_fraction": 0.991262,
+      "top3_fraction": 0.997617,
+      "top_microcats": {
+        "86467": 6239,
+        "86466": 27,
+        "86471": 13,
+        "2059415": 4,
+        "2096643": 2
+      }
+    },
+    {
+      "filter": "Вид услуги Уход за животными",
+      "train_pairs": 4604,
+      "benchmark_queries": 25,
+      "microcat_count": 5,
+      "top1_fraction": 0.997828,
+      "top3_fraction": 0.999566,
+      "top_microcats": {
+        "729": 4594,
+        "2097891": 7,
+        "2303381": 1,
+        "1178217": 1,
+        "2097890": 1
+      }
+    },
+    {
+      "filter": "Вид услуги Пассажирские перевозки",
+      "train_pairs": 3691,
+      "benchmark_queries": 22,
+      "microcat_count": 18,
+      "top1_fraction": 0.438093,
+      "top3_fraction": 0.986183,
+      "top_microcats": {
+        "2097894": 1617,
+        "2097893": 1550,
+        "2097895": 473,
+        "1289817": 20,
+        "2301565": 8
+      }
+    },
+    {
+      "filter": "Тип услуги Сантехника Вид услуги Ремонт и отделка",
+      "train_pairs": 4955,
+      "benchmark_queries": 17,
+      "microcat_count": 29,
+      "top1_fraction": 0.971746,
+      "top3_fraction": 0.981433,
+      "top_microcats": {
+        "44730": 4815,
+        "1178210": 28,
+        "2301582": 20,
+        "44725": 15,
+        "2071300": 11
+      }
+    },
+    {
+      "filter": "Вид услуги Фото- и видеосъёмка",
+      "train_pairs": 4594,
+      "benchmark_queries": 16,
+      "microcat_count": 19,
+      "top1_fraction": 0.738572,
+      "top3_fraction": 0.994558,
+      "top_microcats": {
+        "2301874": 3393,
+        "2301875": 980,
+        "2301876": 196,
+        "2303439": 4,
+        "2303437": 4
+      }
+    },
+    {
+      "filter": "Тип услуги Сборка и ремонт мебели Вид услуги Ремонт и отделка",
+      "train_pairs": 2526,
+      "benchmark_queries": 15,
+      "microcat_count": 21,
+      "top1_fraction": 0.983769,
+      "top3_fraction": 0.990895,
+      "top_microcats": {
+        "44732": 2485,
+        "2303427": 9,
+        "2303705": 9,
+        "1287651": 4,
+        "2303381": 2
+      }
+    },
+    {
+      "filter": "Вид услуги Ремонт и обслуживание техники",
+      "train_pairs": 4979,
+      "benchmark_queries": 14,
+      "microcat_count": 53,
+      "top1_fraction": 0.17373,
+      "top3_fraction": 0.473187,
+      "top_microcats": {
+        "2169983": 865,
+        "2169973": 796,
+        "2169975": 695,
+        "84438": 573,
+        "2169972": 407
+      }
+    },
+    {
+      "filter": "Вид услуги Строительство",
+      "train_pairs": 7692,
+      "benchmark_queries": 14,
+      "microcat_count": 64,
+      "top1_fraction": 0.173947,
+      "top3_fraction": 0.433437,
+      "top_microcats": {
+        "2058736": 1338,
+        "2058738": 1229,
+        "2058727": 767,
+        "2058739": 747,
+        "2277450": 623
+      }
+    },
+    {
+      "filter": "Тип услуги Полы и напольные покрытия Вид услуги Ремонт и отделка",
+      "train_pairs": 1693,
+      "benchmark_queries": 13,
+      "microcat_count": 13,
+      "top1_fraction": 0.985233,
+      "top3_fraction": 0.991731,
+      "top_microcats": {
+        "1287647": 1668,
+        "2058738": 7,
+        "44725": 4,
+        "1287653": 2,
+        "2058735": 2
+      }
+    },
+    {
+      "filter": "Тип услуги Маникюр, педикюр Вид услуги Красота, здоровье",
+      "train_pairs": 11589,
+      "benchmark_queries": 12,
+      "microcat_count": 18,
+      "top1_fraction": 0.992148,
+      "top3_fraction": 0.997152,
+      "top_microcats": {
+        "86470": 11498,
+        "2302483": 31,
+        "2059415": 27,
+        "86466": 7,
+        "2096643": 5
+      }
+    },
+    {
+      "filter": "Тип услуги Мобильные устройства Вид услуги Ремонт и обслуживание техники",
+      "train_pairs": 2717,
+      "benchmark_queries": 12,
+      "microcat_count": 12,
+      "top1_fraction": 0.979757,
+      "top3_fraction": 0.992639,
+      "top_microcats": {
+        "84434": 2662,
+        "2303374": 22,
+        "84438": 13,
+        "2097573": 11,
+        "4145": 2
+      }
+    },
+    {
+      "filter": "Тип услуги Другое Вид услуги Ремонт и обслуживание техники",
+      "train_pairs": 2799,
+      "benchmark_queries": 11,
+      "microcat_count": 35,
+      "top1_fraction": 0.943194,
+      "top3_fraction": 0.959271,
+      "top_microcats": {
+        "2169983": 2640,
+        "1289835": 24,
+        "2303380": 21,
+        "2301069": 21,
+        "2303428": 12
+      }
+    }
+  ],
+  "recommendations": [
+    "Use exact location as a strong feature and candidate source, not a hard global filter: 16.9% of train positive pairs use different ids.",
+    "Build city centers from unique item metadata medians over supplied corpus and permitted training items. Never treat numeric id differences as distances.",
+    "For search locations absent from item metadata, infer geographic scope from training clicked item locations only. In validation fit this fallback on the training fold and exclude validation target pairs.",
+    "Broad search locations can cover many cities. Use empirical search-location to item-location probabilities plus distances, and expose count/dispersion confidence features instead of forcing one city center.",
+    "Retrieve independent semantic or lexical pools from exact location, nearby cities, and the entire corpus. Tune fusion weights and candidate counts on grouped validation, not fixed per-query hardcoded answers.",
+    "Candidate distance features: log1p kilometers, exact id match, unknown center indicator, within 25/50/100 km, empirical location transition probability with smoothing. Attenuate distance for broad query regions or remote services.",
+    "Treat filter-to-microcategory as a smoothed empirical prior. Broad service labels span many microcategories, so hard microcategory exclusion can lose recall.",
+    "Benchmark filters are substantially sparser than train; ensure text-only queries and empty filters receive adequate validation weight."
+  ],
+  "query_only_location_queries": 425,
+  "query_only_location_queries_with_train_click_history": 425,
+  "query_only_location_ids_without_train_history": {},
+  "corpus_items_with_microcat_unseen_train": 1758,
+  "unique_corpus_microcats_unseen_train": 546,
+  "parsed_known_service_filter_pairs": 320264,
+  "parsed_service_pair_match_fraction": 0.983642,
+  "notes": [
+    "All fractions and distance summaries are row-weighted descriptive statistics, not validation scores or estimates of held-out Recall@50.",
+    "Location centers use deduplicated item metadata, training rows preferred when an item is repeated across train and corpus. Latitude/longitude values are converted to floats and invalid/zero pairs are excluded from center estimation.",
+    "Service fields are parsed heuristically, then restricted to frequent clean field values. The literal label Вид услуги without a value is not a useful service constraint.",
+    "Identification of regional versus city versus nationwide search scope is an inference from observed positive pairs, not an official geographic lookup.",
+    "Coordinates can have extreme outliers: even exact-location positive pairs include distances over 10000 km. Distances must remain soft features.",
+    "Candidate allocation such as 30 local + 10 nearby + 10 global is only an initial validation experiment, not a measured optimum. For region or national scope select pools dynamically from learned location distributions."
+  ]
+}

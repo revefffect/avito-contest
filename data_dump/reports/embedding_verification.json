@@ -1,0 +1,173 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-09-28T02:47:44.293044+00:00",
+  "checks": "Independent direct reads of NPY, Parquet, JSON and SHA256; no inference rerun.",
+  "model_id": "intfloat/multilingual-e5-small",
+  "model_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "model_files_sha256_verified": {
+    "config.json": "69137736cab8b8903a07fe8afaafdda25aac55415a12a55d1bffa9f581abf959",
+    "model.safetensors": "1a55775f53449dac10a2bcbc312469fac40b96d53198c407081a831f81c98477",
+    "tokenizer.json": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+    "tokenizer_config.json": "a1d6bc8734a6f635dc158508bef000f8e2e5a759c7d92f984b2c86e5ff53425b",
+    "special_tokens_map.json": "d05497f1da52c5e09554c0cd874037a083e1dc1b9cfd48034d1c717f1afc07a7",
+    "sentencepiece.bpe.model": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865",
+    "README.md": "0038de97aee16258cecbad7ffda4b4febd6953e747a00e0ddbc8e6ed241e9c1c"
+  },
+  "benchmark_prefix_rows": 189212,
+  "benchmark_prefix_matches": true,
+  "plain_and_full_query_ids_match": true,
+  "norm_tolerance": 1e-05,
+  "outputs": [
+    {
+      "name": "items",
+      "path": "artifacts/dense/items.npy",
+      "shape": [
+        195125,
+        384
+      ],
+      "dtype": "float32",
+      "output_sha256": "7557ac3a4d6c7c178f43024aa6c98fa24a47b850ec6d3aa0fb71429d92703e84",
+      "source": "data/processed/corpus.parquet",
+      "source_sha256": "e3c5ae47ea02161d6e9f8ab7134b31b7dfe58c3115063b917034796a66e9562f",
+      "ids_order_sha256": "f3a2c19939ddc3aa644d83e0590f6c9f0be9cb9bc4679c203f59ee50ddd53874",
+      "ids_match_source_order": true,
+      "ids_unique": true,
+      "all_finite": true,
+      "norm_min": 0.9999998211860657,
+      "norm_max": 1.0000001192092896,
+      "max_norm_error": 1.7881393432617188e-07,
+      "model_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+      "device": "mps",
+      "precision": "float32",
+      "query_text_only": false,
+      "batch_size": 64,
+      "max_length": 256,
+      "elapsed_seconds": 1178.2084869999671,
+      "versions": {
+        "torch": "2.9.1",
+        "transformers": "5.6.2"
+      }
+    },
+    {
+      "name": "eval_queries",
+      "path": "artifacts/dense/eval_queries.npy",
+      "shape": [
+        6000,
+        384
+      ],
+      "dtype": "float32",
+      "output_sha256": "c79f32a209ffc4aa92994fb6c148aa5b9beafd573a284c44f4ebaf3f9fef1fb8",
+      "source": "data/processed/eval_queries.parquet",
+      "source_sha256": "dce7d2a2be0aca772f7f1c1d8dee85ed9892977b467f1b71ce69f7f3d4beec40",
+      "ids_order_sha256": "a05354d560c78a40e3bb69b2e22ed4726eca3bbb1e2bf63cf9e660e3e7849741",
+      "ids_match_source_order": true,
+      "ids_unique": true,
+      "all_finite": true,
+      "norm_min": 0.9999998807907104,
+      "norm_max": 1.0000001192092896,
+      "max_norm_error": 1.1920928955078125e-07,
+      "model_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+      "device": "mps",
+      "precision": "float32",
+      "query_text_only": false,
+      "batch_size": 64,
+      "max_length": 128,
+      "elapsed_seconds": 4.824816333013587,
+      "versions": {
+        "torch": "2.9.1",
+        "transformers": "5.6.2"
+      }
+    },
+    {
+      "name": "benchmark_queries",
+      "path": "artifacts/dense/benchmark_queries.npy",
+      "shape": [
+        2452,
+        384
+      ],
+      "dtype": "float32",
+      "output_sha256": "4fe9065f4c48570d186b184ed86e13026715c50c778a712fdbd10a8636ce012b",
+      "source": "data/raw/benchmark_queries.parquet",
+      "source_sha256": "e49de4fb76f03979a4af96034817767d39ae5de9f94e254fed028243188dda06",
+      "ids_order_sha256": "ec37b1a0d38869715684e3b2c0497a8da7a7d6d640728ef19412a22a4b406943",
+      "ids_match_source_order": true,
+      "ids_unique": true,
+      "all_finite": true,
+      "norm_min": 0.9999998807907104,
+      "norm_max": 1.0000001192092896,
+      "max_norm_error": 1.1920928955078125e-07,
+      "model_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+      "device": "mps",
+      "precision": "float32",
+      "query_text_only": false,
+      "batch_size": 64,
+      "max_length": 128,
+      "elapsed_seconds": 1.8622900419868529,
+      "versions": {
+        "torch": "2.9.1",
+        "transformers": "5.6.2"
+      }
+    },
+    {
+      "name": "eval_queries_plain",
+      "path": "artifacts/dense/eval_queries_plain.npy",
+      "shape": [
+        6000,
+        384
+      ],
+      "dtype": "float32",
+      "output_sha256": "52a6672b8399d95d5bfdf702a118ee5f2487b355201e9b5b75e23277bfb349cb",
+      "source": "data/processed/eval_queries.parquet",
+      "source_sha256": "dce7d2a2be0aca772f7f1c1d8dee85ed9892977b467f1b71ce69f7f3d4beec40",
+      "ids_order_sha256": "a05354d560c78a40e3bb69b2e22ed4726eca3bbb1e2bf63cf9e660e3e7849741",
+      "ids_match_source_order": true,
+      "ids_unique": true,
+      "all_finite": true,
+      "norm_min": 0.9999998807907104,
+      "norm_max": 1.0000001192092896,
+      "max_norm_error": 1.1920928955078125e-07,
+      "model_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+      "device": "mps",
+      "precision": "float32",
+      "query_text_only": true,
+      "batch_size": 64,
+      "max_length": 128,
+      "elapsed_seconds": 2.444123374996707,
+      "versions": {
+        "torch": "2.9.1",
+        "transformers": "5.6.2"
+      }
+    },
+    {
+      "name": "benchmark_queries_plain",
+      "path": "artifacts/dense/benchmark_queries_plain.npy",
+      "shape": [
+        2452,
+        384
+      ],
+      "dtype": "float32",
+      "output_sha256": "371cfdcc67108b60c45cedc4ff2af3c226f9514f083f35843b28ed820f1d08b0",
+      "source": "data/raw/benchmark_queries.parquet",
+      "source_sha256": "e49de4fb76f03979a4af96034817767d39ae5de9f94e254fed028243188dda06",
+      "ids_order_sha256": "ec37b1a0d38869715684e3b2c0497a8da7a7d6d640728ef19412a22a4b406943",
+      "ids_match_source_order": true,
+      "ids_unique": true,
+      "all_finite": true,
+      "norm_min": 0.9999998807907104,
+      "norm_max": 1.0000001192092896,
+      "max_norm_error": 1.1920928955078125e-07,
+      "model_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+      "device": "mps",
+      "precision": "float32",
+      "query_text_only": true,
+      "batch_size": 64,
+      "max_length": 128,
+      "elapsed_seconds": 0.930521750007756,
+      "versions": {
+        "torch": "2.9.1",
+        "transformers": "5.6.2"
+      }
+    }
+  ],
+  "cpu_mps_equivalence": "Not tested; output hashes describe saved MPS float32 artifacts, not a promise of byte-identical recalculation on CPU."
+}

@@ -1,0 +1,48 @@
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.neon'. Detail: [errno 1] Operation not permitted
+{"fit_rows": 5054520, "dev_rows": 0, "features": 57}
+0:	learn: 0.4329138	total: 456ms	remaining: 7m 35s
+100:	learn: 0.0029999	total: 33.4s	remaining: 4m 57s
+200:	learn: 0.0028098	total: 1m 7s	remaining: 4m 29s
+300:	learn: 0.0026886	total: 1m 45s	remaining: 4m 4s
+400:	learn: 0.0025817	total: 2m 23s	remaining: 3m 35s
+500:	learn: 0.0024957	total: 2m 59s	remaining: 2m 58s
+600:	learn: 0.0024165	total: 3m 37s	remaining: 2m 24s
+700:	learn: 0.0023483	total: 4m 13s	remaining: 1m 47s
+800:	learn: 0.0022809	total: 4m 46s	remaining: 1m 11s
+900:	learn: 0.0022225	total: 5m 18s	remaining: 34.9s
+999:	learn: 0.0021632	total: 5m 49s	remaining: 0us
+{
+  "features": "artifacts/features_hybrid.parquet",
+  "output": "artifacts/final_no_history.cbm",
+  "queries": "data/processed/eval_queries.parquet",
+  "truth": "data/processed/eval_truth.parquet",
+  "corpus": "data/processed/corpus.parquet",
+  "loss": "Logloss",
+  "iterations": 1000,
+  "depth": 6,
+  "learning_rate": 0.07,
+  "checkpoint_period": 50,
+  "threads": 4,
+  "seed": 42,
+  "drop_features": "category_match,popularity,memory_score,text_item_count,context_item_count,rank_memory,rank_geo_memory",
+  "fit_splits": "fit,dev",
+  "fixed_iterations": true,
+  "reference_queries": "data/raw/benchmark_queries.parquet",
+  "fit_query_count": 4500,
+  "dev_query_count": 0,
+  "dropped_features": [
+    "category_match",
+    "context_item_count",
+    "memory_score",
+    "popularity",
+    "rank_geo_memory",
+    "rank_memory",
+    "text_item_count"
+  ],
+  "selected_iteration": 1000,
+  "selected_dev_recall@50": null,
+  "seconds": 354.439
+}

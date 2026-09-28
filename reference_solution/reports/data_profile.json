@@ -1,0 +1,248 @@
+{
+  "schemas": {
+    "train": {
+      "rows": 497673,
+      "schema": "search_query: string\nsearch_location_id: int64\nsearch_is_delivery_search: int32\nsearch_infm_params_text: string\nsearch_category: int64\nitem_title_raw: string\nitem_rating_reviews_count: double\nitem_rating: double\nitem_price: decimal128(27, 15)\nitem_microcat_id: int64\nitem_longitude: decimal128(18, 15)\nitem_location_id: int64\nitem_latitude: decimal128(17, 15)\nitem_is_phone_hidden: bool\nitem_is_message_forbidden: bool\nitem_infm_params_text: string\nitem_id: string\nitem_description_raw: string\nitem_category_id: int64\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 2669"
+    },
+    "benchmark_queries": {
+      "rows": 2452,
+      "schema": "query_id: large_string\nsearch_query: large_string\nsearch_location_id: int64\nsearch_is_delivery_search: int32\nsearch_infm_params_text: large_string\nsearch_category: int64\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 874"
+    },
+    "benchmark_items": {
+      "rows": 189212,
+      "schema": "item_title_raw: string\nitem_rating_reviews_count: double\nitem_rating: double\nitem_price: decimal128(27, 15)\nitem_microcat_id: int64\nitem_longitude: decimal128(18, 15)\nitem_location_id: int64\nitem_latitude: decimal128(17, 15)\nitem_is_phone_hidden: bool\nitem_is_message_forbidden: bool\nitem_infm_params_text: string\nitem_id: string\nitem_description_raw: string\nitem_category_id: int64\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1992"
+    }
+  },
+  "train_nulls": {
+    "search_query": 0,
+    "search_location_id": 0,
+    "search_is_delivery_search": 0,
+    "search_infm_params_text": 0,
+    "search_category": 0,
+    "item_id": 0,
+    "item_location_id": 0,
+    "item_category_id": 0,
+    "item_microcat_id": 0,
+    "normalized_query": 0
+  },
+  "queries_nulls": {
+    "query_id": 0,
+    "search_query": 0,
+    "search_location_id": 0,
+    "search_is_delivery_search": 0,
+    "search_infm_params_text": 0,
+    "search_category": 0,
+    "normalized_query": 0
+  },
+  "unique_train_items": 344825,
+  "unique_corpus_items": 189212,
+  "unique_train_texts": 73873,
+  "unique_benchmark_texts": 2451,
+  "unique_train_contexts": 354463,
+  "unique_benchmark_contexts": 2452,
+  "unique_context_item_pairs": 467054,
+  "train_rows_in_corpus": 33010,
+  "train_items_in_corpus": 18142,
+  "corpus_items_seen_in_train": 0.09588186795763483,
+  "benchmark_seen_text_fraction": 0.3735725938009788,
+  "benchmark_seen_context_fraction": 0.04404567699836868,
+  "train_search_item_same_location": 0.8310195650557696,
+  "items_per_context_quantiles": {
+    "0.0": 1.0,
+    "0.25": 1.0,
+    "0.5": 1.0,
+    "0.75": 1.0,
+    "0.9": 2.0,
+    "0.99": 6.0,
+    "1.0": 278.0
+  },
+  "search_categories_train": {
+    "114": 497635,
+    "0": 34,
+    "81": 2,
+    "10": 2
+  },
+  "search_categories_benchmark": {
+    "114": 2230,
+    "0": 222
+  },
+  "top_query_texts": {
+    "маникюр": 6540,
+    "массаж": 5702,
+    "наращивание ресниц": 5397,
+    "установка кондиционеров": 4576,
+    "педикюр": 3436,
+    "сантехник": 3405,
+    "вывоз мусора": 3288,
+    "эвакуатор": 3263,
+    "электрик": 3158,
+    "автоэлектрик": 2790,
+    "покос травы": 2484,
+    "вспашка земли": 2316,
+    "манипулятор": 2120,
+    "грузоперевозки газель": 2034,
+    "натяжные потолки": 2004,
+    "наращивание ногтей": 1902,
+    "торты на заказ": 1682,
+    "тонировка": 1644,
+    "поклейка обоев": 1611,
+    "грузчики": 1540,
+    "покраска авто": 1510,
+    "грузоперевозки": 1492,
+    "установка межкомнатных дверей": 1443,
+    "заправка кондиционера": 1408,
+    "выкуп авто": 1331,
+    "автоподбор": 1321,
+    "тонировка авто": 1318,
+    "фотограф": 1284,
+    "вскрытие замков": 1257,
+    "ремонт квартир": 1243,
+    "муж на час": 1224,
+    "наращивание волос": 1210,
+    "услуги эвакуатора": 1202,
+    "плиточник": 1174,
+    "бурение скважин": 1116,
+    "клининг": 1101,
+    "инструктор по вождению": 1067,
+    "ремонт телефонов": 1042,
+    "увеличение губ": 1015,
+    "ремонт телевизоров": 963
+  },
+  "benchmark_sample": [
+    {
+      "query_id": "JmGGRVRpAk3Z2ZR8",
+      "search_query": "творческие мастер классы для взрослых",
+      "search_location_id": 653140,
+      "search_is_delivery_search": 0,
+      "search_infm_params_text": "",
+      "search_category": 114,
+      "normalized_query": "творческие мастер классы для взрослых"
+    },
+    {
+      "query_id": "N56wCCSJzBaGwfwj",
+      "search_query": "криполиз",
+      "search_location_id": 633540,
+      "search_is_delivery_search": 0,
+      "search_infm_params_text": "Онлайн-запись Вид услуги Красота, здоровье",
+      "search_category": 114,
+      "normalized_query": "криполиз"
+    },
+    {
+      "query_id": "27rpeWViEpJ6FqFW",
+      "search_query": "машина на свадьбу аренда мерседес",
+      "search_location_id": 622830,
+      "search_is_delivery_search": 0,
+      "search_infm_params_text": "",
+      "search_category": 114,
+      "normalized_query": "машина на свадьбу аренда мерседес"
+    },
+    {
+      "query_id": "UssCIEZWXCBq4TNA",
+      "search_query": "ремонт и обслуживание лифтов",
+      "search_location_id": 637640,
+      "search_is_delivery_search": 0,
+      "search_infm_params_text": "",
+      "search_category": 114,
+      "normalized_query": "ремонт и обслуживание лифтов"
+    },
+    {
+      "query_id": "e8Qev07EA3ONCEzF",
+      "search_query": "кондиционер обслуживание",
+      "search_location_id": 655950,
+      "search_is_delivery_search": 0,
+      "search_infm_params_text": "",
+      "search_category": 114,
+      "normalized_query": "кондиционер обслуживание"
+    },
+    {
+      "query_id": "WSBVrzbk2p6ZrRjt",
+      "search_query": "написание отзывов в яндекс карты",
+      "search_location_id": 637640,
+      "search_is_delivery_search": 0,
+      "search_infm_params_text": "",
+      "search_category": 114,
+      "normalized_query": "написание отзывов в яндекс карты"
+    },
+    {
+      "query_id": "F1ou9EXF2owMkSeI",
+      "search_query": "ремонт посудомоечных midea",
+      "search_location_id": 107621,
+      "search_is_delivery_search": 0,
+      "search_infm_params_text": "",
+      "search_category": 114,
+      "normalized_query": "ремонт посудомоечных midea"
+    },
+    {
+      "query_id": "MYqHSZX9nioorINm",
+      "search_query": "натяжные потолки в",
+      "search_location_id": 623130,
+      "search_is_delivery_search": 0,
+      "search_infm_params_text": "",
+      "search_category": 114,
+      "normalized_query": "натяжные потолки в"
+    },
+    {
+      "query_id": "LoWiWD7MHpTdjI4o",
+      "search_query": "прочистка систем",
+      "search_location_id": 656350,
+      "search_is_delivery_search": 0,
+      "search_infm_params_text": "",
+      "search_category": 114,
+      "normalized_query": "прочистка систем"
+    },
+    {
+      "query_id": "evPZKz4XajsQbivJ",
+      "search_query": "для свадьбы",
+      "search_location_id": 623130,
+      "search_is_delivery_search": 0,
+      "search_infm_params_text": "",
+      "search_category": 114,
+      "normalized_query": "для свадьбы"
+    },
+    {
+      "query_id": "eqTqIrRRP61eiuT1",
+      "search_query": "вывоз мусора веток мебели хлама",
+      "search_location_id": 652870,
+      "search_is_delivery_search": 0,
+      "search_infm_params_text": "",
+      "search_category": 114,
+      "normalized_query": "вывоз мусора веток мебели хлама"
+    },
+    {
+      "query_id": "KdMTGR2ws08u0I8T",
+      "search_query": "наращивание ресниц за час",
+      "search_location_id": 652000,
+      "search_is_delivery_search": 0,
+      "search_infm_params_text": "Тип услуги Ресницы, брови Вид услуги Красота, здоровье",
+      "search_category": 114,
+      "normalized_query": "наращивание ресниц за час"
+    },
+    {
+      "query_id": "8JK8lBNQzVKiZ2xm",
+      "search_query": "реставрация старинной деревянной мебели",
+      "search_location_id": 637640,
+      "search_is_delivery_search": 0,
+      "search_infm_params_text": "",
+      "search_category": 114,
+      "normalized_query": "реставрация старинной деревянной мебели"
+    },
+    {
+      "query_id": "bujMAl13kEigg1Ty",
+      "search_query": "заказать шоу на свадьбу",
+      "search_location_id": 659300,
+      "search_is_delivery_search": 0,
+      "search_infm_params_text": "",
+      "search_category": 114,
+      "normalized_query": "заказать шоу на свадьбу"
+    },
+    {
+      "query_id": "K9s0IQeRgoU69Fl8",
+      "search_query": "гтд на двигатель",
+      "search_location_id": 621540,
+      "search_is_delivery_search": 0,
+      "search_infm_params_text": "",
+      "search_category": 114,
+      "normalized_query": "гтд на двигатель"
+    }
+  ]
+}

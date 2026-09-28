@@ -1,0 +1,12 @@
+mini/data/
+mini/answer.csv
+mini/*.part
+report/latex/build/
+report/latex/compile.json
+report/qa/
+deliverables/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+*.log
+!data_dump/**/*.log

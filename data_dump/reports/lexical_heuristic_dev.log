@@ -1,0 +1,112 @@
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.neon'. Detail: [errno 1] Operation not permitted
+{
+  "queries": 1500,
+  "recall@10": 0.7023888888888888,
+  "recall@50": 0.8588333333333333,
+  "recall@100": 0.8989444444444443,
+  "recall@union": 0.9667777777777776,
+  "candidate_count_mean": 544.5513333333333,
+  "groups": {
+    "regime": {
+      "cold_text": {
+        "queries": 970,
+        "recall@10": 0.6838487972508591,
+        "recall@50": 0.84553264604811,
+        "recall@100": 0.8890034364261168,
+        "recall@union": 0.9630584192439862
+      },
+      "warm_context": {
+        "queries": 60,
+        "recall@10": 0.7083333333333334,
+        "recall@50": 0.85,
+        "recall@100": 0.9166666666666666,
+        "recall@union": 1.0
+      },
+      "warm_text": {
+        "queries": 470,
+        "recall@10": 0.7398936170212767,
+        "recall@50": 0.8874113475177305,
+        "recall@100": 0.9171985815602838,
+        "recall@union": 0.9702127659574468
+      }
+    },
+    "seen_text": {
+      "False": {
+        "queries": 976,
+        "recall@10": 0.6837431693989071,
+        "recall@50": 0.8454576502732242,
+        "recall@100": 0.8886612021857923,
+        "recall@union": 0.9622609289617486
+      },
+      "True": {
+        "queries": 524,
+        "recall@10": 0.737118320610687,
+        "recall@50": 0.8837468193384225,
+        "recall@100": 0.9180979643765904,
+        "recall@union": 0.9751908396946565
+      }
+    },
+    "seen_context": {
+      "False": {
+        "queries": 1440,
+        "recall@10": 0.7021412037037037,
+        "recall@50": 0.8592013888888889,
+        "recall@100": 0.8982060185185184,
+        "recall@union": 0.9653935185185184
+      },
+      "True": {
+        "queries": 60,
+        "recall@10": 0.7083333333333334,
+        "recall@50": 0.85,
+        "recall@100": 0.9166666666666666,
+        "recall@union": 1.0
+      }
+    },
+    "filter_empty": {
+      "False": {
+        "queries": 823,
+        "recall@10": 0.70240988254354,
+        "recall@50": 0.8644187930336168,
+        "recall@100": 0.9045159983799108,
+        "recall@union": 0.9793438639125152
+      },
+      "True": {
+        "queries": 677,
+        "recall@10": 0.7023633677991138,
+        "recall@50": 0.8520433284096504,
+        "recall@100": 0.8921713441654358,
+        "recall@union": 0.9515017232890203
+      }
+    },
+    "seen_item_group": {
+      "all_seen": {
+        "queries": 48,
+        "recall@10": 0.7916666666666666,
+        "recall@50": 0.8958333333333334,
+        "recall@100": 0.9375,
+        "recall@union": 0.9791666666666666
+      },
+      "all_unseen": {
+        "queries": 1448,
+        "recall@10": 0.6996431860036831,
+        "recall@50": 0.8572168508287292,
+        "recall@100": 0.8973872007366481,
+        "recall@union": 0.9662753222836095
+      },
+      "mixed": {
+        "queries": 4,
+        "recall@10": 0.625,
+        "recall@50": 1.0,
+        "recall@100": 1.0,
+        "recall@union": 1.0
+      }
+    }
+  },
+  "split": "dev",
+  "features_file": "artifacts/features_lexical.parquet",
+  "model": null,
+  "score_column": "lexical_heuristic"
+}

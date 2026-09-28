@@ -1,0 +1,39 @@
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.neon'. Detail: [errno 1] Operation not permitted
+{"fit_rows": 5054520, "dev_rows": 0, "features": 63}
+0:	learn: 0.4323574	total: 475ms	remaining: 5m 32s
+100:	learn: 0.0029875	total: 37s	remaining: 3m 39s
+200:	learn: 0.0028052	total: 1m 12s	remaining: 2m 58s
+300:	learn: 0.0026768	total: 1m 51s	remaining: 2m 28s
+400:	learn: 0.0025782	total: 2m 30s	remaining: 1m 52s
+500:	learn: 0.0024908	total: 3m 9s	remaining: 1m 15s
+600:	learn: 0.0024140	total: 3m 51s	remaining: 38.1s
+699:	learn: 0.0023385	total: 4m 28s	remaining: 0us
+{
+  "features": "artifacts/features_hybrid.parquet",
+  "output": "artifacts/final_d6.cbm",
+  "queries": "data/processed/eval_queries.parquet",
+  "truth": "data/processed/eval_truth.parquet",
+  "corpus": "data/processed/corpus.parquet",
+  "loss": "Logloss",
+  "iterations": 700,
+  "depth": 6,
+  "learning_rate": 0.07,
+  "checkpoint_period": 50,
+  "threads": 4,
+  "seed": 42,
+  "drop_features": "category_match",
+  "fit_splits": "fit,dev",
+  "fixed_iterations": true,
+  "reference_queries": "data/raw/benchmark_queries.parquet",
+  "fit_query_count": 4500,
+  "dev_query_count": 0,
+  "dropped_features": [
+    "category_match"
+  ],
+  "selected_iteration": 700,
+  "selected_dev_recall@50": null,
+  "seconds": 273.607
+}

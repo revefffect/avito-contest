@@ -1,0 +1,1274 @@
+{
+  "schema_version": 1,
+  "kinds": {
+    "measurement": "Измерение или рассчитанная метрика",
+    "verification": "Проверка в указанном объёме",
+    "assumption": "Принятое допущение",
+    "design_choice": "Выбранный параметр метода",
+    "reported_statement": "Запись в исходном отчёте, не независимое наблюдение",
+    "limitation": "Явно непроверенное свойство"
+  },
+  "claims": [
+    {
+      "id": "C001",
+      "statement": "SHA256 исходного архива набора данных",
+      "value": "8dd3cba59201bae333c11db89c5111198fa10cc52a70c70bdc57bd6a248fb777",
+      "unit": "SHA256",
+      "kind": "measurement",
+      "source_id": "E002",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/archive/sha256"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C002",
+      "statement": "Число строк train",
+      "value": 497673,
+      "unit": "строк",
+      "kind": "measurement",
+      "source_id": "E002",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/files/train.parquet/rows"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C003",
+      "statement": "Число benchmark-запросов",
+      "value": 2452,
+      "unit": "запросов",
+      "kind": "measurement",
+      "source_id": "E002",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/files/benchmark_queries.parquet/rows"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C004",
+      "statement": "Число объявлений benchmark",
+      "value": 189212,
+      "unit": "объявлений",
+      "kind": "measurement",
+      "source_id": "E002",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/files/benchmark_items.parquet/rows"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C005",
+      "statement": "Число уникальных объявлений в train",
+      "value": 344825,
+      "unit": "объявлений",
+      "kind": "measurement",
+      "source_id": "E003",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/unique_train_items"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C006",
+      "statement": "Число текстов train после lower, замены ё на е и свёртки пробелов",
+      "value": 73873,
+      "unit": "текстов",
+      "kind": "measurement",
+      "source_id": "E003",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/unique_train_texts"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C007",
+      "statement": "Доля benchmark-запросов со знакомым текстом",
+      "value": 0.3735725938009788,
+      "unit": "доля",
+      "kind": "measurement",
+      "source_id": "E003",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/benchmark_seen_text_fraction"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C008",
+      "statement": "Доля знакомых полных контекстов benchmark",
+      "value": 0.04404567699836868,
+      "unit": "доля",
+      "kind": "measurement",
+      "source_id": "E003",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/benchmark_seen_context_fraction"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C009",
+      "statement": "Доля объявлений benchmark, встречавшихся в train",
+      "value": 0.09588186795763483,
+      "unit": "доля корпуса",
+      "kind": "measurement",
+      "source_id": "E003",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/corpus_items_seen_in_train"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C010",
+      "statement": "Доля train-пар с совпадающей локацией",
+      "value": 0.8310195650557696,
+      "unit": "доля пар",
+      "kind": "measurement",
+      "source_id": "E003",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/train_search_item_same_location"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C011",
+      "statement": "Доля benchmark-запросов с объявлением той же локации в корпусе",
+      "value": 0.825856,
+      "unit": "доля запросов",
+      "kind": "measurement",
+      "source_id": "E004",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/benchmark_query_fraction_with_exact_corpus_location"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C012",
+      "statement": "Число пар с распознанным видом услуги",
+      "value": 320264,
+      "unit": "пар",
+      "kind": "measurement",
+      "source_id": "E004",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/parsed_known_service_filter_pairs"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C013",
+      "statement": "Доля совпадений распознанного вида услуги",
+      "value": 0.983642,
+      "unit": "доля пар",
+      "kind": "measurement",
+      "source_id": "E004",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/parsed_service_pair_match_fraction"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C014",
+      "statement": "Число train-строк с категорией поиска 0",
+      "value": 34,
+      "unit": "строк",
+      "kind": "measurement",
+      "source_id": "E005",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/train_search_category_zero_rows"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C015",
+      "statement": "Число benchmark-запросов с категорией поиска 0",
+      "value": 222,
+      "unit": "запросов",
+      "kind": "measurement",
+      "source_id": "E005",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/benchmark_search_category_zero_rows"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C016",
+      "statement": "Seed локального разделения",
+      "value": 20260928,
+      "unit": "целое число",
+      "kind": "design_choice",
+      "source_id": "E006",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/seed"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C017",
+      "statement": "Общее число отложенных контекстов",
+      "value": 6000,
+      "unit": "запросов",
+      "kind": "measurement",
+      "source_id": "E006",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/queries"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C018",
+      "statement": "Число положительных отложенных пар",
+      "value": 6432,
+      "unit": "пар",
+      "kind": "measurement",
+      "source_id": "E006",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/truth_pairs"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C019",
+      "statement": "Число запросов fit",
+      "value": 3000,
+      "unit": "запросов",
+      "kind": "measurement",
+      "source_id": "E006",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/split_counts/fit"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C020",
+      "statement": "Число запросов dev",
+      "value": 1500,
+      "unit": "запросов",
+      "kind": "measurement",
+      "source_id": "E006",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/split_counts/dev"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C021",
+      "statement": "Число запросов audit",
+      "value": 1500,
+      "unit": "запросов",
+      "kind": "measurement",
+      "source_id": "E006",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/split_counts/audit"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C022",
+      "statement": "Размер полного корпуса локальной проверки",
+      "value": 195125,
+      "unit": "объявлений",
+      "kind": "measurement",
+      "source_id": "E006",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/validation_corpus_size"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C023",
+      "statement": "Число добавленных отложенных объявлений",
+      "value": 5913,
+      "unit": "объявлений",
+      "kind": "measurement",
+      "source_id": "E006",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/extra_validation_items"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C024",
+      "statement": "Фактическая доля знакомых целевых объявлений после удаления истории",
+      "value": 0.03435945273631841,
+      "unit": "доля целей",
+      "kind": "measurement",
+      "source_id": "E006",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/seen_target_item_fraction"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C025",
+      "statement": "Повторное построение дало те же четыре Parquet-файла по хешам",
+      "value": true,
+      "unit": "логическое значение",
+      "kind": "verification",
+      "source_id": "E007",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/all_files_match"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C026",
+      "statement": "Recall@50 лексической эвристики на dev",
+      "value": 0.8588333333333333,
+      "unit": "доля",
+      "kind": "measurement",
+      "source_id": "E008",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/recall@50"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C027",
+      "statement": "Полнота объединения лексических кандидатов на dev",
+      "value": 0.9667777777777776,
+      "unit": "доля",
+      "kind": "measurement",
+      "source_id": "E008",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/recall@union"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C028",
+      "statement": "Recall@50 лексического Logloss на dev",
+      "value": 0.929888888888889,
+      "unit": "доля",
+      "kind": "measurement",
+      "source_id": "E009",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/recall@50"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C029",
+      "statement": "Recall@50 лексического QuerySoftMax на dev",
+      "value": 0.925388888888889,
+      "unit": "доля",
+      "kind": "measurement",
+      "source_id": "E010",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/results/ranker_lexical_softmax/recall@50"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C030",
+      "statement": "Recall@50 гибридной эвристики на dev",
+      "value": 0.8781111111111111,
+      "unit": "доля",
+      "kind": "measurement",
+      "source_id": "E011",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/recall@50"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C031",
+      "statement": "Полнота объединения гибридных кандидатов на dev",
+      "value": 0.9893333333333333,
+      "unit": "доля",
+      "kind": "measurement",
+      "source_id": "E011",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/recall@union"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C032",
+      "statement": "Recall@50 гибридной модели глубины 6 на dev",
+      "value": 0.942611111111111,
+      "unit": "доля",
+      "kind": "measurement",
+      "source_id": "E012",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/results/ranker_hybrid_d6/recall@50"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C033",
+      "statement": "Recall@50 гибридной модели глубины 7 на dev",
+      "value": 0.9406111111111112,
+      "unit": "доля",
+      "kind": "measurement",
+      "source_id": "E012",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/results/ranker_hybrid_d7/recall@50"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C034",
+      "statement": "Recall@50 модели без прямых счётчиков истории на dev",
+      "value": 0.9391666666666667,
+      "unit": "доля",
+      "kind": "measurement",
+      "source_id": "E013",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/results/ranker_hybrid_no_history/recall@50"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C035",
+      "statement": "Recall@50 выбранной равной смеси на dev",
+      "value": 0.9429444444444444,
+      "unit": "доля",
+      "kind": "measurement",
+      "source_id": "E013",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/results/blend_0.5_0.5/recall@50"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C036",
+      "statement": "Recall@50 выбранной смеси с поправкой на долю пустых фильтров на dev",
+      "value": 0.9371367695172583,
+      "unit": "доля",
+      "kind": "measurement",
+      "source_id": "E013",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/results/blend_0.5_0.5/poststratified_recall@50"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C037",
+      "statement": "Время фиксации решения, записанное в протоколе выбора",
+      "value": "2026-09-28T03:01:24.152451+00:00",
+      "unit": "UTC",
+      "kind": "reported_statement",
+      "source_id": "E014",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/frozen_at_utc"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C038",
+      "statement": "Флаг просмотра audit, записанный при выборе",
+      "value": false,
+      "unit": "логическое значение",
+      "kind": "reported_statement",
+      "source_id": "E014",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/audit_quality_seen"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C039",
+      "statement": "Разность dev Recall@50 между смесью и моделью глубины 6",
+      "value": 0.0003333333333333333,
+      "unit": "доля",
+      "kind": "measurement",
+      "source_id": "E014",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/delta_vs_d6/recall@50/delta"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C040",
+      "statement": "Парный bootstrap-интервал разности dev Recall@50",
+      "value": [
+        -0.004333333333333333,
+        0.005
+      ],
+      "unit": "95% интервал в долях",
+      "kind": "measurement",
+      "source_id": "E014",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/delta_vs_d6/recall@50/ci95"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C041",
+      "statement": "Число запросов финального обучения fit и dev",
+      "value": 4500,
+      "unit": "запросов",
+      "kind": "design_choice",
+      "source_id": "E014",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/final_training_queries"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C042",
+      "statement": "Recall@50 выбранной смеси на независимом локальном audit",
+      "value": 0.941111111111111,
+      "unit": "доля",
+      "kind": "measurement",
+      "source_id": "E015",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/results/blend_0.5_0.5/recall@50"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C043",
+      "statement": "Recall@50 смеси на audit с поправкой на пустые фильтры",
+      "value": 0.9431778112629854,
+      "unit": "доля",
+      "kind": "measurement",
+      "source_id": "E015",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/results/blend_0.5_0.5/poststratified_recall@50"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C044",
+      "statement": "Полнота объединённого набора на audit",
+      "value": 0.9886666666666667,
+      "unit": "доля",
+      "kind": "measurement",
+      "source_id": "E015",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/results/blend_0.5_0.5/recall@union"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C045",
+      "statement": "Recall@50 финальной модели с историей на audit",
+      "value": 0.9397777777777777,
+      "unit": "доля",
+      "kind": "measurement",
+      "source_id": "E015",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/results/final_d6/recall@50"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C046",
+      "statement": "Recall@50 финальной модели без прямых счётчиков истории на audit",
+      "value": 0.9464166666666667,
+      "unit": "доля",
+      "kind": "measurement",
+      "source_id": "E015",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/results/final_no_history/recall@50"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C047",
+      "statement": "Bootstrap-интервал audit Recall@50 выбранной смеси",
+      "value": [
+        0.9291083333333332,
+        0.9524444444444443
+      ],
+      "unit": "95% интервал в долях",
+      "kind": "measurement",
+      "source_id": "E016",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/audit_recall50_ci95/blend_0.5_0.5"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C048",
+      "statement": "Число bootstrap-выборок для итоговых интервалов",
+      "value": 5000,
+      "unit": "выборок",
+      "kind": "design_choice",
+      "source_id": "E016",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/bootstrap_samples"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C049",
+      "statement": "Флаг изменения выбора после audit в итоговом отчёте",
+      "value": false,
+      "unit": "логическое значение",
+      "kind": "reported_statement",
+      "source_id": "E016",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/selection_changed_after_audit"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C050",
+      "statement": "Скрытый результат платформы не измерен",
+      "value": null,
+      "unit": "неизвестно",
+      "kind": "reported_statement",
+      "source_id": "E016",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/hidden_benchmark_score"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C051",
+      "statement": "Число использованных попыток по итоговому отчёту",
+      "value": 0,
+      "unit": "попыток",
+      "kind": "reported_statement",
+      "source_id": "E016",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/submission_attempts_used"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C052",
+      "statement": "Число строк основного ответа",
+      "value": 2452,
+      "unit": "строк",
+      "kind": "measurement",
+      "source_id": "E016",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/answers/answer.csv/rows"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C053",
+      "statement": "Минимальное число кандидатов в строке основного ответа",
+      "value": 50,
+      "unit": "объявлений",
+      "kind": "measurement",
+      "source_id": "E016",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/answers/answer.csv/min_items"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C054",
+      "statement": "Максимальное число кандидатов в строке основного ответа",
+      "value": 50,
+      "unit": "объявлений",
+      "kind": "measurement",
+      "source_id": "E016",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/answers/answer.csv/max_items"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C055",
+      "statement": "SHA256 основного CSV",
+      "value": "3ebda47a966aa2920fe9480cb3b4b1602ec91b63f207d89775d981d16995e3c6",
+      "unit": "SHA256",
+      "kind": "verification",
+      "source_id": "E016",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/answers/answer.csv/sha256"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C056",
+      "statement": "Версия Python выполненных экспериментов",
+      "value": "3.12.7",
+      "unit": "версия",
+      "kind": "measurement",
+      "source_id": "E017",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/python"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C057",
+      "statement": "Устройство расчёта сохранённых эмбеддингов",
+      "value": "mps",
+      "unit": "устройство",
+      "kind": "measurement",
+      "source_id": "E017",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/embedding_device"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C058",
+      "statement": "Численная точность сохранённого расчёта E5",
+      "value": "float32",
+      "unit": "тип",
+      "kind": "measurement",
+      "source_id": "E017",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/embedding_precision"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C059",
+      "statement": "Число тестов, указанное в сохранённом runtime-отчёте",
+      "value": 67,
+      "unit": "тестов",
+      "kind": "reported_statement",
+      "source_id": "E017",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/tests/passed"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C060",
+      "statement": "Результат проверки пяти массивов E5",
+      "value": "passed",
+      "unit": "статус",
+      "kind": "verification",
+      "source_id": "E018",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/status"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C061",
+      "statement": "Закреплённая ревизия модели E5",
+      "value": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+      "unit": "git revision",
+      "kind": "verification",
+      "source_id": "E018",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/model_revision"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C062",
+      "statement": "Форма матрицы эмбеддингов корпуса",
+      "value": [
+        195125,
+        384
+      ],
+      "unit": "строки и размерность",
+      "kind": "measurement",
+      "source_id": "E018",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/outputs/0/shape"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C063",
+      "statement": "Максимальное отклонение нормы векторов корпуса от единицы",
+      "value": 1.7881393432617188e-07,
+      "unit": "абсолютная ошибка",
+      "kind": "verification",
+      "source_id": "E018",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/outputs/0/max_norm_error"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C064",
+      "statement": "Число запросов проверки повторяемости признаков",
+      "value": 3,
+      "unit": "запросов",
+      "kind": "verification",
+      "source_id": "E019",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/compared_query_count"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C065",
+      "statement": "Число строк признаков в проверке повторяемости",
+      "value": 3400,
+      "unit": "строк",
+      "kind": "verification",
+      "source_id": "E019",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/saved_rows"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C066",
+      "statement": "Максимальная численная разность повторно построенных признаков",
+      "value": 0.0,
+      "unit": "абсолютная ошибка",
+      "kind": "verification",
+      "source_id": "E019",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/max_absolute_difference"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C067",
+      "statement": "Все три повторно полученных CSV совпали с ожидаемыми хешами",
+      "value": true,
+      "unit": "логическое значение",
+      "kind": "verification",
+      "source_id": "E020",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/all_regenerated_outputs_match"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C068",
+      "statement": "SHA256 исходного solution-архива, проверенного в отдельной папке",
+      "value": "699149dd7f0e84abf13461d5378cf371e701c7da9c3ce49dfcdc92c59cff5aad",
+      "unit": "SHA256",
+      "kind": "verification",
+      "source_id": "E020",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/archive_sha256"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C069",
+      "statement": "Сетевой packet capture при проверке не выполнялся",
+      "value": false,
+      "unit": "логическое значение",
+      "kind": "reported_statement",
+      "source_id": "E020",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/offline_execution/network_packet_capture_performed"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C070",
+      "statement": "Веса двух моделей в выбранной смеси",
+      "value": [
+        0.5,
+        0.5
+      ],
+      "unit": "веса",
+      "kind": "design_choice",
+      "source_id": "E021",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/weights"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C071",
+      "statement": "Предельная длина входа объявления E5",
+      "value": 256,
+      "unit": "токенов",
+      "kind": "design_choice",
+      "source_id": "E021",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/dense/item_max_length"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C072",
+      "statement": "Предельная длина входа запроса E5",
+      "value": 128,
+      "unit": "токенов",
+      "kind": "design_choice",
+      "source_id": "E021",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/dense/query_max_length"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C073",
+      "statement": "Ревизия загруженной открытой модели по provenance",
+      "value": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+      "unit": "git revision",
+      "kind": "verification",
+      "source_id": "E024",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/revision"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C074",
+      "statement": "Средние метрики совпали с независимым пересчётом таблиц запросов",
+      "value": true,
+      "unit": "логическое значение",
+      "kind": "verification",
+      "source_id": "E029",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/all_checks_passed"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C075",
+      "statement": "Число успешных проверок независимого аудита",
+      "value": 87,
+      "unit": "проверок",
+      "kind": "verification",
+      "source_id": "E032",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/checks_passed"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C076",
+      "statement": "Общее число проверок независимого аудита",
+      "value": 87,
+      "unit": "проверок",
+      "kind": "verification",
+      "source_id": "E032",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/checks_total"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C077",
+      "statement": "Число текстов train после полного нормализатора NFKC, lower, ё и regex",
+      "value": 73706,
+      "unit": "текстов",
+      "kind": "measurement",
+      "source_id": "E032",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/raw_data/train/unique_normalized_texts"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C078",
+      "statement": "Число скрытых положительных пар, оставшихся в retrieval_train",
+      "value": 0,
+      "unit": "пар",
+      "kind": "verification",
+      "source_id": "E032",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/separation/hidden_pair_overlap"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C079",
+      "statement": "Число холодных текстов, оставшихся в retrieval_train",
+      "value": 0,
+      "unit": "текстов",
+      "kind": "verification",
+      "source_id": "E032",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/separation/cold_text_overlap"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C080",
+      "statement": "Общие целевые item_id между fit+dev и audit при разделении по запросам",
+      "value": 22,
+      "unit": "объявлений",
+      "kind": "measurement",
+      "source_id": "E032",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/separation/final_fit_dev_vs_audit_shared_relevant_item_ids"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C081",
+      "statement": "Независимо пересчитанный Recall@50 выбранной смеси с полным знаменателем релевантности",
+      "value": 0.941111111111111,
+      "unit": "доля",
+      "kind": "verification",
+      "source_id": "E032",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/audit/metrics/blend_0.5_0.5/recall@50"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C082",
+      "statement": "Положительные пары audit, отсутствующие среди гибридных кандидатов",
+      "value": 18,
+      "unit": "пар",
+      "kind": "measurement",
+      "source_id": "E032",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/audit/candidate_pool/relevant_items_missing_from_hybrid_pool"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C083",
+      "statement": "Исключённые audit-запросы с любым пересечением целей с fit или dev",
+      "value": 22,
+      "unit": "запросов",
+      "kind": "measurement",
+      "source_id": "E032",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/audit/target_disjoint_sensitivity/removed_queries"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C084",
+      "statement": "Число audit-запросов в проверке чувствительности без общих целей",
+      "value": 1478,
+      "unit": "запросов",
+      "kind": "measurement",
+      "source_id": "E032",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/audit/target_disjoint_sensitivity/remaining_queries"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C085",
+      "statement": "Пересечение целевых объявлений после исключения запросов",
+      "value": 0,
+      "unit": "объявлений",
+      "kind": "verification",
+      "source_id": "E032",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/audit/target_disjoint_sensitivity/remaining_target_item_overlap"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C086",
+      "statement": "Recall@50 зафиксированной смеси без запросов с общими целями fit или dev",
+      "value": 0.9412494361750112,
+      "unit": "доля",
+      "kind": "measurement",
+      "source_id": "E032",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/audit/target_disjoint_sensitivity/macro_recall50"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C087",
+      "statement": "Recall@50 той же проверки чувствительности с поправкой на пустые фильтры",
+      "value": 0.9429290473343597,
+      "unit": "доля",
+      "kind": "measurement",
+      "source_id": "E032",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/audit/target_disjoint_sensitivity/poststratified_recall50"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C088",
+      "statement": "Новый мини-ноутбук независимо создал CSV с ожидаемым SHA256",
+      "value": true,
+      "unit": "логическое значение",
+      "kind": "verification",
+      "source_id": "E033",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/exact_csv_hash_match"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C089",
+      "statement": "Наличие готового answer.csv до независимого запуска мини-ноутбука",
+      "value": false,
+      "unit": "логическое значение",
+      "kind": "verification",
+      "source_id": "E033",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/ready_answer_present_before_execution"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C090",
+      "statement": "Число фактически выполненных ячеек кода мини-ноутбука",
+      "value": 5,
+      "unit": "ячеек",
+      "kind": "verification",
+      "source_id": "E033",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/executed_code_cells"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C091",
+      "statement": "Длительность выполнения мини-ноутбука в записанном окружении",
+      "value": 5.949,
+      "unit": "секунд",
+      "kind": "measurement",
+      "source_id": "E033",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/execution_seconds"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C092",
+      "statement": "SHA256 CSV независимого запуска мини-ноутбука",
+      "value": "3ebda47a966aa2920fe9480cb3b4b1602ec91b63f207d89775d981d16995e3c6",
+      "unit": "SHA256",
+      "kind": "verification",
+      "source_id": "E033",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/generated_csv_sha256"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C093",
+      "statement": "Размер сохранённой benchmark-таблицы кандидатов",
+      "value": 2604640,
+      "unit": "пар запрос и объявление",
+      "kind": "measurement",
+      "source_id": "E034",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/candidate_pool/rows"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C094",
+      "statement": "Число кандидатов в основном конкурсном CSV",
+      "value": 122600,
+      "unit": "пар запрос и объявление",
+      "kind": "verification",
+      "source_id": "E034",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/submission/candidates_total"
+      },
+      "verification_method": "Read the exact JSON pointer in the checksum-verified source copy"
+    },
+    {
+      "id": "C095",
+      "statement": "Доля 90,4% целей со скрываемой историей задаётся как допущение стресс-проверки, а не измерение скрытого benchmark",
+      "value": 0.904,
+      "unit": "доля выбранных целевых объявлений",
+      "kind": "assumption",
+      "source_id": "E027",
+      "locator": {
+        "type": "source_code",
+        "path": "data_dump/source_snapshot/scripts/prepare_validation.py",
+        "expression": "round(len(target_ids) * 0.904)"
+      },
+      "verification_method": "AST contains constant 0.904 in the saved split implementation"
+    },
+    {
+      "id": "C096",
+      "statement": "Равенство CSV после полного пересчёта E5 на CPU и MPS не установлено",
+      "value": null,
+      "unit": "не проверено",
+      "kind": "limitation",
+      "source_id": "E018",
+      "locator": {
+        "type": "json_pointer",
+        "pointer": "/cpu_mps_equivalence"
+      },
+      "verification_method": "The verification report explicitly limits the result to saved MPS arrays"
+    }
+  ]
+}

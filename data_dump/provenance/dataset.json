@@ -1,0 +1,78 @@
+{
+  "public_url": "https://disk.yandex.ru/d/sNhfo0YOjGtufg",
+  "archive": {
+    "path": "data/dataset.zip",
+    "sha256": "8dd3cba59201bae333c11db89c5111198fa10cc52a70c70bdc57bd6a248fb777",
+    "expected_sha256": "8dd3cba59201bae333c11db89c5111198fa10cc52a70c70bdc57bd6a248fb777",
+    "bytes": 683289611,
+    "matches_expected": true
+  },
+  "files": {
+    "train.parquet": {
+      "sha256": "e150ab7a5c98769f643b95ee3a02dc0f664b647facd69a7d280ec6d48ca554a7",
+      "bytes": 490236125,
+      "included_in_evidence_zip": false,
+      "member_of_solution_bundle": false,
+      "rows": 497673,
+      "columns": [
+        "search_query",
+        "search_location_id",
+        "search_is_delivery_search",
+        "search_infm_params_text",
+        "search_category",
+        "item_title_raw",
+        "item_rating_reviews_count",
+        "item_rating",
+        "item_price",
+        "item_microcat_id",
+        "item_longitude",
+        "item_location_id",
+        "item_latitude",
+        "item_is_phone_hidden",
+        "item_is_message_forbidden",
+        "item_infm_params_text",
+        "item_id",
+        "item_description_raw",
+        "item_category_id"
+      ]
+    },
+    "benchmark_queries.parquet": {
+      "sha256": "e49de4fb76f03979a4af96034817767d39ae5de9f94e254fed028243188dda06",
+      "bytes": 127374,
+      "included_in_evidence_zip": false,
+      "member_of_solution_bundle": false,
+      "rows": 2452,
+      "columns": [
+        "query_id",
+        "search_query",
+        "search_location_id",
+        "search_is_delivery_search",
+        "search_infm_params_text",
+        "search_category"
+      ]
+    },
+    "benchmark_items.parquet": {
+      "sha256": "193b3a3961464620cbf8d8797152b7f90cae1826ca749fb7817a210984a09899",
+      "bytes": 195679553,
+      "included_in_evidence_zip": false,
+      "member_of_solution_bundle": false,
+      "rows": 189212,
+      "columns": [
+        "item_title_raw",
+        "item_rating_reviews_count",
+        "item_rating",
+        "item_price",
+        "item_microcat_id",
+        "item_longitude",
+        "item_location_id",
+        "item_latitude",
+        "item_is_phone_hidden",
+        "item_is_message_forbidden",
+        "item_infm_params_text",
+        "item_id",
+        "item_description_raw",
+        "item_category_id"
+      ]
+    }
+  }
+}

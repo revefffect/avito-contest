@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "n_items": 195125,
+  "corpus_sha256": "82fd09d1a65d78193cde913746f7ed042d3778bd91db5c78e3ba6220205fa1df",
+  "fingerprint_fields": [
+    "item_id",
+    "item_title_raw",
+    "item_infm_params_text",
+    "item_description_raw",
+    "item_location_id"
+  ],
+  "description_char_limit": 3000,
+  "k1": 1.2,
+  "b": 0.65,
+  "char_min_df": 2,
+  "char_max_features": 250000,
+  "matrix_bytes": 1795636004,
+  "channels": {
+    "word": {
+      "features": 672089,
+      "nonzero": 31031487
+    },
+    "bm25": {
+      "features": 296252,
+      "nonzero": 30062210
+    },
+    "char": {
+      "features": 239073,
+      "nonzero": 162757095
+    }
+  },
+  "source": "data/processed/corpus.parquet",
+  "build_seconds": 197.355
+}

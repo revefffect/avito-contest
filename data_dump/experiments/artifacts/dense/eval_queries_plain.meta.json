@@ -1,0 +1,34 @@
+{
+  "config": {
+    "format_version": 1,
+    "model_id": "intfloat/multilingual-e5-small",
+    "model_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "model_weights_sha256": "1a55775f53449dac10a2bcbc312469fac40b96d53198c407081a831f81c98477",
+    "source_name": "eval_queries.parquet",
+    "source_sha256": "dce7d2a2be0aca772f7f1c1d8dee85ed9892977b467f1b71ce69f7f3d4beec40",
+    "ids_sha256": "a05354d560c78a40e3bb69b2e22ed4726eca3bbb1e2bf63cf9e660e3e7849741",
+    "rows": 6000,
+    "dimension": 384,
+    "dtype": "float32",
+    "precision": "float32",
+    "device": "mps",
+    "seed": 42,
+    "versions": {
+      "torch": "2.9.1",
+      "transformers": "5.6.2"
+    },
+    "kind": "queries",
+    "batch_size": 64,
+    "max_length": 128,
+    "checkpoint_rows": 512,
+    "text_version": 1,
+    "description_chars": 2000,
+    "prefix": "query: ",
+    "pooling": "masked_mean_l2",
+    "query_text_only": true
+  },
+  "completed_rows": 6000,
+  "complete": true,
+  "elapsed_seconds": 2.444123374996707,
+  "embeddings_sha256": "52a6672b8399d95d5bfdf702a118ee5f2487b355201e9b5b75e23277bfb349cb"
+}

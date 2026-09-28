@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "refreshed_at_utc": "2026-09-28T03:45:18.262175+00:00",
+  "source_project": "avito contest",
+  "copy_policy": "Original inputs were read only. Evidence links point to bundled copies.",
+  "sources": [
+    {
+      "id": "E001",
+      "title": "Условие конкурса",
+      "kind": "specification",
+      "path": "data_dump/docs/task.md",
+      "sha256": "70fb3c5965386fac86487f56d87fa5114f8f5aa87f8c609fd5bf0995c3fc28da",
+      "bytes": 13835,
+      "original_document": {
+        "path": "/Users/antany/Desktop/авито.docx",
+        "sha256": "ac0e3a19c0f185629f3b32af85a0cefb6c2c7e91c5186a74795dd93b46060e47",
+        "bytes": 29151,
+        "copy_in_dump": false
+      }
+    },
+    {
+      "id": "E002",
+      "title": "Происхождение и контрольные суммы набора данных",
+      "kind": "provenance",
+      "path": "data_dump/provenance/dataset.json",
+      "sha256": "c585de27b090b7e9f953966b620e2c43db01f3cc0d2c6bb022ba6d19342f5ad0",
+      "bytes": 2305,
+      "external_url": "https://disk.yandex.ru/d/sNhfo0YOjGtufg"
+    },
+    {
+      "id": "E003",
+      "title": "Профиль исходных данных",
+      "kind": "measurement",
+      "path": "data_dump/reports/data_profile.json",
+      "sha256": "975bafbceca6393a829d4c210dbbf9f25565bd1113ec52a794b51a6d41cb670e",
+      "bytes": 9970
+    },
+    {
+      "id": "E004",
+      "title": "География и фильтры",
+      "kind": "measurement",
+      "path": "data_dump/reports/geography_analysis.json",
+      "sha256": "eefcb1f4964e02c5c7fe4bc3c52cd4d0874f26f74c972b257439db2e8e94f73a",
+      "bytes": 39171
+    },
+    {
+      "id": "E005",
+      "title": "Сдвиг категорий поиска",
+      "kind": "measurement",
+      "path": "data_dump/reports/category_shift.json",
+      "sha256": "f35c60257aab620b7f18ed3e9c7fcd7942807656f33a374fa3e494c4fe09031e",
+      "bytes": 580
+    },
+    {
+      "id": "E006",
+      "title": "Локальное разделение данных",
+      "kind": "measurement",
+      "path": "data_dump/reports/validation_split.json",
+      "sha256": "5c04e5c0854b3df2dcf70525a2ef395823a2f52b7159f1c2dbfeb3ac74a71730",
+      "bytes": 1143
+    },
+    {
+      "id": "E007",
+      "title": "Повторное построение разделения",
+      "kind": "verification",
+      "path": "data_dump/reports/split_reproducibility.json",
+      "sha256": "0022343991c220d71f292e9403386614d2ad8a56989c28e5b9e808c53ae239bf",
+      "bytes": 2769
+    },
+    {
+      "id": "E008",
+      "title": "Лексическая эвристика на dev",
+      "kind": "measurement",
+      "path": "data_dump/reports/lexical_heuristic_dev.json",
+      "sha256": "924aacc1d23f3759c9169f3d91db8dcd3786b097aa63307d422d7ad976160fc2",
+      "bytes": 2982
+    },
+    {
+      "id": "E009",
+      "title": "Лексическая модель Logloss на dev",
+      "kind": "measurement",
+      "path": "data_dump/reports/lexical_logloss_dev.json",
+      "sha256": "c258cff16ea288407186fe544223fdad14ebabfc86300f1960b14e422a3a1425",
+      "bytes": 3296
+    },
+    {
+      "id": "E010",
+      "title": "Сравнение лексических моделей",
+      "kind": "measurement",
+      "path": "data_dump/reports/lexical_models_dev.json",
+      "sha256": "d88310c490def05f157abc877d70bb7d6db816e42f251d516745ecf7aec01f95",
+      "bytes": 9644
+    },
+    {
+      "id": "E011",
+      "title": "Гибридная эвристика на dev",
+      "kind": "measurement",
+      "path": "data_dump/reports/hybrid_heuristic_dev.json",
+      "sha256": "faf7f960ac99ba5e6426f768de54d3f278714d7cae3470e78022f260f212b6e2",
+      "bytes": 3282
+    },
+    {
+      "id": "E012",
+      "title": "Сравнение гибридных моделей",
+      "kind": "measurement",
+      "path": "data_dump/reports/hybrid_models_dev.json",
+      "sha256": "56f905d29cacf285bf658a0e8fd85ab6c4842a58e6739e21ddb2ff5898f0dcec",
+      "bytes": 22235
+    },
+    {
+      "id": "E013",
+      "title": "Исключение прямой истории выбора",
+      "kind": "measurement",
+      "path": "data_dump/reports/history_ablation_dev.json",
+      "sha256": "37b954fbe49d49c342712132d98103cff59669f95937e4595293fa36f9caf220",
+      "bytes": 22184
+    },
+    {
+      "id": "E014",
+      "title": "Протокол выбора до audit",
+      "kind": "protocol",
+      "path": "data_dump/configs/selection.json",
+      "sha256": "0794eeeae97538bd95c2827c4f1feb3ddba75522365a8b308386a8b4ac4a5601",
+      "bytes": 2125
+    },
+    {
+      "id": "E015",
+      "title": "Результат независимой локальной проверки",
+      "kind": "measurement",
+      "path": "data_dump/reports/final_audit.json",
+      "sha256": "99c52cb9bf0e9395fd611eaa9abf34d7a0b5256e121b74485f47e65aad90da7b",
+      "bytes": 13600
+    },
+    {
+      "id": "E016",
+      "title": "Итоговые результаты и интервалы",
+      "kind": "measurement",
+      "path": "data_dump/reports/final_results.json",
+      "sha256": "236db753ec7c223ee2e313a633a5d1b3f994451eaec10b565a490abfa1d04629",
+      "bytes": 5186
+    },
+    {
+      "id": "E017",
+      "title": "Окружение вычислений",
+      "kind": "runtime",
+      "path": "data_dump/reports/runtime.json",
+      "sha256": "0d71705ce12d74dbe3d05b774647214ea1b1ce4a45a03ee5884da2945031bc04",
+      "bytes": 763
+    },
+    {
+      "id": "E018",
+      "title": "Проверка пяти массивов E5",
+      "kind": "verification",
+      "path": "data_dump/reports/embedding_verification.json",
+      "sha256": "618b9e16102dbf907658171d411128cd440a387be9a9ae79486e870f54193dc0",
+      "bytes": 6546
+    },
+    {
+      "id": "E019",
+      "title": "Повторяемость признаков на трёх запросах",
+      "kind": "verification",
+      "path": "data_dump/reports/feature_reproducibility.json",
+      "sha256": "24fea7408bf2b7cc1b2636dc8126253b8f3133e8d930c13378b3411f67999015",
+      "bytes": 13575
+    },
+    {
+      "id": "E020",
+      "title": "Повторное получение трёх CSV из исходного архива",
+      "kind": "verification",
+      "path": "data_dump/verification.json",
+      "sha256": "afaeba9e242aa33f11d3ee6ef567c1f47d94f511a7386cfce00544bdebc89de3",
+      "bytes": 4776
+    },
+    {
+      "id": "E021",
+      "title": "Финальная конфигурация решения",
+      "kind": "configuration",
+      "path": "data_dump/configs/final.json",
+      "sha256": "23aed16f25a3a087aa9bb1761b655056f85258d193d403cc5e80e7bf1e8575dc",
+      "bytes": 2415
+    },
+    {
+      "id": "E022",
+      "title": "Контрольные суммы таблиц идентификаторов",
+      "kind": "verification",
+      "path": "data_dump/reports/portable_ids.json",
+      "sha256": "89af144dee04d635a2b1c5bf743c6515ef81414967ad3f318ffaf961a1c00de1",
+      "bytes": 518
+    },
+    {
+      "id": "E023",
+      "title": "Разбор ошибок лексического поиска",
+      "kind": "analysis",
+      "path": "data_dump/reports/lexical_error_analysis.md",
+      "sha256": "6398733e8e61565feaea70be00c5bce2aa03d16fa23f40dcf225968c197098be",
+      "bytes": 12240
+    },
+    {
+      "id": "E024",
+      "title": "Источник открытой модели E5",
+      "kind": "provenance",
+      "path": "data_dump/provenance/model.json",
+      "sha256": "ffc878df9f64d21a8633e32f39adc0cfd71cfa4b0cbe10eb2eac10cc747f23a9",
+      "bytes": 906,
+      "external_url": "https://huggingface.co/intfloat/multilingual-e5-small/blob/614241f622f53c4eeff9890bdc4f31cfecc418b3/README.md"
+    },
+    {
+      "id": "E025",
+      "title": "Параметры обучения и кривые экспериментов",
+      "kind": "inventory",
+      "path": "data_dump/provenance/training_runs.json",
+      "sha256": "d2e9b844c9a0c34f9ed7b14709eab7669fbfdcefb9f6d4f35777b4381370b1d0",
+      "bytes": 10774
+    },
+    {
+      "id": "E026",
+      "title": "Хеши данных, индексов, векторов, моделей и ответов",
+      "kind": "inventory",
+      "path": "data_dump/provenance/artifacts.json",
+      "sha256": "a8a67caeb98e3158d325a2da6f9a191ba70dd4f0288ecc3288822e4864d8729a",
+      "bytes": 21143
+    },
+    {
+      "id": "E027",
+      "title": "Снимок исходного кода и его контрольные суммы",
+      "kind": "inventory",
+      "path": "data_dump/provenance/source_snapshot.json",
+      "sha256": "b20790b88a32a4e4504889c1c8e44e262fb4e79ca0fce0e1626565d398477f9c",
+      "bytes": 11154
+    },
+    {
+      "id": "E028",
+      "title": "Сохранённые журналы экспериментов",
+      "kind": "inventory",
+      "path": "data_dump/provenance/logs.json",
+      "sha256": "44653fc5f4a3c7646de9aec4022bd9b54aae628a5da969f490a7af233a36d0a9",
+      "bytes": 7651
+    },
+    {
+      "id": "E029",
+      "title": "Независимый пересчёт средних метрик по таблицам запросов",
+      "kind": "verification",
+      "path": "data_dump/provenance/metric_recheck.json",
+      "sha256": "d223f9c59e8ff5e9cb16bc9e9e43154ac55d586ab8613f59873bb51328381a10",
+      "bytes": 65100
+    },
+    {
+      "id": "E030",
+      "title": "Полная опись файлов data dump",
+      "kind": "inventory",
+      "path": "data_dump/provenance/dump_inventory.json",
+      "sha256": "4a69e7bf7e8fc40428c22037cced3597c9fdd7d8b66ce45863f16b7fe5aeb574",
+      "bytes": 48070
+    },
+    {
+      "id": "E031",
+      "title": "Опись исходного архива решения",
+      "kind": "provenance",
+      "path": "data_dump/provenance/solution_manifest.json",
+      "sha256": "2a16748c82596a4b5b1a608644c2ea83dd38a089146c982c7a37ceef353290c3",
+      "bytes": 11172
+    },
+    {
+      "id": "E032",
+      "title": "Независимая проверка метрик и отсутствия утечки",
+      "kind": "verification",
+      "path": "data_dump/independent/independent_audit.json",
+      "sha256": "28f823d0460da4d76743b6bc53d56f569b04cee894c1283eb7e2789cc99483a8",
+      "bytes": 27953
+    },
+    {
+      "id": "E033",
+      "title": "Фактический запуск отдельного мини-ноутбука",
+      "kind": "verification",
+      "path": "data_dump/independent/notebook_verification.json",
+      "sha256": "a07ebf211ae189c8f7a52df46b43fa8a6544c5c47bd56e7c71abfa7756580c66",
+      "bytes": 4099
+    },
+    {
+      "id": "E034",
+      "title": "Проверка основного benchmark-ответа",
+      "kind": "verification",
+      "path": "data_dump/reports/answer.report.json",
+      "sha256": "3f75c3bd73b71c3d3293d138b5991ea4f5940d6e5cc3f0f6f564b9cbfb4cfbee",
+      "bytes": 1514
+    }
+  ]
+}

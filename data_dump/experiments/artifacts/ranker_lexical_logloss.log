@@ -1,0 +1,49 @@
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.neon'. Detail: [errno 1] Operation not permitted
+{"fit_rows": 1639731, "dev_rows": 816827, "features": 51}
+0:	learn: 0.4656151	total: 432ms	remaining: 4m 18s
+100:	learn: 0.0058127	total: 29s	remaining: 2m 23s
+200:	learn: 0.0054020	total: 58.9s	remaining: 1m 56s
+300:	learn: 0.0051097	total: 1m 28s	remaining: 1m 28s
+400:	learn: 0.0048835	total: 1m 56s	remaining: 57.6s
+500:	learn: 0.0046667	total: 2m 24s	remaining: 28.5s
+599:	learn: 0.0044826	total: 2m 51s	remaining: 0us
+{"iteration": 50, "dev_recall@50": 0.9133333333333333}
+{"iteration": 100, "dev_recall@50": 0.9197777777777778}
+{"iteration": 150, "dev_recall@50": 0.922}
+{"iteration": 200, "dev_recall@50": 0.9242222222222223}
+{"iteration": 250, "dev_recall@50": 0.9257222222222223}
+{"iteration": 300, "dev_recall@50": 0.9265555555555557}
+{"iteration": 350, "dev_recall@50": 0.9272222222222223}
+{"iteration": 400, "dev_recall@50": 0.927888888888889}
+{"iteration": 450, "dev_recall@50": 0.9285555555555557}
+{"iteration": 500, "dev_recall@50": 0.9285555555555557}
+{"iteration": 550, "dev_recall@50": 0.9295555555555557}
+{"iteration": 600, "dev_recall@50": 0.929888888888889}
+{
+  "features": "artifacts/features_lexical.parquet",
+  "output": "artifacts/ranker_lexical_logloss.cbm",
+  "queries": "data/processed/eval_queries.parquet",
+  "truth": "data/processed/eval_truth.parquet",
+  "corpus": "data/processed/corpus.parquet",
+  "loss": "Logloss",
+  "iterations": 600,
+  "depth": 6,
+  "learning_rate": 0.07,
+  "checkpoint_period": 50,
+  "threads": 4,
+  "seed": 42,
+  "drop_features": "",
+  "fit_splits": "fit",
+  "fixed_iterations": false,
+  "reference_queries": "data/raw/benchmark_queries.parquet",
+  "fit_query_count": 3000,
+  "dev_query_count": 1500,
+  "dropped_features": [],
+  "selected_iteration": 600,
+  "selected_dev_recall@50": 0.929888888888889,
+  "reference_empty_fraction": 0.6305057096247961,
+  "seconds": 188.103
+}
